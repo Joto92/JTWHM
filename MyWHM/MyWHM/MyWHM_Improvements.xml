@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="IMPROVEMENT_GRAIL_CHAPEL" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_WAYSTONES" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_ZIGGURAT_OLD_ONES" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_IDOLZ" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_SMUGGLERS_COVE" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_CAVE_PAINTING" Kind="KIND_IMPROVEMENT"/>
+
+	</Types>
+
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" Name="LOC_IMPROVEMENT_GRAIL_CHAPEL_NAME" Description="LOC_IMPROVEMENT_GRAIL_CHAPEL_DESCRIPTION" Icon="ICON_IMPROVEMENT_GRAIL_CHAPEL" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" Housing="1" PrereqCivic="CIVIC_DRAMA_POETRY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_GRAIL_CHAPEL" Appeal="1" SameAdjacentValid="false"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" Name="LOC_IMPROVEMENT_WAYSTONES_NAME" Description="LOC_IMPROVEMENT_WAYSTONES_DESCRIPTION" Icon="ICON_IMPROVEMENT_WAYSTONES" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" PrereqCivic="CIVIC_DRAMA_POETRY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_WAYSTONES" Appeal="1" SameAdjacentValid="false"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" Name="LOC_IMPROVEMENT_ZIGGURAT_OLD_ONES_NAME" Description="LOC_IMPROVEMENT_ZIGGURAT_OLD_ONES_DESCRIPTION" Icon="ICON_IMPROVEMENT_ZIGGURAT_OLD_ONES" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqTech="TECH_CONSTRUCTION" DefenseModifier="4" GrantFortification="2" Housing="1" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ZIGGURAT_OLD_ONES" SameAdjacentValid="false"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" Name="LOC_IMPROVEMENT_IDOLZ_NAME" Description="LOC_IMPROVEMENT_IDOLZ_DESCRIPTION" Icon="ICON_IMPROVEMENT_IDOLZ" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqCivic="CIVIC_CRAFTSMANSHIP" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_IDOLZ" SameAdjacentValid="false"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" Name="LOC_IMPROVEMENT_SMUGGLERS_COVE_NAME" Description="LOC_IMPROVEMENT_SMUGGLERS_COVE_DESCRIPTION" Icon="ICON_IMPROVEMENT_SMUGGLERS_COVE" PlunderType="PLUNDER_GOLD" PlunderAmount="100" Buildable="true" PrereqTech="TECH_APPRENTICESHIP" MinimumAppeal="4" Coast="true" YieldFromAppeal="YIELD_GOLD" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SMUGGLERS_COVE" SameAdjacentValid="false"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" Name="LOC_IMPROVEMENT_CAVE_PAINTING_NAME" Description="LOC_IMPROVEMENT_CAVE_PAINTING_DESCRIPTION" Icon="ICON_IMPROVEMENT_CAVE_PAINTING" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqCivic="CIVIC_CRAFTSMANSHIP" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CAVE_PAINTING" SameAdjacentValid="false"/>
+
+
+	</Improvements>
+
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" FeatureType="FEATURE_MARSH"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" FeatureType="FEATURE_MARSH"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" FeatureType="FEATURE_MARSH"/>
+	</Improvement_ValidFeatures>
+
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" UnitType="UNIT_BUILDER"/>
+
+	</Improvement_ValidBuildUnits>
+
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_GRAIL_CHAPEL" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" YieldType="YIELD_FAITH" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" YieldType="YIELD_SCIENCE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" YieldType="YIELD_SCIENCE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" YieldType="YIELD_FAITH" YieldChange="1"/>
+
+	</Improvement_YieldChanges>
+
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_WAYSTONES" YieldChangeId="Waystones_FaithForest"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" YieldChangeId="ZigguratOldOnes_FaithJungle"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT_OLD_ONES" YieldChangeId="ZigguratOldOnes_CultureJungle"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" YieldChangeId="IdolzProduction"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" YieldChangeId="IdolzCulture"/>
+		<Row ImprovementType="IMPROVEMENT_IDOLZ" YieldChangeId="IdolzFaith"/>
+		<Row ImprovementType="IMPROVEMENT_SMUGGLERS_COVE" YieldChangeId="SmugglersCulture"/>
+		<Row ImprovementType="IMPROVEMENT_CAVE_PAINTING" YieldChangeId="IdolzFaith"/>
+
+	</Improvement_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="Waystones_FaithForest" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="ZigguratOldOnes_FaithJungle" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE"/>
+		<Row ID="ZigguratOldOnes_CultureJungle" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE"/>
+		<Row ID="IdolzProduction" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="IdolzCulture" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_ENCAMPMENT"/>
+		<Row ID="IdolzFaith" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="SmugglersCulture" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+
+	</Adjacency_YieldChanges>
+	
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GRAIL_CHAPEL</ImprovementType>
+			<ModifierId>GRAIL_CHAPEL_RIVERADJACENCY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GRAIL_CHAPEL</ImprovementType>
+			<ModifierId>GRAIL_CHAPEL_LAKE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GRAIL_CHAPEL</ImprovementType>
+			<ModifierId>GRAIL_CHAPEL_LAKE_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WAYSTONES</ImprovementType>
+			<ModifierId>WAYSTONES_SCIENCE_COAST</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ZIGGURAT_OLD_ONES</ImprovementType>
+			<ModifierId>ZIGGURAT_OLD_ONES_RIVERADJACENCY_SCIENCE</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_RIVERADJACENCY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_LAKE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>WHM_PLOT_ADJACENT_TO_LAKE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_LAKE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>WHM_PLOT_ADJACENT_TO_LAKE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WAYSTONES_SCIENCE_COAST</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OR_ADJACENT_TO_COAST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ZIGGURAT_OLD_ONES_RIVERADJACENCY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_RIVERADJACENCY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_RIVERADJACENCY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_LAKE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_LAKE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_LAKE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRAIL_CHAPEL_LAKE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>WAYSTONES_SCIENCE_COAST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>WAYSTONES_SCIENCE_COAST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZIGGURAT_OLD_ONES_RIVERADJACENCY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZIGGURAT_OLD_ONES_RIVERADJACENCY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>WHM_PLOT_ADJACENT_TO_LAKE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>WHM_PLOT_ADJACENT_TO_LAKE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>WHM_REQUIRES_PLOT_IS_ADJACENT_TO_LAKE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>WHM_REQUIRES_PLOT_IS_ADJACENT_TO_LAKE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_LAKE</RequirementType>
+		</Row>
+	</Requirements>
+</GameData>

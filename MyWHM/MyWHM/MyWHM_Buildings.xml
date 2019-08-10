@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<!--
+District: 
+	Wood Elf Grove (holy): Double Faith bonus for being adjacent to Forests and housing
+	Nest-Lair (militar). Housing
+	Mausoleum (militar): Bonus production if next to holy site. Housing
+	Warband Camp(militar)
+	Necropolis (holy): HOusing
+
+-->
+	<!--
+	DISTRICT_REIKSFORT has changed in GS
+	-->
+	<Types>
+		<Row Type="BUILDING_SHRINE_OF_SIGMAR" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TOWER_OF_MAGES" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SLAYER_SHRINE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SHAMANS_HOVEL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GOBLIN_TINKERER_BENCH" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_UNHOLY_LEGION" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CHAOS_RIFT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PLAGUE_ABBEY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_NECROMANCER_TOWER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PIRATES_REST" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_KOSSAR_BARRACKS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CAULDRON" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HELL_FORGE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ARCHECCLESIATIUM_MYRMIDIA" Kind="KIND_BUILDING"/>
+
+		<Row Type="DISTRICT_REIKSFORT" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_WOOD_ELF_GROVE" Kind="KIND_DISTRICT"/>
+
+	</Types>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_SHRINE_OF_SIGMAR" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_TOWER_OF_MAGES" ReplacesBuildingType="BUILDING_LIBRARY"/>
+		<Row CivUniqueBuildingType="BUILDING_SLAYER_SHRINE" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_SHAMANS_HOVEL" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_GOBLIN_TINKERER_BENCH" ReplacesBuildingType="BUILDING_WORKSHOP"/>
+		<Row CivUniqueBuildingType="BUILDING_UNHOLY_LEGION" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_CHAOS_RIFT" ReplacesBuildingType="BUILDING_BARRACKS"/>
+		<Row CivUniqueBuildingType="BUILDING_PLAGUE_ABBEY" ReplacesBuildingType="BUILDING_TEMPLE"/>
+		<Row CivUniqueBuildingType="BUILDING_NECROMANCER_TOWER" ReplacesBuildingType="BUILDING_LIBRARY"/>
+		<Row CivUniqueBuildingType="BUILDING_KOSSAR_BARRACKS" ReplacesBuildingType="BUILDING_BARRACKS"/>
+		<Row CivUniqueBuildingType="BUILDING_CAULDRON" ReplacesBuildingType="BUILDING_SHRINE"/>
+		<Row CivUniqueBuildingType="BUILDING_HELL_FORGE" ReplacesBuildingType="BUILDING_WORKSHOP"/>
+		<Row CivUniqueBuildingType="BUILDING_ARCHECCLESIATIUM_MYRMIDIA" ReplacesBuildingType="BUILDING_SHRINE"/>
+
+	</BuildingReplaces>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_REIKSFORT" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+		<Row CivUniqueDistrictType="DISTRICT_WOOD_ELF_GROVE" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
+
+	</DistrictReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_SHRINE_OF_SIGMAR" Name="LOC_BUILDING_SHRINE_OF_SIGMAR_NAME" Description="LOC_BUILDING_SHRINE_OF_SIGMAR_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_SHRINE_OF_SIGMAR"/>
+		<Row BuildingType="BUILDING_TOWER_OF_MAGES" Name="LOC_BUILDING_TOWER_OF_MAGES_NAME" Description="LOC_BUILDING_TOWER_OF_MAGES_DESCRIPTION" PrereqTech="TECH_EDUCATION" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="100" Maintenance="1" Housing="1" AdvisorType="ADVISOR_TECHNOLOGY" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_TOWER_OF_MAGES"/>
+		<Row BuildingType="BUILDING_SLAYER_SHRINE" Name="LOC_BUILDING_SLAYER_SHRINE_NAME" Description="LOC_BUILDING_SLAYER_SHRINE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_SLAYER_SHRINE"/>
+		<Row BuildingType="BUILDING_SHAMANS_HOVEL" Name="LOC_BUILDING_SHAMANS_HOVEL_NAME" Description="LOC_BUILDING_SHAMANS_HOVEL_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_SHAMANS_HOVEL"/>
+		<Row BuildingType="BUILDING_GOBLIN_TINKERER_BENCH" Name="LOC_BUILDING_GOBLIN_TINKERER_BENCH_NAME" Description="LOC_BUILDING_GOBLIN_TINKERER_BENCH_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="175" AdvisorType="ADVISOR_GENERIC" Maintenance="2" TraitType="TRAIT_CIVILIZATION_BUILDING_GOBLIN_TINKERER_BENCH" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_UNHOLY_LEGION" Name="LOC_BUILDING_UNHOLY_LEGION_NAME" Description="LOC_BUILDING_UNHOLY_LEGION_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_UNHOLY_LEGION"/>
+		<Row BuildingType="BUILDING_CHAOS_RIFT" Name="LOC_BUILDING_CHAOS_RIFT_NAME" Description="LOC_BUILDING_CHAOS_RIFT_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_CHAOS_RIFT"/>
+		<Row BuildingType="BUILDING_PLAGUE_ABBEY" Name="LOC_BUILDING_PLAGUE_ABBEY_NAME" Description="LOC_BUILDING_PLAGUE_ABBEY_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_PLAGUE_ABBEY"/>
+		<Row BuildingType="BUILDING_NECROMANCER_TOWER" Name="LOC_BUILDING_NECROMANCER_TOWER_NAME" Description="LOC_BUILDING_NECROMANCER_TOWER_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_NECROMANCER_TOWER"/>
+		<Row BuildingType="BUILDING_PIRATES_REST" Name="LOC_BUILDING_PIRATES_REST_NAME" Description="LOC_BUILDING_PIRATES_REST_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="125" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_PIRATES_REST"/>
+		<Row BuildingType="BUILDING_KOSSAR_BARRACKS" Name="LOC_BUILDING_KOSSAR_BARRACKS_NAME" Description="LOC_BUILDING_KOSSAR_BARRACKS_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_KOSSAR_BARRACKS"/>
+		<Row BuildingType="BUILDING_CAULDRON" Name="LOC_BUILDING_CAULDRON_NAME" Description="LOC_BUILDING_CAULDRON_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_CAULDRON"/>
+		<Row BuildingType="BUILDING_HELL_FORGE" Name="LOC_BUILDING_HELL_FORGE_NAME" Description="LOC_BUILDING_HELL_FORGE_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="175" AdvisorType="ADVISOR_GENERIC" Maintenance="2" TraitType="TRAIT_CIVILIZATION_BUILDING_HELL_FORGE" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_ARCHECCLESIATIUM_MYRMIDIA" Name="LOC_BUILDING_ARCHECCLESIATIUM_MYRMIDIA_NAME" Description="LOC_BUILDING_ARCHECCLESIATIUM_MYRMIDIA_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_ARCHECCLESIATIUM_MYRMIDIA"/>
+
+	</Buildings>
+
+	<Districts>
+		<Row DistrictType="DISTRICT_REIKSFORT" Name="LOC_DISTRICT_REIKSFORT_NAME" Description="LOC_DISTRICT_REIKSFORT_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_REIKSFORT"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" Name="LOC_DISTRICT_WOOD_ELF_GROVE_NAME" Description="LOC_DISTRICT_WOOD_ELF_GROVE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_FAITH" PlunderAmount="25" AdvisorType="ADVISOR_RELIGIOUS" Cost="30" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="false" AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_WOOD_ELF_GROVE"/>
+
+	</Districts>
+	
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_SHRINE_OF_SIGMAR" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SHRINE_OF_SIGMAR" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_TOWER_OF_MAGES" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_SLAYER_SHRINE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SLAYER_SHRINE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_SHAMANS_HOVEL" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SHAMANS_HOVEL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_GOBLIN_TINKERER_BENCH" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row BuildingType="BUILDING_UNHOLY_LEGION" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_UNHOLY_LEGION" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_CHAOS_RIFT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PLAGUE_ABBEY" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_PLAGUE_ABBEY" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PLAGUE_ABBEY" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_NECROMANCER_TOWER" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_NECROMANCER_TOWER" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_NECROMANCER_TOWER" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PIRATES_REST" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_PIRATES_REST" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PIRATES_REST" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_KOSSAR_BARRACKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_KOSSAR_BARRACKS" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_CAULDRON" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_CAULDRON" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_HELL_FORGE" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row BuildingType="BUILDING_HELL_FORGE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_ARCHECCLESIATIUM_MYRMIDIA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_ARCHECCLESIATIUM_MYRMIDIA" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_SHRINE_OF_SIGMAR" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SHRINE_OF_SIGMAR" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_TOWER_OF_MAGES" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_SLAYER_SHRINE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SLAYER_SHRINE" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_SHAMANS_HOVEL" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SHAMANS_HOVEL" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_GOBLIN_TINKERER_BENCH" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_UNHOLY_LEGION" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_UNHOLY_LEGION" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_CHAOS_RIFT" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_PLAGUE_ABBEY" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_PLAGUE_ABBEY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_NECROMANCER_TOWER" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_PIRATES_REST" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_KOSSAR_BARRACKS" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_CAULDRON" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_HELL_FORGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_HELL_FORGE" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_ARCHECCLESIATIUM_MYRMIDIA" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+
+	</Building_GreatPersonPoints>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_REIKSFORT" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="2"/>
+	</District_GreatPersonPoints>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_PLAGUE_ABBEY" PrereqBuilding="BUILDING_SHRINE"/>
+		<Row Building="BUILDING_PIRATES_REST" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+
+	</BuildingPrereqs>
+	
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_STABLE" MutuallyExclusiveBuilding="BUILDING_CHAOS_RIFT"/>
+		<Row Building="BUILDING_CHAOS_RIFT" MutuallyExclusiveBuilding="BUILDING_STABLE"/>
+		<Row Building="BUILDING_STABLE" MutuallyExclusiveBuilding="BUILDING_KOSSAR_BARRACKS"/>
+		<Row Building="BUILDING_KOSSAR_BARRACKS" MutuallyExclusiveBuilding="BUILDING_STABLE"/>
+	</MutuallyExclusiveBuildings>
+	
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_CHAOS_RIFT</BuildingType>
+			<ModifierId>WHM_CHAOS_RIFT_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KOSSAR_BARRACKS</BuildingType>
+			<ModifierId>WHM_KOSSAR_BARRACKS_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>WHM_CHAOS_RIFT_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>BARRACKS_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_KOSSAR_BARRACKS_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>BARRACKS_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>WHM_CHAOS_RIFT_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_KOSSAR_BARRACKS_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+	</ModifierArguments>
+
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_REIKSFORT" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_REIKSFORT" YieldType="YIELD_CULTURE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+	</District_TradeRouteYields>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_REIKSFORT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_REIKSFORT" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldType="YIELD_FAITH" YieldChange="2"/>
+
+	</District_CitizenYieldChanges>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_REIKSFORT" YieldChangeId="Reiksfort_ProductionForest"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="NaturalWonder_Faith"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="Mountain_Faith1"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="Mountain_Faith2"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="Mountain_Faith3"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="Mountain_Faith4"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="Mountain_Faith5"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="District_Faith"/>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="MyWHM_Forest_Faith"/>
+	</District_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="Reiksfort_ProductionForest" Description="LOC_WHM_DISTRICT_FOREST_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="MyWHM_Forest_Faith" Description="LOC_DISTRICT_FOREST_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="2" AdjacentFeature="FEATURE_FOREST"/>
+
+	</Adjacency_YieldChanges>
+
+</GameData>

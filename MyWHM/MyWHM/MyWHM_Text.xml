@@ -1,0 +1,2910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_WHM_DISTRICT_COAST_SCIENCE" Language="en_US">
+			<Text>+1 [ICON_Science] Science for adjacency to coast.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_FOREST_FAITH" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith for adjacency to Forest.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_FOREST_CULTURE" Language="en_US">
+			<Text>+1 [ICON_Culture] Culture for adjacency to Forest.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_MOUNTAIN_PRODUCTION" Language="en_US">
+			<Text>+1 [ICON_Production] Production for Mountain</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_MELEE_UNITS_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength</Text>
+		</Row>
+		<Row Tag="LOC_WHM_COMBAT_DESERT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in Desert and Plains</Text>
+		</Row>
+		<Row Tag="LOC_WHM_TUNDRA_COMBAT_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when fighting in Tundra</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WHM_COMBAT_PLAINS_BONUS_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+8 [ICON_Strength] Combat Strength when fighting in Plains</Text>
+		</Row>
+		<Row Tag="LOC_WHM_GARRISON_BONUS_DISTRICTS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength for occupying a district or Fort</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_DESERT_HILLS_FOOD" Language="en_US">
+			<Text>+1 [ICON_Food] Food per adjacency to Desert Hills</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_DESERT_FOOD" Language="en_US">
+			<Text>+1 [ICON_Food] Food per adjacency to Desert</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_DESERT_HILLS_GOLD" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold per adjacency to Desert Hills</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_DESERT_GOLD" Language="en_US">
+			<Text>+1 [ICON_Gold] Gold per adjacency to Desert</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_COAST_FAITH" Language="en_US">
+			<Text>+1 [ICON_Faith] Faith for adjacency to coast.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WHM_COMBAT_HILLS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength on hills.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_MOUNTAIN_SCIENCE" Language="en_US">
+			<Text>+1 [ICON_Science] Science for Mountain</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_FOREST_PRODUCTION">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Woods {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<!-- BRETONNIA-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_LOUEN_LEONCOEUR" Language="en_US">
+			<Text>Louen Leoncoeur is the Duke of Couronne, one of the almighty Grail Knights and the penultimate warrior King of Bretonnia. He is renowned as a noble and just ruler. Fairness in all matters is his watchword, never allowing the law as written to compromise its noble intent, never refusing anyone a hearing in his presence to air grievances of which must be judged. He has issued a decree that none are to suffer for what they say during such an audience. Whenever the King gets involved, justice is done.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COURONNE" Language="en_US">
+			<Text>Couronne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LANGUILLE" Language="en_US">
+			<Text>L'Anguille</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BORDELEAUX" Language="en_US">
+			<Text>Bordeleaux</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLE_CARCASSONNE" Language="en_US">
+			<Text>Castle Carcassonne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQUITAINE" Language="en_US">
+			<Text>Aquitaine</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIONNE" Language="en_US">
+			<Text>Brionne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARTOIS" Language="en_US">
+			<Text>Artois</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LYONESSE" Language="en_US">
+			<Text>Lyonesse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BASTONNE" Language="en_US">
+			<Text>Bastonne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GISOREUX" Language="en_US">
+			<Text>Gisoreux</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONTFORT" Language="en_US">
+			<Text>Montfort</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PARRAVON" Language="en_US">
+			<Text>Parravon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GARAMONT" Language="en_US">
+			<Text>Garamont</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUSILLON" Language="en_US">
+			<Text>Mousillon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QUENELLES" Language="en_US">
+			<Text>Quenelles</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CUILEUX" Language="en_US">
+			<Text>Cuileux</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GLANBORIELLE" Language="en_US">
+			<Text>Glanborielle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LARRET" Language="en_US">
+			<Text>Larret</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BREGONNE" Language="en_US">
+			<Text>Bregonne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ANTOCH" Language="en_US">
+			<Text>Antoch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HENDAYE" Language="en_US">
+			<Text>Hendaye</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALENCON" Language="en_US">
+			<Text>Alencon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHANTILLON" Language="en_US">
+			<Text>Chantillon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAUTMONT" Language="en_US">
+			<Text>Hautmont</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ERGUY" Language="en_US">
+			<Text>Erguy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SOREIL" Language="en_US">
+			<Text>Soreil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEZ" Language="en_US">
+			<Text>Nez</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHAMBONNAY" Language="en_US">
+			<Text>Chambonnay</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIBOURNE" Language="en_US">
+			<Text>Sibourne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MARGUILLES" Language="en_US">
+			<Text>Marguilles</Text>
+		</Row>
+		<!-- EMPIRE OF MAN-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_KARL_FRANZ" Language="en_US">
+			<Text>Karl Franz is the current Emperor of the Empire of Man, the Elector Count of Reikland, the Prince of Altdorf and the greatest statesman and general the Empire and perhaps the entire Old World had seen in many centuries. Karl Franz, who was elected to the Imperial throne in 2502 IC, followed in his father's footsteps, and was hailed as a patron of the arts and sciences, as a military innovator and as a valiant general. Thanks to his tireless efforts on the behalf of his people, the Empire flourished during his reign as never before: the Imperial School of Engineers in Altdorf grew, the Colleges of Magic thrived and his armies marched from victory to victory.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALTDORF" Language="en_US">
+			<Text>Altdorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRUNBURG" Language="en_US">
+			<Text>Grunburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EILHART" Language="en_US">
+			<Text>Eilhart</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HELMGART" Language="en_US">
+			<Text>Helmgart</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NULN" Language="en_US">
+			<Text>Nuln</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CARROBURG" Language="en_US">
+			<Text>Carroburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MARIENBURG" Language="en_US">
+			<Text>Marienburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIDDENHEIM" Language="en_US">
+			<Text>Middenheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AVERHEIM" Language="en_US">
+			<Text>Averheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WURTBAD" Language="en_US">
+			<Text>Wurtbad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WEISMUND" Language="en_US">
+			<Text>Weismund</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TALABHEIM" Language="en_US">
+			<Text>Talabheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WISSENBURG" Language="en_US">
+			<Text>Wissenburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HERGIG" Language="en_US">
+			<Text>Hergig</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SALZENMUND" Language="en_US">
+			<Text>Salzenmund</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOLFENBURG" Language="en_US">
+			<Text>Wolfenburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BECHAFEN" Language="en_US">
+			<Text>Bechafen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PFEILDORF" Language="en_US">
+			<Text>Pfeildorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FREDERHEIM" Language="en_US">
+			<Text>Frederheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORSSEL" Language="en_US">
+			<Text>Gorssel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRENZSTADT" Language="en_US">
+			<Text>Grenzstadt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KEMPERBAD" Language="en_US">
+			<Text>Kemperbad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAPPELBURG" Language="en_US">
+			<Text>Kappelburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRUGENHEIM" Language="en_US">
+			<Text>Krugenheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DIETERSHAFEN" Language="en_US">
+			<Text>Dietershafen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DELBERZ" Language="en_US">
+			<Text>Delberz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORT_SOLACE" Language="en_US">
+			<Text>Fort Solace</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AARNAU" Language="en_US">
+			<Text>Aarnau</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEUES_EMSKRANK" Language="en_US">
+			<Text>Neues Emskrank</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BEECKERHOVEN" Language="en_US">
+			<Text>Beeckerhoven</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BERGSBURG" Language="en_US">
+			<Text>Bergsburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FERLANGEN" Language="en_US">
+			<Text>Ferlangen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SALKALTEN" Language="en_US">
+			<Text>Salkalten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GAUSCHDORF" Language="en_US">
+			<Text>Gauschdorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARGENDORF" Language="en_US">
+			<Text>Hargendorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZWOLEN" Language="en_US">
+			<Text>Zwolen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRAKENHOF" Language="en_US">
+			<Text>Drakenhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLE_TEMPLEHOF" Language="en_US">
+			<Text>Castle Templehof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLE_VON_RAUKEN" Language="en_US">
+			<Text>Castle von Rauken</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NORDEN" Language="en_US">
+			<Text>Norden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UBERSREIK" Language="en_US">
+			<Text>Ubersreik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAGENHOF" Language="en_US">
+			<Text>Nagenhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORDHEIM" Language="en_US">
+			<Text>Mordheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUDENBERG" Language="en_US">
+			<Text>Sudenberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WALDENHOF" Language="en_US">
+			<Text>Waldenhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESCHEN" Language="en_US">
+			<Text>Eschen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORT_OBERSTYRE" Language="en_US">
+			<Text>Fort Oberstyre</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SCHWARTZHAFEN" Language="en_US">
+			<Text>Schwartzhafen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WEISSBRUCK" Language="en_US">
+			<Text>Weissbruck</Text>
+		</Row>
+		<!-- DARK ELVES-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_MALEKITH" Language="en_US">
+			<Text>Malekith is the ruler of the Dark Elves, and the son of the Phoenix King Aenarion, the greatest Elven hero to have ever lived. Malekith is ancient and powerful beyond mortal reckoning, a being who has lived for thousands upon thousands of years, gathering a great treasure trove of magical power that few can rival within the world. Long ago, this mighty Lord of the Elven race sought to claim the Isles of Ulthuan by sheer force of will, cruelty and bloodshed, but the Flames of Asuryan denied his right to rule and left him scarred by fire and twisted with hatred. Near death, Malekith would be taken away and healed by his mother, Morathi and taken to the lands of Nagarythe. From there, Malekith was encased in a suit of magical black-metal, the plates literally searing itself upon Malekith's own flesh. The day is fast approaching where old debts and insults will finally be paid, and Malekith will do anything within his power to hasten its arrival. Malekith firmly believes that if he can't rule Ulthuan, then no one else will.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_CRONE_HELLEBRON" Language="en_US">
+			<Text>Har Ganeth is the center of Khaine-worship in Naggaroth. Ruled by Crone Hellebron, the Hag Queen, the Blood Queen, the leader of Khaine's Cult, it is here that said cult is strongest. Ironically, Har Ganeth is also one of the most law-abiding cities in Naggaroth, with it's harsh laws enforced by the sharp blades of the Har Ganeth Executioners. However, when a Death Night is called, the Witch Elves and Death Hags of the Cult of Khaine remain free to murder and slaughter and abduct future Khainite Assassins. Har Ganeth has a fierce rivalry with Morathi and her followers, and the two groups often vie for influence in the Witch King's court. </Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_MORATHI" Language="en_US">
+			<Text>Morathi the Hag Sorceress of Ghrond and First of the Hag Queens is the mother of Malekith and one-time consort of Aenarion, who rescued her from a warband of Slaanesh in the days of the first Chaos invasion, before the Sundering. She is not only the lone Witch Elf allowed to use Dark Magic but is also one of the most powerful magic-users in the world, rivalling perhaps even Nagash the Great Necromancer, the Lords of Change, and Teclis of Ulthuan.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAGGAROND" Language="en_US">
+			<Text>Naggarond</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAR_KALDRA" Language="en_US">
+			<Text>Har Kaldra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAELRA" Language="en_US">
+			<Text>Kaelra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GHROND" Language="en_US">
+			<Text>Ghrond</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHRAK" Language="en_US">
+			<Text>Ashrak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAR_GANETH" Language="en_US">
+			<Text>Har Ganeth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLEAK_HOLD" Language="en_US">
+			<Text>Bleak Hold</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAUARK" Language="en_US">
+			<Text>Kauark</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPITE_REACH" Language="en_US">
+			<Text>Spite Reach</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_BLACK_PILLAR" Language="en_US">
+			<Text>The Black Pillar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARNHEIM" Language="en_US">
+			<Text>Arnheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_HALL" Language="en_US">
+			<Text>Hag Hall</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLAR_KAROND" Language="en_US">
+			<Text>Clar Karond</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAROND" Language="en_US">
+			<Text>Kar Karond</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QUNITEX" Language="en_US">
+			<Text>Quintex</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SSILDRA_TOR" Language="en_US">
+			<Text>Ss'ildra Tor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRONSPIKE" Language="en_US">
+			<Text>Ironspike</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAG_GRAEF" Language="en_US">
+			<Text>Hag Graef</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRAGOTH_DEEP" Language="en_US">
+			<Text>Cragroth Deep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ADDAIOTH" Language="en_US">
+			<Text>Addaioth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHAGRATH" Language="en_US">
+			<Text>Shagrath</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAGRAR" Language="en_US">
+			<Text>Nagrar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DARGOTH" Language="en_US">
+			<Text>Dargoth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STORAG_KOR" Language="en_US">
+			<Text>Storag Kor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAGRAKS_END" Language="en_US">
+			<Text>Dagrak's End</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARKAN" Language="en_US">
+			<Text>Karkan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOLROTH" Language="en_US">
+			<Text>Volroth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ATORAK" Language="en_US">
+			<Text>Atorak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AAKON" Language="en_US">
+			<Text>Aakon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KANDRA" Language="en_US">
+			<Text>Kandra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHYMERICA_SPIRE" Language="en_US">
+			<Text>Khymerica Spire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CLARAK_SPIRE" Language="en_US">
+			<Text>Clarak Spire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ICESPIRE" Language="en_US">
+			<Text>Icespire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACK_CREEK_SPIRE" Language="en_US">
+			<Text>Black Creek Spire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRACKLA_SPIRE" Language="en_US">
+			<Text>Drackla Spire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROTHKAR_SPIRE" Language="en_US">
+			<Text>Rothkar Spire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_FROZEN_CITY" Language="en_US">
+			<Text>The Frozen City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KESHTA" Language="en_US">
+			<Text>Keshta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKLIGHT_TOWER" Language="en_US">
+			<Text>Blacklight Tower</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RACKDO_GORGE" Language="en_US">
+			<Text>Rackdo Gorge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VENOM_GLADE" Language="en_US">
+			<Text>Venom Glade</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SLAVERS_POINT" Language="en_US">
+			<Text>Slaver's Point </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHROKTAK" Language="en_US">
+			<Text>Shroktak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREYROCK_POINT" Language="en_US">
+			<Text>Grey Rock Point</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_TWISTED_GLADE" Language="en_US">
+			<Text>The Twisted Glade </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SULPHARETS" Language="en_US">
+			<Text>Sulpharets</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZARDOK" Language="en_US">
+			<Text>Zardok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CIRCLE_OF_DESTRUCTION" Language="en_US">
+			<Text>Circle of Destruction</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ELDAR_SPIRE" Language="en_US">
+			<Text>Eldar Spire</Text>
+		</Row>
+		<!-- ULTHUAN-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_FINUBAR" Language="en_US">
+			<Text>Finubar the Seafarer is the current Phoenix King of Ulthuan. He was already famous for his voyages to the Old World before being elected by the princes of the High Elves. </Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_PRINCE_TYRION" Language="en_US">
+			<Text>Prince Tyrion, Heir of Aenarion, is the greatest living High Elven warrior of this age. So valiant and skilled is he that the bards of Ulthuan sing that he is nothing less then Aenarion reborn — a tale that is given credence far beyond Ulthuan's shores. Since Tyrion's meteoric rise to fame, many have whispered of his destiny to lead the High Elves towards a glorious future, and perhaps one day to take the Phoenix Crown. When Tyrion hears of such gossip, he pays it no heed, for he is unswervingly loyal to Finubar.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_TECLIS" Language="en_US">
+			<Text>Teclis, High Loremaster of Hoeth, is considered by many to be one of the greatest and most powerful sorcerers this world has ever known. Teclis is the twin brother of Tyrion, the famous Elven Hero and the widely-proclaimed Defender of Ulthuan. Being of the Line of Aenarion, each of his descendants are destined for greatness amongst the Ten Kingdoms. This has made Tyrion a masterful warrior and general, and in turn, this greatness makes Teclis proficient and knowledgeable in all arts and forms of magic. </Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_ALARIELLE_RADIANT" Language="en_US">
+			<Text>Alarielle is the Everqueen of Ulthuan, the spiritual leader and mother-figure of her people. She is seen as blessed of Isha, the mother goddess, and looked upon for protection and guidance by the High Elves. She also rules over the High Elf kingdom of Avelorn and holds court there. Since the Golden Age, the Everqueen has served as Isha's chosen priestess in the mortal world. Whilst the tradition of the Phoenix King is relatively new, a mere six and a half thousand years in age, there has always been an Everqueen.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_ALITH_ANAR" Language="en_US">
+			<Text>Alith Anar is the current ruler of the Kingdom of Nargarythe and the last member of the noble line of House Anar. Tradition maintains that the Nagarythi chose Alith Anar as ruler after Malekith fled into the west. The lord was the last heir of a great line, his forebears having been slain by the Witch King's minions. In those days there were many Dark Elves still hiding in Ulthuan, and Alith Anar took to their eradication with a bloody vengeance. Those of his foes who were not killed in battle were crucified upon trees, where those who passed could witness their grisly fate, and as he attacked and burned each enemy encampment, his fame grew.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOTHERN" Language="en_US">
+			<Text>Lothern</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_YVRESSE" Language="en_US">
+			<Text>Tor Yvresse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_ELYR" Language="en_US">
+			<Text>Tor Elyr </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_HOETH" Language="en_US">
+			<Text>Tor Hoeth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_ANROC" Language="en_US">
+			<Text>Tor Anroc</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_ANLEC" Language="en_US">
+			<Text>Tor Anlec</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_CALED" Language="en_US">
+			<Text>Tor Caled</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_DYNAL" Language="en_US">
+			<Text>Tor Dynal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GAEN_VALE" Language="en_US">
+			<Text>Gaen Vale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_ANNAN" Language="en_US">
+			<Text>Tor Annan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LYSEAN" Language="en_US">
+			<Text>Lysean</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ANGERRIAL" Language="en_US">
+			<Text>Angerrial</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ELISTOR" Language="en_US">
+			<Text>Elistor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMMERSONG" Language="en_US">
+			<Text>Summersong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_ACHARE" Language="en_US">
+			<Text>Tor Achare</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_FINU" Language="en_US">
+			<Text>Tor Finu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_SETHAI" Language="en_US">
+			<Text>Tor Sethai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_SARIOR" Language="en_US">
+			<Text>Tor Sarior</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_WHITEFIRE" Language="en_US">
+			<Text>Tor Whitefire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_STAR_TOWER" Language="en_US">
+			<Text>The Star Tower</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_GARD" Language="en_US">
+			<Text>Tor Gard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_ARCSPAN" Language="en_US">
+			<Text>The Arcspan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ELESSAELI" Language="en_US">
+			<Text>Elessaeli</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_KORUALI" Language="en_US">
+			<Text>Tor Koruali</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_DRANIL" Language="en_US">
+			<Text>Tor Dranil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EVERSHALE" Language="en_US">
+			<Text>Evershale</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MISTNAR" Language="en_US">
+			<Text>Mistnar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TRALINIA" Language="en_US">
+			<Text>Tralinia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAIRN_THEL" Language="en_US">
+			<Text>Cairn Thel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CALEDORS_REPOSE" Language="en_US">
+			<Text>Caledor's Repose</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SARDENATH" Language="en_US">
+			<Text>Sardenath</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_ELASOR" Language="en_US">
+			<Text>Tor Elasor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORTRESS_OF_DAWN" Language="en_US">
+			<Text>Fortress of Dawn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CITADEL_OF_DUSK" Language="en_US">
+			<Text>Citadel of Dusk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOR_ELITHIS" Language="en_US">
+			<Text>Tor Elithis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOWER_OF_STARS" Language="en_US">
+			<Text>Tower of Stars</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOWER_OFTHE_SUN" Language="en_US">
+			<Text>Tower of the Sun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOWER_OFTHERISING_SUN" Language="en_US">
+			<Text>Tower of the Rising Sun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CITY_OF_SPIRES" Language="en_US">
+			<Text>City of Spires</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PHOENIX_GATE" Language="en_US">
+			<Text>Phoenix Gate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRIFFON_GATE" Language="en_US">
+			<Text>Griffon Gate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EAGLE_GATE" Language="en_US">
+			<Text>Eagle Gate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UNICORN_GATE" Language="en_US">
+			<Text>Unicorn Gate</Text>
+		</Row>
+		<!-- WOOD_ELVES-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_ORION" Language="en_US">
+			<Text>Orion, the King in the Woods, is the everlasting Lord of Athel Loren and co-ruler of the Wood Elven race. He is immortal, but his existence is irrevocably tied to the seasons. Thus does he pass willingly into his own funeral pyre each midwinter, only to be reborn into thunderous life on the first day of spring. Each year, on the eve of the vernal equinox, the Wild Riders selects a young prince who will bear the mantle of Orion for the coming year. This chosen one is led to the Oak of Ages and given over to Ariel’s keeping.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KINGS_GLADE" Language="en_US">
+			<Text>King's Glade</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OAK_OF_AGES" Language="en_US">
+			<Text>Oak of Ages</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WATERFALL_PALACE" Language="en_US">
+			<Text>Waterfall Palace</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TALSYN" Language="en_US">
+			<Text>Talsyn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARGWYLON" Language="en_US">
+			<Text>Argwylon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TORGOVANN" Language="en_US">
+			<Text>Torgovann</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYDRIOTH" Language="en_US">
+			<Text>Wydrioth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRAG_HALLS_FINDOL" Language="en_US">
+			<Text>Crag Halls of Findol</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YN_EDRI_ETERNOS" Language="en_US">
+			<Text>Yn Edri Eternos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARRANOC" Language="en_US">
+			<Text>Arranoc</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MODRYN" Language="en_US">
+			<Text>Modryn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAVAROC" Language="en_US">
+			<Text>Cavaroc</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ATYLWITH" Language="en_US">
+			<Text>Atylwyth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CYTHRAL" Language="en_US">
+			<Text>Cythral</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FYR_DARRIC" Language="en_US">
+			<Text>Fyr Darric</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ANMYR" Language="en_US">
+			<Text>Anmyr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TIRSYTH" Language="en_US">
+			<Text>Tirsyth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_ROND" Language="en_US">
+			<Text>Tal Rond</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_VALERIN" Language="en_US">
+			<Text>Tal Valerin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ADDAIVOCH" Language="en_US">
+			<Text>Addaivoch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_BRIANDA" Language="en_US">
+			<Text>Tal Brianda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_DOVAR" Language="en_US">
+			<Text>Tal Dovar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_STORNOS" Language="en_US">
+			<Text>Tal Stornos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TALRENNIE" Language="en_US">
+			<Text>Talrennie</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_MORAL" Language="en_US">
+			<Text>Tal Moral</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_AMARA" Language="en_US">
+			<Text>Tal Amara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COETH_MARA" Language="en_US">
+			<Text>Coeth-mara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_DROST" Language="en_US">
+			<Text>Tal Drost</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_CULLON" Language="en_US">
+			<Text>Tal Cullon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TYR_EDRELL" Language="en_US">
+			<Text>Tyr Edrell</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TYR_VANNA" Language="en_US">
+			<Text>Tyr Vanna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_ETH_AYR" Language="en_US">
+			<Text>Tal Eth Ayr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_GOVORN" Language="en_US">
+			<Text>Tal Govorn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_MERION" Language="en_US">
+			<Text>Tal Merion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_JULFINEL" Language="en_US">
+			<Text>Tal Jul-finel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_VARIGAN" Language="en_US">
+			<Text>Tal Varigan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THRELLOCK" Language="en_US">
+			<Text>Threllock</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_ESTH" Language="en_US">
+			<Text>Tal Esth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_SILVOCH" Language="en_US">
+			<Text>Tal Silvoch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAL_ENDA_VARIAN" Language="en_US">
+			<Text>Tal Enda Varian</Text>
+		</Row>
+		<!-- WHM_DWARVES-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_THORGRIM_GRUDGEBEARER" Language="en_US">
+			<Text>Thorgrim Grudgebearer is the current High King of the Dwarfs and the ruler of Karaz-a-Karak. He is a throwback to the High Kings of old — eager for new conquests, mighty in battle, and a merciless enemy. Yet upon his worn brow, there also sits a great wisdom, and he is able to uphold the ancient traditions as well as to accept, if not embrace these needed changes, such as alliances and new technology. Thorgrim is forever brooding upon how to return his people to their former glory. As the ultimate ruler of the Dwarfs, the Dammaz Kron or the Great Book of Grudges is entrusted into his honorable keeping.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_BELEGAR_IRONHAMMER" Language="en_US">
+			<Text>Belegar Ironhammer, born as Belegar Angrund, is the current leader of the Angrund clan and the direct descendant of King Lunn, the last Dwarf to rule Karak Eight Peaks before its fall. Since that time, Belegar has dedicated his life to reclaiming Karak Eight Peaks. He proclaimed himself King and fortified his position, encamping his forces into the wreckage of the once mighty surface structures of Karak Eight Peaks. There he remains, defiant and in a constant state of siege. From out of this slender foothold, the Dwarfs launch forays into the depths, bloody offensives intent on breaking their opponents' seemingly limitless armies, recapturing lower halls or seeking out lost treasures.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_UNGRIM_IRONFIST" Language="en_US">
+			<Text>Ungrim Ironfist, the Slayer King of Karak Kadrin, is the last of the line of the Slayer Kings that have ruled the keep since his ancestor, King Baragor. Armed with the enormous Axe of Dargo, Ungrim deals woe and death to his enemies, carving a path of red ruin before him while singing songs of old in a booming voice. Atop his head is a bright orange crest that rises above a sturdy horned helmet set with a golden crown. For Ungrim is both a Slayer and a King, more than likely the last of the line of Slayer Kings of Karak Kadrin.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAZ_A_KARAK" Language="en_US">
+			<Text>Karaz-a-Karak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_IZOR" Language="en_US">
+			<Text>Karak Izor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_KADRIN" Language="en_US">
+			<Text>Karak Kadrin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZHUFBAR" Language="en_US">
+			<Text>Zhufbar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_NORN" Language="en_US">
+			<Text>Karak Norn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_HIRN" Language="en_US">
+			<Text>Karak Hirn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BARAK_VARR" Language="en_US">
+			<Text>Barak Varr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_ZIFLIN" Language="en_US">
+			<Text>Karak Ziflin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_AZGARAZ" Language="en_US">
+			<Text>Karak Azgaraz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_ANGAZHAN" Language="en_US">
+			<Text>Karak Angazhar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_GANTUK" Language="en_US">
+			<Text>Karak Gantuk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_BHUFDAR" Language="en_US">
+			<Text>Karak Bhufdar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_EIGHT_PEAKS" Language="en_US">
+			<Text>Karak Eight Peaks</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZARAKZIL" Language="en_US">
+			<Text>Zarakzil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_UNGOR" Language="en_US">
+			<Text>Karak Ungor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_VARN" Language="en_US">
+			<Text>Karak Varn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_AZGAL" Language="en_US">
+			<Text>Karak Azgal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRAKA_DRAK" Language="en_US">
+			<Text>Kraka Drak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAG_DROMAR" Language="en_US">
+			<Text>Karag Dromar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZID_IRKULAZ" Language="en_US">
+			<Text>Khazid Irkulaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZID_BORDKARAG" Language="en_US">
+			<Text>Khazid Bordkarag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_AZUL" Language="en_US">
+			<Text>Karak Azul</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRAKA_RAVNSVAKE" Language="en_US">
+			<Text>Kraka Ravnsvake</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRAKA_ORNSMOTEK" Language="en_US">
+			<Text>Kraka Ornsmotek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EKRUND" Language="en_US">
+			<Text>Ekrund</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GUNBAD" Language="en_US">
+			<Text>Gunbad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAG_AGILWUTRAZ" Language="en_US">
+			<Text>Karag Agilwutraz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_DRAZH" Language="en_US">
+			<Text>Karak Drazh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_VLAG" Language="en_US">
+			<Text>Karak Vlag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAG_DUM" Language="en_US">
+			<Text>Karag Dum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAG_GAZAR" Language="en_US">
+			<Text>Karag Garaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZ_BRYN" Language="en_US">
+			<Text>Khaz Bryn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAZAD_KLAD" Language="en_US">
+			<Text>Kazad Klad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRAKA_DORDEN" Language="en_US">
+			<Text>Kraka Dorden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAZ_GHUMZUL" Language="en_US">
+			<Text>Karaz Ghumzul</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRIMHOLD" Language="en_US">
+			<Text>Grimhold</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRADTOMMEN" Language="en_US">
+			<Text>Kradtommen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OAKENHAMMER" Language="en_US">
+			<Text>Oakenhammer</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SJOKTRAKEN" Language="en_US">
+			<Text>Sjoktraken</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIGHDAL_VONGALBARAK" Language="en_US">
+			<Text>Mighdal Vongalbarak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZID_GRIMAZ" Language="en_US">
+			<Text>Khazid Grimaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAZAD_ELGAZUND" Language="en_US">
+			<Text>Kazad Elgazund</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_KAFERKAMMAZ" Language="en_US">
+			<Text>Karak Kaferkammaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_EKSFILAZ" Language="en_US">
+			<Text>Karak Eksfilaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAZAD_FRUKUND" Language="en_US">
+			<Text>Kazad Frukund</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_GROM" Language="en_US">
+			<Text>Karak Grom</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAZAD_SEDAZUND" Language="en_US">
+			<Text>Kazad Sedazund</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZID_GRENTAZ" Language="en_US">
+			<Text>Khazid Grentaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZID_HAFAK" Language="en_US">
+			<Text>Khazid Hafak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAZ_DRAZHKADRIM" Language="en_US">
+			<Text>Haz-Drazh-Kadrim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KOLAZ_UNGOR" Language="en_US">
+			<Text>Kolaz Ungor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKRAKLAZ_UNGOR" Language="en_US">
+			<Text>Skraklaz Ungor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_RAZIAK" Language="en_US">
+			<Text>Karak Raziak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAZAD_URKBAVAK" Language="en_US">
+			<Text>Kazad Urkbavak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAK_GRIMSTOK" Language="en_US">
+			<Text>Karak Grimstok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRUNG_STEKBRUD" Language="en_US">
+			<Text>Grung Stekbrud</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRUNG_DREKAZ" Language="en_US">
+			<Text>Grung Drekaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZID_RAVIK" Language="en_US">
+			<Text>Khazid Ravik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRAKA_DRANG" Language="en_US">
+			<Text>Kraka Drang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRUNG_KULDUNGOR" Language="en_US">
+			<Text>Grung Kuldungor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZID_FNELDURK" Language="en_US">
+			<Text>Khazid Fneldurk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRUNG_TRAKENKARAG" Language="en_US">
+			<Text>Grung Trakekarag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRUNG_DOBEKZHUF" Language="en_US">
+			<Text>Grung Dobekzhuf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZID_SKOVENKARAG" Language="en_US">
+			<Text>Khazid Skovenkarag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAZAD_GRONTUNT" Language="en_US">
+			<Text>Kazad Grontunt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRAKA_UNGRIM" Language="en_US">
+			<Text>Kraka Ungrim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKALFS_HOLD" Language="en_US">
+			<Text>Skalf's Hold</Text>
+		</Row>
+		<!-- LIZARDMEN-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_LORD_MAZDAMUNDI" Language="en_US">
+			<Text>Mazdamundi, Lord of the Solar-City is the oldest and most powerful living Slann Mage-Priest and the current ruler of Hexoatl, the City of the Sun. </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HEXOATL" Language="en_US">
+			<Text>Hexoatl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ITZA" Language="en_US">
+			<Text>Itza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHAQUA" Language="en_US">
+			<Text>Chaqua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XLANHUAPEC" Language="en_US">
+			<Text>Xlanhuapec</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TLAQUA" Language="en_US">
+			<Text>Tlaqua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHUPAYOTL" Language="en_US">
+			<Text>Chupayotl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QUETZA" Language="en_US">
+			<Text>Quetza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TLENCAN" Language="en_US">
+			<Text>Tlencan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEOTIQUA" Language="en_US">
+			<Text>Teotiqua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XAHUTEC" Language="en_US">
+			<Text>Xahutec</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TLAXTLAN" Language="en_US">
+			<Text>Tlaxtlan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XETI" Language="en_US">
+			<Text>Xeti</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PAHUAX" Language="en_US">
+			<Text>Pahuax</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TLANXLA" Language="en_US">
+			<Text>Tlanxla</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TZULAQUA" Language="en_US">
+			<Text>Tzulaqua</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XHOTL" Language="en_US">
+			<Text>Xhotl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AXLOTL" Language="en_US">
+			<Text>Axlotl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GWAKMOL" Language="en_US">
+			<Text>Gwakmol</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MLEXIGAUR" Language="en_US">
+			<Text>Mlexigaur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUALOTAL" Language="en_US">
+			<Text>Hualotal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IZZATAL" Language="en_US">
+			<Text>Izzatal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHIQUIBOL" Language="en_US">
+			<Text>Chiquibol</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OYXL" Language="en_US">
+			<Text>Oyxl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUANABIC" Language="en_US">
+			<Text>Huanabic</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZLANTLAN" Language="en_US">
+			<Text>Zlatlan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XLANSEC" Language="en_US">
+			<Text>Xlansec</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUATL" Language="en_US">
+			<Text>Huatl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TLAX" Language="en_US">
+			<Text>Tlax</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YTZEL_CHO" Language="en_US">
+			<Text>Ytzel Cho</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZULTEC" Language="en_US">
+			<Text>Zultec</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEMPLE_OF_SKULLS" Language="en_US">
+			<Text>Temple of Skulls</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QUITTAX" Language="en_US">
+			<Text>Qu'ittax</Text>
+		</Row>
+		<!-- GREENSKIN-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_GRIMGOR" Language="en_US">
+			<Text>Grimgor Ironhide is considered by many to be one of the greatest Black Orc Warlords to have ever lived. This monstrous warrior has culled a great swath of destruction throughout the lands of the Old World and beyond, claiming ownership of many Orc and Goblin tribes and making Red Eye Mountain the heart of his small empire.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_SKARSNIK" Language="en_US">
+			<Text>Skarsnik is the chieftain of the Crooked Moon tribe and the most powerful Night Goblin in the World's Edge Mountains. All of the surrounding Greenskin tribes acknowledge Skarsnik's overlordship of the peaks, valleys and upper levels of the ruined Dwarfhold of Karak Eight Peaks. Through devious machinations and relentless spite, he has risen to command in the midst of the bitter and ongoing three-way battle between the Greenskins, Dwarfs and Skaven.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_EYE_MOUNTAIN" Language="en_US">
+			<Text>Red Eye Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACK_CRAG" Language="en_US">
+			<Text>Black Crag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRON_ROCK" Language="en_US">
+			<Text>Iron Rock</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUNT_BLOODHORN" Language="en_US">
+			<Text>Mount Bloodhorn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUNT_GRIMFANG" Language="en_US">
+			<Text>Mount Grimfang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARAG_DRON" Language="en_US">
+			<Text>Karag Dron</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GALBARAZ" Language="en_US">
+			<Text>Galbaraz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AGRUL_MIGDHAL" Language="en_US">
+			<Text>Agrul Migdhal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GOR_GAZAN" Language="en_US">
+			<Text>Gor Gazan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRONTI_MINGOL" Language="en_US">
+			<Text>Gronti Mingol</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONEMINE_TOWER" Language="en_US">
+			<Text>Stonemine Tower</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRUNG_ZINT" Language="en_US">
+			<Text>Grung Zint</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKSTONE_POST" Language="en_US">
+			<Text>Blackstone Post</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GNASHRAK_LAIR" Language="en_US">
+			<Text>Gnashrak's Lair</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VARENKA" Language="en_US">
+			<Text>Varenka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOK_KARAZ" Language="en_US">
+			<Text>Dok Karaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BARAG_DAWAZBAG" Language="en_US">
+			<Text>Barag Dawazbag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPITEPEAK" Language="en_US">
+			<Text>Spitepeak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEFF_GORGE" Language="en_US">
+			<Text>Deff Gorge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRINGORACKAZ" Language="en_US">
+			<Text>Dringorackaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROCKED_FANG_FORT" Language="en_US">
+			<Text>Crocked Fang Fort</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GROM_PEAK" Language="en_US">
+			<Text>Grom Peak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALAYAS" Language="en_US">
+			<Text>Valaya's Sorrow</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKULLSMASHERZ" Language="en_US">
+			<Text>Skullsmasherz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROOKED_MOON" Language="en_US">
+			<Text>Crooked Moon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEFF_GRINDAZ" Language="en_US">
+			<Text>Deff Grindaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YELLOW_EYE" Language="en_US">
+			<Text>Yellow Eye</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NECKSNAPPERS" Language="en_US">
+			<Text>Necksnappers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_FACE" Language="en_US">
+			<Text>Red Face</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLUE_FACE" Language="en_US">
+			<Text>Blue Face</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRONSKINZ" Language="en_US">
+			<Text>Ironskinz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRON_CLAW" Language="en_US">
+			<Text>Iron Claw</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BAD_AXES" Language="en_US">
+			<Text>Bad Axes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLOODY_SPEAR" Language="en_US">
+			<Text>Bloody Spear</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUNT_SQUIGHORN" Language="en_US">
+			<Text>Mount Squighorn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SCABBY_EYE" Language="en_US">
+			<Text>Scabby Eye</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BROKEN_TOOTH" Language="en_US">
+			<Text>Broken Tooth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DA_HOWLAZ" Language="en_US">
+			<Text>Da Howlaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_FANG" Language="en_US">
+			<Text>Red Fang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TEEF_SNATCHAZ" Language="en_US">
+			<Text>Teef Snatchaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BURNING_FACE" Language="en_US">
+			<Text>Burning Face</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FLOATING_VILLAGE" Language="en_US">
+			<Text>Floating Village</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RUSTY_DAGGAZ" Language="en_US">
+			<Text>Rusty Daggaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLOOD_HAND" Language="en_US">
+			<Text>Blood Hand</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VULCHAZ" Language="en_US">
+			<Text>Vulchaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DA_PIRATZ" Language="en_US">
+			<Text>Da Piratz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKULL_CRAG" Language="en_US">
+			<Text>Skull Crag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOP_KNOTZ" Language="en_US">
+			<Text>Top-knotz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BONE_NOSES" Language="en_US">
+			<Text>Bone Noses</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_SHIELD" Language="en_US">
+			<Text>Red Shield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STONE_GANZ" Language="en_US">
+			<Text>Stone Ganz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TUSKED_SUNZ" Language="en_US">
+			<Text>Tusked Sunz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GARBAN_HOLD" Language="en_US">
+			<Text>Garban Hold</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOON_HOWLERZ" Language="en_US">
+			<Text>Moon Howlerz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARACHNOS" Language="en_US">
+			<Text>Arachnos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACK_PIT" Language="en_US">
+			<Text>Black Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BONERATTLAZ" Language="en_US">
+			<Text>Bonerattlaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACK_SPIDER" Language="en_US">
+			<Text>Black Spider</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALE_OF_WEBS" Language="en_US">
+			<Text>Vale of Webs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKVENOM" Language="en_US">
+			<Text>Blackvenom</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GROMOMFANGS" Language="en_US">
+			<Text>Gloomfangs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CREEPING_DEATH" Language="en_US">
+			<Text>Creeping Death</Text>
+		</Row>
+		<!-- SKAVEN-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_LORD_VERMINKIN" Language="en_US">
+			<Text>Lord Verminkin, Packlord of Moulders, is the current ruler of Clan Moulder and a member of the Council of Thirteen. Very little is known about Verminkin, but as the Lord of Moulder, he is possibly heavily mutated.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_QUEEK_HEADTAKER" Language="en_US">
+			<Text>Warlord Queek Headtaker, is the legendary and much-feared Lord of the City of Pillars, Great Warlord of Clan Mors and the personal right-claw of Warlord Gnawdwell, the one and true Grand Ruler of Clan Mors. Queek has been groomed by Gnawdwell from the moment of his birth to be the ultimate warrior, provided with the best armour and weapons, protecting him from the other Lords of Decay, and also staging assassination attempts to keep him on his toes.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_LORD_MORSKITTAR" Language="en_US">
+			<Text>Lord Morskittar, Emperor of Warlocks and Tinker-in-Chief, is the current ruler of Clan Skyre and a member of the Council of Thirteen. Even though he is considered the greatest Warlock-Engineer to have ever lived, very little is known about the Emperor of Warlocks, save perhaps that he extremely ancient, having been kept alive for long years by vats of life-giving fluids. In fact, Morskittar once claimed Skavenblight in its entirety, naming himself Emperor of all Skavendom during the start of the Second Skaven Civil War. Due to his long existence, much of the Clanlord's body has since been replaced with metal frame and tubing, making him appear more machine than rat.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_LORD_SKROLK" Language="en_US">
+			<Text>Lord Skrolk walks the world is an affront to nature and a sign of the power of the Great Horned Rat. Plants wither and die where Skrolk treads and the very air about him seems to congeal and darken, as if stained by his baleful presence. Skrolk is ancient, having existed many spans of even the most long-lived of his foul kind. Rather than weakening with age, he is possessed of a diabolic vitality that belies the years and the heaped diseases he carries. Indeed, he is bent and gnarled under the weight of countless corruptions.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKAVENBLIGHT" Language="en_US">
+			<Text>Skavenblight</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HELL_PIT" Language="en_US">
+			<Text>Hell Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CITY_OF_PILLARS" Language="en_US">
+			<Text>City of Pillars</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KARRAG_ORRUD" Language="en_US">
+			<Text>Karrag Orrud</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SCRAG_HOLE" Language="en_US">
+			<Text>Scrag Hole</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALTAR_OFTHE_HORNEDRAT" Language="en_US">
+			<Text>Altar of the Horned Rat</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOOM_GLADE" Language="en_US">
+			<Text>Doom Glade</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROOKBACK_MOUNTAIN" Language="en_US">
+			<Text>Crookback Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRIPPLE_PEAK" Language="en_US">
+			<Text>Cripple Peak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FESTER_SPIKE" Language="en_US">
+			<Text>Fester Spike</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_BLACK_CHASM" Language="en_US">
+			<Text>The Black Chasm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPINEPORT" Language="en_US">
+			<Text>Spineport</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKCLAW_LAIR" Language="en_US">
+			<Text>Blackclaw Lair</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FOUL_PEAK" Language="en_US">
+			<Text>Foul Peak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GNAW_PIT" Language="en_US">
+			<Text>Gnaw Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PUTRID_STUMP" Language="en_US">
+			<Text>Putrid Stump</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SEEP_GORE" Language="en_US">
+			<Text>Seep-Gore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEAD_RATS_PEAK" Language="en_US">
+			<Text>Dead Rats' Peak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FIRE_MOUNTAIN" Language="en_US">
+			<Text>Fire Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUNT_SILVERSPEAR" Language="en_US">
+			<Text>Mount Silverspear</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BITTER_SUMP" Language="en_US">
+			<Text>Bitter-Sump</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BONESTASH" Language="en_US">
+			<Text>Bonestash</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QUEEKWELL" Language="en_US">
+			<Text>Queekwell</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RICTUS_PIT" Language="en_US">
+			<Text>Rictus Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKAB_PIT" Language="en_US">
+			<Text>Skab Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SRUTEN_PIT" Language="en_US">
+			<Text>Sruten Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CARRION_PIT" Language="en_US">
+			<Text>Carrion Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FESTERLINGUS_PI" Language="en_US">
+			<Text>Festerlingus Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRITAK_PIT" Language="en_US">
+			<Text>Gritak Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KRIZZOR_PIT" Language="en_US">
+			<Text>Krizzor Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAKRIS_PIT" Language="en_US">
+			<Text>Makris Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MERKIT_PIT" Language="en_US">
+			<Text>Merkit Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RIKEK_PIT" Language="en_US">
+			<Text>Rikek Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKURVY_PIT" Language="en_US">
+			<Text>Skurvy Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKUTTLE_PIT" Language="en_US">
+			<Text>Skuttle Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SLEEKIT_PIT" Language="en_US">
+			<Text>Sleekit Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORDKIN_PIT" Language="en_US">
+			<Text>Mordkin Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SEPTIK_PIT" Language="en_US">
+			<Text>Septik Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPITTEL_PIR" Language="en_US">
+			<Text>Spittel Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FLEM_PIT" Language="en_US">
+			<Text>Flem Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EKTRIK_PIT" Language="en_US">
+			<Text>Ektrik Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FEESIK_PIT" Language="en_US">
+			<Text>Feesik Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GANGROUS_PIT" Language="en_US">
+			<Text>Gangrous Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRIBLOBE_PIT" Language="en_US">
+			<Text>Griblobe Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KREEPUS_PIT" Language="en_US">
+			<Text>Kreepus Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORBIDUS_PIT" Language="en_US">
+			<Text>Morbidus Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKULLY_PIT" Language="en_US">
+			<Text>Skully Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TREECHERIK_PIT" Language="en_US">
+			<Text>Treecherik Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VRRTKIN_PIT" Language="en_US">
+			<Text>Vrrtkin Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESHIN_PIT" Language="en_US">
+			<Text>Eshin Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUDLER_PIT" Language="en_US">
+			<Text>Moulder Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKYRE_PIT" Language="en_US">
+			<Text>Skyre Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PESTILENS_PIT" Language="en_US">
+			<Text>Pestilens Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORS_PIT" Language="en_US">
+			<Text>Mors Pit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UNDER_ALTDORF" Language="en_US">
+			<Text>Under-Altdorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UNDER_DELBERZ" Language="en_US">
+			<Text>Under-Delberz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UNDER_MIDDENHEIM" Language="en_US">
+			<Text>Under-Middenheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UNDER_NULN" Language="en_US">
+			<Text>Under-Nuln</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UNDER_MOUSILLON" Language="en_US">
+			<Text>Under-Mousillon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UNDER_TOBARO" Language="en_US">
+			<Text>Under-Tobaro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UNDER_MIRAGLIANO" Language="en_US">
+			<Text>Under-Miragliano</Text>
+		</Row>
+		<!-- VAMPIRE_COUNTS-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_MANNFRED_VON_CARSTEIN" Language="en_US">
+			<Text>Mannfred von Carstein is the most cunning and magically gifted Vampire of all of the von Carstein bloodline. Mannfred claims the hereditary title as the Vampire Count of Sylvania, a title that is only given to the first of his bloodline. Imbued with staggering magical power, Mannfred von Carstein has managed, through sheer ambition and willpower, to accumulate all the spells from the Lore of the Vampires and the Lore of Necromancy; having spent the better part of a century collecting these forbidden knowledge from the sand-encrusted libraries of ancient Nehekhara. Like many of his vampiric kind, Mannfred has led the armies of Sylvania to war on many occasions, his mastery of the necromantic arts sustaining his army far beyond their normal potential.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_VLAD_VON_CARSTEIN" Language="en_US">
+			<Text>Vlad von Carstein, was the first Vampire Count of Sylvania, and the founder of the Von Carstein bloodline. He was dreaded by many as the monster that has brought the darkness upon the lands of Sylvania after his marriage with Isabella von Drak, daughter of the late Imperial Count Otto von Drak. His bid for power, and the desire to rule the whole Empire as his own has ensured the total collapse of the Imperial province, as well as to herald the beginning of the first of the Vampire Wars from 2010 IC and onwards.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_NEFERATA" Language="en_US">
+			<Text>Neferata is the self-proclaimed Queen of Lahmia, the Queen of the Silver Pinnacle, the First of the Vampires, and the founder and head of the Lahmian Sisterhood. Queen Neferata is one of the most ancient and powerful Vampires to still exist within the world of today, owing much of her success to her own seductive beauty, a cunning demeanor and a secret network of exquisitely beautiful, female Vampire spies that has since infiltrated the aristocracy of all the Human kingdoms of the Old World.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLE_DRAKENHOF" Language="en_US">
+			<Text>Castle Drakenhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SENKEHOF" Language="en_US">
+			<Text>Senkehof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NACHTSCHLOSSE" Language="en_US">
+			<Text>Nachtschlosse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NACHTHAFEN" Language="en_US">
+			<Text>Nachthafen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WARTENHOF" Language="en_US">
+			<Text>Wartenhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_REGAKHOF" Language="en_US">
+			<Text>Regakhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MESSINGHOF" Language="en_US">
+			<Text>Messinghof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BAHLKURK" Language="en_US">
+			<Text>Bahlkurk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CARLSBRUCK" Language="en_US">
+			<Text>Carlsbruck</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VANHALDENHOF" Language="en_US">
+			<Text>Vanhaldenhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KONIGSTEIN" Language="en_US">
+			<Text>Königstein</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BYLORHOF" Language="en_US">
+			<Text>Bylorhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STOODHOF" Language="en_US">
+			<Text>Stoodhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAYLHOF" Language="en_US">
+			<Text>Maylhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MITTLENBURG" Language="en_US">
+			<Text>Mittlenburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SCHRAMLEBEN" Language="en_US">
+			<Text>Schramleben</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIGMARINGEN" Language="en_US">
+			<Text>Sigmaringen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BERNLOCH" Language="en_US">
+			<Text>Bernloch</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GIEHSELHOFF" Language="en_US">
+			<Text>Giehselhoff</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAUBONUM" Language="en_US">
+			<Text>Naubonum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LEICHEBERG" Language="en_US">
+			<Text>Leicheberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SILVER_PINNACLE" Language="en_US">
+			<Text>Silver Pinnacle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORT_BRACHER" Language="en_US">
+			<Text>Fort Bracher</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MARBURG" Language="en_US">
+			<Text>Marburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FALKENHAUSEN" Language="en_US">
+			<Text>Falkenhausen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIERSTEIN" Language="en_US">
+			<Text>Vierstein</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIEGFRIEDHOFF" Language="en_US">
+			<Text>Siegfriedhoff</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RATTENBURG" Language="en_US">
+			<Text>Rattenburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOURKHAIN" Language="en_US">
+			<Text>Mourkhain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAHMIA" Language="en_US">
+			<Text>Lahmia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SPRINGS_ETERNALLIFE" Language="en_US">
+			<Text>Springs of Eternal Life</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLE_DRACHENFELS" Language="en_US">
+			<Text>Castle Drachenfels</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CASTLE_BLACKSTONE" Language="en_US">
+			<Text>Castle Blackstone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STEUBEN" Language="en_US">
+			<Text>Steuben</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KANNITZ" Language="en_US">
+			<Text>Kannitz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PAPPENHEIM" Language="en_US">
+			<Text>Pappenheim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HARDENBURG" Language="en_US">
+			<Text>Hardenburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FALLBERG" Language="en_US">
+			<Text>Fallberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUTTEN" Language="en_US">
+			<Text>Hutten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIGSTADT" Language="en_US">
+			<Text>Brigstadt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AVERRIDGE" Language="en_US">
+			<Text>Averridge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HANKERN" Language="en_US">
+			<Text>Hankern</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PFAFBACH" Language="en_US">
+			<Text>Pfaffbach</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GALLERSCHLOSSE" Language="en_US">
+			<Text>Gallerschlosse</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FOLBURG" Language="en_US">
+			<Text>Folburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STOPLE" Language="en_US">
+			<Text>Stolpe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERHOF" Language="en_US">
+			<Text>Gerhof</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMPFDORF" Language="en_US">
+			<Text>Sumpfdorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MURIESTE" Language="en_US">
+			<Text>Murieste</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THYRNAN" Language="en_US">
+			<Text>Thyrnan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNDHAM" Language="en_US">
+			<Text>Hundham</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGLING" Language="en_US">
+			<Text>Egling</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VANHELTOR" Language="en_US">
+			<Text>Vanheltor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RADINAN" Language="en_US">
+			<Text>Radinan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BARRICHMERE" Language="en_US">
+			<Text>Barrichmere</Text>
+		</Row>
+		<!-- NORSCA-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_WULFRIK_THE_WANDERER" Language="en_US">
+			<Text>Wulfrik the Wanderer , known also as the Eternal Challenger, the Inescapable One and the World Walker, is the ultimate sea-faring warrior. A mighty giant of a man, clad in hulking plate and bedecked in the trophies of his many kills, Wulfrik travels the four corners of the world, seeking the greatest and most deadly warriors and beasts to bring them to battle and slaughter them as demanded by the Gods. One of the most devoted followers of Chaos to walk the earth, Wulfrik has made offerings of lords, kings, sea-serpents and dragons to his masters</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ICEDRAKE_FJORD" Language="en_US">
+			<Text>Icedrake Fjord</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIKSJOERSGSBERG" Language="en_US">
+			<Text>Viksjoergsberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ISKVARD" Language="en_US">
+			<Text>Iskvard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STEINVIK" Language="en_US">
+			<Text>Steinvik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HRAKORN" Language="en_US">
+			<Text>Hrakorn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FINNSVIK" Language="en_US">
+			<Text>Finnsvik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FJIRGARD" Language="en_US">
+			<Text>Fjirgard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TIURIVIK" Language="en_US">
+			<Text>Tiurivik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AROTHBORG" Language="en_US">
+			<Text>Arothborg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NOVGOBORG" Language="en_US">
+			<Text>Novgoborg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALDEIBORG" Language="en_US">
+			<Text>Aldeigborg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORKESTAAR" Language="en_US">
+			<Text>Morkestaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SWERBORG" Language="en_US">
+			<Text>Swerborg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GOTTBORG" Language="en_US">
+			<Text>Gottborg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SNAEGRVOLD" Language="en_US">
+			<Text>Snaegrvold</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SVARBLODGARD" Language="en_US">
+			<Text>Svarblodgard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_URSFJORD" Language="en_US">
+			<Text>Ursfjord</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FIELLJEBU" Language="en_US">
+			<Text>Fielljebu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKRAEVOLD" Language="en_US">
+			<Text>Skraevold</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NARBERG" Language="en_US">
+			<Text>Narberg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKYGGEHAUG" Language="en_US">
+			<Text>Skyggehaug</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STROMSTAAD" Language="en_US">
+			<Text>Stromstaad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUDERHOLM" Language="en_US">
+			<Text>Suderholm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKORLM" Language="en_US">
+			<Text>Skorlm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AARVIK" Language="en_US">
+			<Text>Aarvik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ULFSLAND" Language="en_US">
+			<Text>Ulfsland</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THORKAVIK" Language="en_US">
+			<Text>Thorkavik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KLEITBORG" Language="en_US">
+			<Text>Kleitborg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HINRIKSEN" Language="en_US">
+			<Text>Hinriksen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRAGNIR" Language="en_US">
+			<Text>Bragnir</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LONGSHIP_GRAVEYARD" Language="en_US">
+			<Text>Longship Graveyard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AESLIGNS_CONCLAVE" Language="en_US">
+			<Text>Aeslings Conclave</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WINTER_PYRE" Language="en_US">
+			<Text>Winter Pyre</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BAERSONLING_CAMP" Language="en_US">
+			<Text>Baersonling's Camp</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FROZEN_LANDING" Language="en_US">
+			<Text>Frozen Landing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_TOWER_OF_KHRAKK" Language="en_US">
+			<Text>The Tower of Khrakk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BJORNLINGS_GATHERING" Language="en_US">
+			<Text>Bjornlings Gathering</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TROLL_FJORD" Language="en_US">
+			<Text>Troll Fjord</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRAELING_MOOT" Language="en_US">
+			<Text>Graeling Moot</Text>
+		</Row>
+		<!-- WARRIORS_OF_CHAOS-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_ARCHAON" Language="en_US">
+			<Text>Archaon is the current Everchosen, Three-Eyed King and Lord of the End Times, and the self-proclaimed supreme champion of the four Gods of Chaos who was sent to command the last, and greatest Chaos Invasion during the apocalyptic age known simply as the End Times. Out of all the Everchosen of Chaos who have assailed the world over the ages, Archaon is by far the most ruthless and perhaps the most powerful. He is an individual that shall decide the fate of entire nations, whose sword can lay waste to heroes and armies and whose unbreakable will can break and dominate those of Gods. Archaon is truly the Herald of the Apocalypse, blessed with dreadful artifacts of ancient evil, each one bestowed as a reward for accomplishing impossible trials.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORTRESS_OFTHE_DAMNED" Language="en_US">
+			<Text>Fortress of the Damned</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOOMKEEP" Language="en_US">
+			<Text>Doomkeep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_INEVITABLE_CITY" Language="en_US">
+			<Text>Inevitable City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHAMON_DHAREK" Language="en_US">
+			<Text>Chamon Dharek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VINNSKOR" Language="en_US">
+			<Text>Vinnskor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DRIFTING_CASTLE" Language="en_US">
+			<Text>Drifting Castle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_FORBIDDEN_CITADEL" Language="en_US">
+			<Text>The Forbidden Citadel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_TOWER_OF_TORMENT" Language="en_US">
+			<Text>The Tower of Torment</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PILLAR_OF_SKULLS" Language="en_US">
+			<Text>Pillar of Skulls</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_BLEEDING_SPIRE" Language="en_US">
+			<Text>The Bleeding Spire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_WRITHING_FORTRESS" Language="en_US">
+			<Text>The Writhing Fortress</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_TOWER_OF_FLIES" Language="en_US">
+			<Text>The Tower of Flies</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_TWISTED_TOWERS" Language="en_US">
+			<Text>The Twisted Towers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_PALACE_OF_RUIN" Language="en_US">
+			<Text>The Palace of Ruin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PALACE_OF_PRINCES" Language="en_US">
+			<Text>Palace of Princes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KVELLIGS" Language="en_US">
+			<Text>Kvelligs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TONG" Language="en_US">
+			<Text>Tong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GHARHARS" Language="en_US">
+			<Text>Gharhars</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAHMAKS" Language="en_US">
+			<Text>Tahmaks</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HASTLINGS" Language="en_US">
+			<Text>Hastlings</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRAELINGS" Language="en_US">
+			<Text>Graelings</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VARGS" Language="en_US">
+			<Text>Vargs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AESLINGS" Language="en_US">
+			<Text>Aeslings</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BAERSONLINGS" Language="en_US">
+			<Text>Baersonlings</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKAELINGS" Language="en_US">
+			<Text>Skaelings</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SARKS" Language="en_US">
+			<Text>Sarks</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KURGAN" Language="en_US">
+			<Text>Kurgan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROWFANE" Language="en_US">
+			<Text>Crowfane</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOLGAN" Language="en_US">
+			<Text>Dolgan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HUNG" Language="en_US">
+			<Text>Hung</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ICEHORN_PEAK" Language="en_US">
+			<Text>Icehorn Peak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRON_WOLVES" Language="en_US">
+			<Text>Iron Wolves</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHAZAGS" Language="en_US">
+			<Text>Khazags</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_REAVERS" Language="en_US">
+			<Text>Red Reavers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SCYTHIAN" Language="en_US">
+			<Text>Scythian</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKARAMOR" Language="en_US">
+			<Text>Skaramor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VEIGS" Language="en_US">
+			<Text>Veigs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUNG" Language="en_US">
+			<Text>Mung</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AGHOL" Language="en_US">
+			<Text>Aghol</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRASS_KEEP" Language="en_US">
+			<Text>Brass Keep</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GOROMADNY" Language="en_US">
+			<Text>Goromadny</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HELSPIRE" Language="en_US">
+			<Text>Helspire</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAGLFARLINGS" Language="en_US">
+			<Text>Naglfarlings</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VANAHEIMLINGS" Language="en_US">
+			<Text>Vanaheimlings</Text>
+		</Row>
+		<!-- TOMB_KINGS-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SETTRA" Language="en_US">
+			<Text>Settra is the mighty and absolute sovereign ruler of all Nehekhara, an ancient and powerful warrior-king who ruled a large and powerful Empire some two-thousand five hundred years before the birth of the Barbarian Hero Sigmar Heldenhammer and the founding of the Empire of Man. Settra was one of the greatest and most warmongering Human ruler this world has ever known, having conquered, united and founded the Empire of Nehekhara through acts of unparalleled cruelty, arrogance, bloodshed and tyranny. The first and perhaps greatest Human Kingdom in history, the size and power of Nehekhara once stood as the shining beacon of all of Mankind.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHEMRI" Language="en_US">
+			<Text>Khemri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZANDRI" Language="en_US">
+			<Text>Zandri</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LYBARAS" Language="en_US">
+			<Text>Lybaras</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAHRAK" Language="en_US">
+			<Text>Mahrak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QUATAR" Language="en_US">
+			<Text>Quatar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RASETRA" Language="en_US">
+			<Text>Rasetra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NUMAS" Language="en_US">
+			<Text>Numas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KA_SABAR" Language="en_US">
+			<Text>Ka-Sabar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TESHERT" Language="en_US">
+			<Text>Teshert</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHUR" Language="en_US">
+			<Text>Ashur</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BEL_ALIAD" Language="en_US">
+			<Text>Bel Aliad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BHAGAR" Language="en_US">
+			<Text>Bhagar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MINA_IRQ" Language="en_US">
+			<Text>Mina Irq</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TIRZOR" Language="en_US">
+			<Text>Tirzor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHAYUK" Language="en_US">
+			<Text>Chayuk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HETTASHA" Language="en_US">
+			<Text>Hettasha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RHOTHIRA" Language="en_US">
+			<Text>Rhothira</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHANNEL_VALLEY" Language="en_US">
+			<Text>Charnel Valley</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORTIS_TARN" Language="en_US">
+			<Text>Mortis Tarn</Text>
+		</Row>
+		<!-- VAMPIRE_COAST-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_LUTHOR_HARKON" Language="en_US">
+			<Text>Originally a vampire from the Old World, Harkon's ship was attacked by Norscan pirates and blown off course, before running aground in Lustria. Luthor made the best of his fortune however, he murdered and zombified the remaining crew and found another ship. Now he sails the coasts of Lustria, hunting for treasure, raiding and making his bases in the region called The Vampire Coast.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VAMPIRE_COAST" Language="en_US">
+			<Text>Vampire Coast</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CITY_OFTHE_DEAD" Language="en_US">
+			<Text>City of the Dead</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_AWAKENING" Language="en_US">
+			<Text>The Awakening</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_GALLEONS_GRAVEYARD" Language="en_US">
+			<Text>The Galleon's Graveyard</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SARTOSA" Language="en_US">
+			<Text>Sartosa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PORT_REAVER" Language="en_US">
+			<Text>Port Reaver</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SWAMP_TOWN" Language="en_US">
+			<Text>Swamp Town</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAPRIO" Language="en_US">
+			<Text>Caprio</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OSSONMUNTE" Language="en_US">
+			<Text>Ossonmunte</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SENELITE" Language="en_US">
+			<Text>Senelite</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CARAGIO" Language="en_US">
+			<Text>Caragio</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BEFFARDO" Language="en_US">
+			<Text>Beffardo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RAGIL" Language="en_US">
+			<Text>Ragil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VERMUNTE" Language="en_US">
+			<Text>Vermunte</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VERCUSO" Language="en_US">
+			<Text>Vercuso</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREY_ROCK_POINT" Language="en_US">
+			<Text>Grey Rock Point</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_BLOOD_SWAMPS" Language="en_US">
+			<Text>The Blood Swamps</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONUMENT_OFTHE_MOON" Language="en_US">
+			<Text>Monument of the Moon</Text>
+		</Row>
+		<!-- LEGIONS_OF_NAGASH-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_NAGASH" Language="en_US">
+			<Text>Nagash is the ultimate personification of death and the undead, an ancient, evil being who sought to conquer this cruel, chaotic world and bring about an age of undeath that will rule for all eternity. Nagash is darkness and unreasoning hatred given form, the father and creator of foul Necromancy and lord of all Vampire-kind. His every actions and deeds is self-serving, his achievement horrific and loathsome, and his every whim are bent solely to ensure that no one shall ever deny nor challenge his right to rule ever again.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_ARKHAN_BLACK" Language="en_US">
+			<Text>Arkhan the Black, known now and forever as the Liche King, was the first and most loyal of the evil Nagash's followers. He helped lead the coup which brought the arch-necromancer to power, and he was the first, after his Lord, to imbibe the Elixir of Life. Arkhan was the most adept of Nagash's pupils in the study of dark sorcery, and he quickly rose to become the necromancer's trusted vizier and principal lieutenant. He led many armies against Nagash's enemies and was never defeated in open combat.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACK_PYRAMID_NAGASH" Language="en_US">
+			<Text>Black Pyramid of Nagash</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAGASHIZZAR" Language="en_US">
+			<Text>Nagashizzar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_BLACK_TOWER_ARKHAN" Language="en_US">
+			<Text>The Black Tower of Arkhan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WIZARD_CALIPH_PALACE" Language="en_US">
+			<Text>Wizard-Caliph's Palace</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LASHIEK" Language="en_US">
+			<Text>Lashiek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AL_HAIKK" Language="en_US">
+			<Text>Al-Haikk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_COPHER" Language="en_US">
+			<Text>Copher</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EL_KALABAD" Language="en_US">
+			<Text>El-Kalabad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MARTEK" Language="en_US">
+			<Text>Martek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BEL_ALAIK" Language="en_US">
+			<Text>Bel Alaik</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JABEL_ESNA" Language="en_US">
+			<Text>Jabel Esna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABU_HAMED" Language="en_US">
+			<Text>Abu Hamed</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GHAFSA" Language="en_US">
+			<Text>Ghafsa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARASSELMEN" Language="en_US">
+			<Text>Tarasselmen</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AL_QEHM" Language="en_US">
+			<Text>Al-Qehm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LUGASH" Language="en_US">
+			<Text>Lugash</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_QUNFUDA" Language="en_US">
+			<Text>Qunfuda</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MARIB" Language="en_US">
+			<Text>Marib</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASHDOD" Language="en_US">
+			<Text>Ashdod</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZUWARAH" Language="en_US">
+			<Text>Zuwarah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AL_BIRKAH" Language="en_US">
+			<Text>Al-Birkah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NEJAZ" Language="en_US">
+			<Text>Nejaz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAMBUKTA" Language="en_US">
+			<Text>Tambukta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAZERIM" Language="en_US">
+			<Text>Hazerim</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HADJOUR" Language="en_US">
+			<Text>Hadjout</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BASKRA" Language="en_US">
+			<Text>Baskra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SYMIRA" Language="en_US">
+			<Text>Symira</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EL_MANSURAH" Language="en_US">
+			<Text>El Mansurah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARGIGIL" Language="en_US">
+			<Text>Argigil</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MEKNES" Language="en_US">
+			<Text>Meknes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAHAREK" Language="en_US">
+			<Text>Maharek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SURAH" Language="en_US">
+			<Text>Surah</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KAMAN_SALA" Language="en_US">
+			<Text>Kaman Sala</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MENDAI" Language="en_US">
+			<Text>Mendai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ISTRABUL" Language="en_US">
+			<Text>Istrabul</Text>
+		</Row>
+		<!-- KISLEV-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_KATARIN_BOKHA" Language="en_US">
+			<Text>Tzarina Katarin Bokha, the Ice Queen of Kislev, is the current ruler of the Kingdom of Kislev and is known as one of the most powerful Ice Witch to have ever lived. From the icy fastness of her capital city of Kislev, the Ice Queen Katarin rules her land with an aloof majesty. She is the latest in a long line of Tzarinas descended from the ancient Khan-queens of the Gospodars, the powerful tribal group that migrated west centuries ago, and became the dominant peoples of what was to grow into the great nation that is Kislev.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KISLEV" Language="en_US">
+			<Text>Kislev</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORT_JAKOVA" Language="en_US">
+			<Text>Fort Jakova</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ERENGRAD" Language="en_US">
+			<Text>Erengrad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PRAAG" Language="en_US">
+			<Text>Praag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORT_OSTROSK" Language="en_US">
+			<Text>Fort Ostrosk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZAVASTRA" Language="en_US">
+			<Text>Zavastra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORT_STRAGHOV" Language="en_US">
+			<Text>Fort Straghov</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOLKSGRAD" Language="en_US">
+			<Text>Volksgrad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZOISHENK" Language="en_US">
+			<Text>Zoishenk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VITEVO" Language="en_US">
+			<Text>Vitevo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VOLTSARA" Language="en_US">
+			<Text>Voltsara</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KALINORA" Language="en_US">
+			<Text>Kalinora</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRINASGRAD" Language="en_US">
+			<Text>Irinasgrad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PTORSK" Language="en_US">
+			<Text>Ptorsk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARDKHA" Language="en_US">
+			<Text>Ardkha</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GERSLEV" Language="en_US">
+			<Text>Gerslev</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KYENOKA" Language="en_US">
+			<Text>Kyenoka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BELAVA" Language="en_US">
+			<Text>Belava</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UVETSYN" Language="en_US">
+			<Text>Uvetsyn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORT_KAMINSKI" Language="en_US">
+			<Text>Fort Kaminski</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZVENLILEV" Language="en_US">
+			<Text>Zvenlilev</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHEBOKOV" Language="en_US">
+			<Text>Chebokov</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BOLGASGRAD" Language="en_US">
+			<Text>Bolgasgrad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZHIDYRNA" Language="en_US">
+			<Text>Zhidyrna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZHEDEVKA" Language="en_US">
+			<Text>Zhedevka</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHOIKA" Language="en_US">
+			<Text>Choika</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GOROVNY" Language="en_US">
+			<Text>Gorovny</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHERNOZAVTRA" Language="en_US">
+			<Text>Chernozavtra</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EGOREVSK" Language="en_US">
+			<Text>Egorevsk</Text>
+		</Row>
+		<!-- OGRES_KINGDOMS-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_GREASUS_GOLDTOOTH" Language="en_US">
+			<Text>Overtyrant Greasus Goldtooth or to give him his formal title, Tradelord Greasus Tribestealer Drakecrush Gatecrasher Hoardmaster Goldtooth the Shockingly Obese, is the fattest and most powerful Ogre Tyrant within the entire Ogre Kingdoms and holds the current title of Overtyrant, the Tyrant of all Ogre Tyrants. Greasus was one of the many whelps sired by the infamous Gofg, Tyrant of the Goldtooth Tribe. Like his brothers, Greasus grew up to become strong and fat. However, unlike his brothers, he killed and ate his own father. After assuming the Tyranthood of his tribe, and feeling the need to prove himself, Greasus demanded tithes from other kingdoms.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREAT_HALL_OF_GREASUS" Language="en_US">
+			<Text>Great Hall of Greasus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKABRAND" Language="en_US">
+			<Text>Skabrand</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROCKGUTS" Language="en_US">
+			<Text>Rockguts</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKRAP_TOWERS" Language="en_US">
+			<Text>Skrap Towers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GNOBBY_GORGE" Language="en_US">
+			<Text>Gnobby Gorge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_MAW_GATE" Language="en_US">
+			<Text>The Maw Gate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHAMBLETOWN" Language="en_US">
+			<Text>Shambletown</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FALLEN_CITY" Language="en_US">
+			<Text>Fallen City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_HORN" Language="en_US">
+			<Text>The Horn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ICEPEWER" Language="en_US">
+			<Text>Icepewer</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACKFANG" Language="en_US">
+			<Text>Blackfang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FEASTMASTER" Language="en_US">
+			<Text>Feastmaster</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SABRESKIN" Language="en_US">
+			<Text>Sabreskin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRONSKIN" Language="en_US">
+			<Text>Ironskin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROCK_SKULLS" Language="en_US">
+			<Text>Rock Skulls</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUNEATERS" Language="en_US">
+			<Text>Suneaters</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKULLTAKERS" Language="en_US">
+			<Text>Skulltakers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUNTAINEATERS" Language="en_US">
+			<Text>Mountaineaters</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLOODY_FIST" Language="en_US">
+			<Text>Bloody Fist</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLOODMAW" Language="en_US">
+			<Text>Bloodmaw</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLOUDERCLUBS" Language="en_US">
+			<Text>Bloulderclubs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOOSE_TOOTH" Language="en_US">
+			<Text>Loose Tooth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BULGERS" Language="en_US">
+			<Text>Bulgers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FLESHGREEDERS" Language="en_US">
+			<Text>Fleshgreeders</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ANGRY_FIST" Language="en_US">
+			<Text>Angry Fist</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLOOD_GUZZLERS" Language="en_US">
+			<Text>Blood Guzzlers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CROSSED_CLUBS" Language="en_US">
+			<Text>Crossed Clubs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAZARGHS" Language="en_US">
+			<Text>Lazarghs</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GRABBERS" Language="en_US">
+			<Text>Grabbers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TREEHAMMERS" Language="en_US">
+			<Text>Treehammers</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEATHTOLL" Language="en_US">
+			<Text>Deathtoll</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKRAGGLEGUTS" Language="en_US">
+			<Text>Skraggleguts</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BOULDERBELLY" Language="en_US">
+			<Text>Boulderbelly</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SWAMP_EATER" Language="en_US">
+			<Text>Swamp Eater</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EYEBITER" Language="en_US">
+			<Text>Eyebiter</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RED_MAW" Language="en_US">
+			<Text>Red Maw</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PIGBARTER" Language="en_US">
+			<Text>Pigbarter</Text>
+		</Row>
+		<!-- CHAOS_DWARFS-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_ASTRAGOTH_IRONHAND" Language="en_US">
+			<Text>Astragoth Ironhand, High Priest of Hashut, is the oldest living Chaos Dwarf Sorcerer-Prophet. When he was at the height of his powers he was the most potent sorcerer to walk the Plain of Zharrduk in a thousand years. Now his powers have begun to wane. His body is slowly succumbing to petrification. A decade ago he constructed a mechanical device by which he is transported from place to place.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZHARR_NAGGRUND" Language="en_US">
+			<Text>Zharr-Naggrund</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLACK_FORTRESS" Language="en_US">
+			<Text>Black Fortress</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_UZKULAK" Language="en_US">
+			<Text>Uzkulak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DAEMONS_STUMP" Language="en_US">
+			<Text>Daemon's Stump</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOWER_OF_GORGOTH" Language="en_US">
+			<Text>Tower of Gorgoth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GASH_KADRAK" Language="en_US">
+			<Text>Gash Kadrak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FLAYED_ROCK" Language="en_US">
+			<Text>Flayed Rock</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORTRESS_OF_VORAG" Language="en_US">
+			<Text>Fortress of Vorag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_FATES_OF_ZHARR" Language="en_US">
+			<Text>The Fates of Zharr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PLAIN_OF_ZHARR" Language="en_US">
+			<Text>Plain of Zharr</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZORN_UZKUL" Language="en_US">
+			<Text>Zorn Uzkul</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SENTINELS" Language="en_US">
+			<Text>The Sentinels</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BLASTED_WASTES" Language="en_US">
+			<Text>Blasted Wastes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HOWLING_WASTES" Language="en_US">
+			<Text>Howling Wastes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PLAIN_OF_BONES" Language="en_US">
+			<Text>Plain of Bones</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SCALDED_DELTA" Language="en_US">
+			<Text>Scalded Delta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOLF_LANDS" Language="en_US">
+			<Text>Wolf Lands</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DESOLATION_OF_AZGORH" Language="en_US">
+			<Text>Desolation of Azgorh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ASH_RIDGE" Language="en_US">
+			<Text>Ash Ridge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MOUNT_GREY_HAG" Language="en_US">
+			<Text>Mount Grey Hag</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEADROCK_GAP" Language="en_US">
+			<Text>Deadrock Gap</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_RIB_PEAKS" Language="en_US">
+			<Text>The Rib Peaks</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DESOLATION_OF_DRAKENMOOR" Language="en_US">
+			<Text>Desolation of Drakenmoor</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GLOWING_CRATER" Language="en_US">
+			<Text>Glowing Crater</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUBBLING_PITS" Language="en_US">
+			<Text>Bubbling Pits</Text>
+		</Row>
+		<!-- HOBGOBLIN_EMPIRE-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_HOBGOBLA_KHAN" Language="en_US">
+			<Text>Hobgobla-Khan is the greatest Khan of the Hobgoblin Empire of the Eastern Steppes. His warriors are a major, ever-present threat for caravans, 90% of which never complete the Silk Road safely. It is said that when all the tribes loyal to Hobgobla-Khan are drawn up for battle, his horde extends from horizon to horizon.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GUHLAMGOBAAR" Language="en_US">
+			<Text>Guhlamgobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHENGAIGOBAAR" Language="en_US">
+			<Text>Khengaigobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHESHIGSGOBAAR" Language="en_US">
+			<Text>Kheshigsgobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GHAZAKGOBAAR" Language="en_US">
+			<Text>Ghazakgobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHEMURGOBAAR" Language="en_US">
+			<Text>Khemurgobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JUBLAIGOBAAR" Language="en_US">
+			<Text>Jublaigobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HOBGOBLAGOBAAR" Language="en_US">
+			<Text>Hobgoblagobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OBLAHGOBAAR" Language="en_US">
+			<Text>Oblahgobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORDUZGOBAAR" Language="en_US">
+			<Text>Gorduzgobaar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SNEAKY_GIT" Language="en_US">
+			<Text>Sneaky Git</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KORAKARAM" Language="en_US">
+			<Text>Korakaram</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BINGFANG" Language="en_US">
+			<Text>Bingfang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DA_MARG" Language="en_US">
+			<Text>Da M’arg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DUNYANG" Language="en_US">
+			<Text>Dunyang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHEN_PAO" Language="en_US">
+			<Text>Chen Pao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SA_MOU" Language="en_US">
+			<Text>Sa Mou</Text>
+		</Row>
+		<!-- CATHAY-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_XEN_HUONG" Language="en_US">
+			<Text>Emperor Xen Huong, who ruled around -2748 IC, is the ruler of the empire of Cathay, the largest human nation in the world. He rules over a vast empire of many different peoples and cultures and his subjects number untold millions. </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WEIJIN" Language="en_US">
+			<Text>Weijin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAN_GAU" Language="en_US">
+			<Text>Nan-Gau</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BEICHAI" Language="en_US">
+			<Text>Beichai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DONG_KOU" Language="en_US">
+			<Text>Dong Kou</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WANBAO" Language="en_US">
+			<Text>Wanbao</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YANGSHAN" Language="en_US">
+			<Text>Yangshan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHUNGCHENG" Language="en_US">
+			<Text>Chungcheng</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ANLO" Language="en_US">
+			<Text>Anlo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIAOPING" Language="en_US">
+			<Text>Xiaoping</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HSIJING" Language="en_US">
+			<Text>Hsijing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YUANJIN" Language="en_US">
+			<Text>Yuanjin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_YUNYING" Language="en_US">
+			<Text>Yunying</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIANBEI" Language="en_US">
+			<Text>Xianbei</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LOHAI" Language="en_US">
+			<Text>Lohai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FU_CHOW" Language="en_US">
+			<Text>Fu Chow</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAN_YI" Language="en_US">
+			<Text>Han-Yi</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NAN_GAUNG" Language="en_US">
+			<Text>Nan Gaung</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SUMUN" Language="en_US">
+			<Text>Sumun</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HSINCHU" Language="en_US">
+			<Text>Hsinchu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CA_LI" Language="en_US">
+			<Text>Ca Li</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HAI_KANG" Language="en_US">
+			<Text>Hai Kang</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WOJING" Language="en_US">
+			<Text>Wojing</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KWIJU" Language="en_US">
+			<Text>Kwiju</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CHIO_FAN" Language="en_US">
+			<Text>Chio Fan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HEYANG" Language="en_US">
+			<Text>Heyang</Text>
+		</Row>
+		<!-- DOGS_OF_WAR-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_BORGIO" Language="en_US">
+			<Text>Borgio, Prince of Miragliano, was once one of the greatest Mercenary General of his age. It was said that no Tilean city, not even the ingenious ramparts of Miragliano itself, could defy him. Borgio was certainly an expert tactician and won most of his battles. He was equally astute as a politician, but rather tyrannical.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIRAGLIANO" Language="en_US">
+			<Text>Miragliano</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LUCCINI" Language="en_US">
+			<Text>Luccini</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MAGRITTA" Language="en_US">
+			<Text>Magritta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VEREZZO" Language="en_US">
+			<Text>Verezzo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BILBALI" Language="en_US">
+			<Text>Bilbali</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PAVONA" Language="en_US">
+			<Text>Pavona</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TRANTIO" Language="en_US">
+			<Text>Trantio</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MYRMIDENS" Language="en_US">
+			<Text>Myrmidens</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AKENDORF" Language="en_US">
+			<Text>Akendorf</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_REMAS" Language="en_US">
+			<Text>Remas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOBARO" Language="en_US">
+			<Text>Tobaro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MATORCA" Language="en_US">
+			<Text>Matorca</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZVORAK" Language="en_US">
+			<Text>Zvorak</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALDENTE" Language="en_US">
+			<Text>Aldente</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PUGNO" Language="en_US">
+			<Text>Pugno</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RIFRAFFA" Language="en_US">
+			<Text>Rifraffa</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIZEAYA" Language="en_US">
+			<Text>Vizeaya</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALQUEZARO" Language="en_US">
+			<Text>Alquezaro</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BARBOZA" Language="en_US">
+			<Text>Barboza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NERJA" Language="en_US">
+			<Text>Nerja</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BELMOZ" Language="en_US">
+			<Text>Belmoz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONTENAS" Language="en_US">
+			<Text>Montenas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZARAGUZ" Language="en_US">
+			<Text>Zaraguz</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GUALCAZAR" Language="en_US">
+			<Text>Gualcazar</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALMAGORA" Language="en_US">
+			<Text>Almagora</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TOSCANIA" Language="en_US">
+			<Text>Toscania</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RAVOLA" Language="en_US">
+			<Text>Ravola</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VIADAZA" Language="en_US">
+			<Text>Viadaza</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_URBIMO" Language="en_US">
+			<Text>Urbimo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PORTOMAGGIORE" Language="en_US">
+			<Text>Portomaggiore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PAVEZZANO" Language="en_US">
+			<Text>Pavezzano</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MONTE_CASTELLO" Language="en_US">
+			<Text>Monte Castello</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARGALIS" Language="en_US">
+			<Text>Argalis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VARDANOS" Language="en_US">
+			<Text>Vardanos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAKORAS" Language="en_US">
+			<Text>Lakoras</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THESSOS" Language="en_US">
+			<Text>Thessos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KASOS" Language="en_US">
+			<Text>Kasos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ACHAES" Language="en_US">
+			<Text>Achaes</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HELDEGRAD" Language="en_US">
+			<Text>Heldegrad</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ALDIUMM" Language="en_US">
+			<Text>Aldiumm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAVANAL" Language="en_US">
+			<Text>Cavanal</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KHYPRIS" Language="en_US">
+			<Text>Khypris</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PALINAM" Language="en_US">
+			<Text>Palinam</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PHILANY" Language="en_US">
+			<Text>Philany</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BURKESBURG" Language="en_US">
+			<Text>Burkesburg</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MORTENSHOLM" Language="en_US">
+			<Text>Mortensholm</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SOMJEK" Language="en_US">
+			<Text>Somjek</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ZENRES" Language="en_US">
+			<Text>Zenres</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VITROLLE" Language="en_US">
+			<Text>Vitrolle</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIRSTADT" Language="en_US">
+			<Text>Mirstadt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BROVSKA" Language="en_US">
+			<Text>Brovska</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_STYRATIA" Language="en_US">
+			<Text>Styratia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MUNZIG" Language="en_US">
+			<Text>Munzig</Text>
+		</Row>
+		<!-- REALM_OF_CHAOS-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_BELAKOR" Language="en_US">
+			<Text>Be'lakor the Dark Master is the first Daemon Prince of Chaos. He is known by many names: the First Damned, the Harbinger, the One Who Heralds the Conquerors, the Foretoken and the Bearer are a just a number of examples.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_SKARBRAND" Language="en_US">
+			<Text>Skarbrand was once the greatest of all Khorne's Daemons. An eternity of battle in the Blood God's name had brought Skarbrand victories uncounted. It was he who tore down the gates of Slaanesh's first palace and visited ruin therein. It was he who led the eight Hosts of Murder to their triumph over the combined armies of the other Chaos Gods. In all the endless years of Khorne's existence, no other had piled so many skulls before the Skull Throne, or spilled the blood of so many warriors and innocents alike. Thus did Skarbrand enjoy Khorne's favour like no other, an honour which would eventually lead to his downfall from grace.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_KARIOS_FATEWEAVER" Language="en_US">
+			<Text>Kairos Fateweaver, the Keeper of the Destiny Scrolls, is perhaps the most powerful of his kind due to the actions of his master, the Changer of Ways, the Daemon now knowing every spell in existence, and every action before it's conceived. Ever since he clawed his way back from the Well of Eternity after years uncounted within its depths, Kairos can see things that are hidden even to Tzeentch.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_KUGATH" Language="en_US">
+			<Text>Ku'gath Plaguefather, known also as the Foetid Brewmaster, the Plagueweaver, and also as the Rotting Poxmaker, is one of the most favored of Nurgle's chosen. Whilst other Great Unclean Ones work to spread the plagues already extant, Ku'gath is fascinated by the breeding of new and virulent life. Ku'gath aims to one day breed a contagion that can infect the gods themselves. The Plaguefather prides himself upon his detachment. So absorbed is he in his search for the perfect plague, Ku'gath remains relatively untroubled by the shifting balance of power within the Realm of Chaos, yet this is not to say that the Plaguefather does not play his part in the Great Game. </Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_NKARI" Language="en_US">
+			<Text>N'Kari is a notorious Keeper of Secrets that can trace its origins to the Great Chaos Incursion that occurred during the time of the Old Ones, long ago. During that great struggle, the first Phoenix King Aenarion destroyed N'Kari's mortal form, banishing it back to the Realm of Chaos.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKULL_THRONE" Language="en_US">
+			<Text>Skull Throne</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IMPOSSIBLE_FORTRESS" Language="en_US">
+			<Text>Impossible Fortress</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MANSION_PLAGUE_LORD" Language="en_US">
+			<Text>Mansion of the Plague Lord</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PALACE_SLAANESH" Language="en_US">
+			<Text>Palace of Slaanesh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAIR_MAGGOT_LORD" Language="en_US">
+			<Text>Lair of the Maggot Lord</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAIR_THIRTEENTH_LORD" Language="en_US">
+			<Text>Lair of the Thirteenth Lord</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EYE_OF_TERROR" Language="en_US">
+			<Text>Eye of Terror</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRASS_CITADEL" Language="en_US">
+			<Text>Brass Citadel</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CITADEL_IRON_KNIGHT" Language="en_US">
+			<Text>Citadel of the Iron Knight</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GNAWHAME" Language="en_US">
+			<Text>Gnawhame</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MARCHER_FORTRESS" Language="en_US">
+			<Text>Marcher Fortress</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BASTION_STAIR" Language="en_US">
+			<Text>Bastion Stair</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EYRIE_OFTHE_WATCHER" Language="en_US">
+			<Text>Eyrie of the Watcher</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GARDEN_OF_BLIGHT" Language="en_US">
+			<Text>Garden of Blight</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VERMILLION_CAVERNS" Language="en_US">
+			<Text>Vermillion Caverns</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MIRAI" Language="en_US">
+			<Text>Mirai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREAT_BULWARK" Language="en_US">
+			<Text>Great Bulwark</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRYSTAL_LABYRINTH" Language="en_US">
+			<Text>Crystal Labyrinth</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TITAN_GRAVEYARDS" Language="en_US">
+			<Text>Titan Graveyards</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SLAANESH_MARCHES" Language="en_US">
+			<Text>Slaanesh Marches</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_RING_OF_DOOMY" Language="en_US">
+			<Text>Ring of Doomy</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OBSIDIAN_COUNCIL" Language="en_US">
+			<Text>Obsidian Council</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WYRMID_REACHES" Language="en_US">
+			<Text>Wyrmid Reaches</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SIX_CIRCLES_SEDUCTION" Language="en_US">
+			<Text>Six Circles of Seduction</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORGE_OF_SOULS" Language="en_US">
+			<Text>Forge of Souls</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ETERNITY_STAIR" Language="en_US">
+			<Text>Eternity Stair</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARGHUS_THE_PLAGUE_MOON" Language="en_US">
+			<Text>Arghus the Plague Moon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GROVE_DARK_MAIDEN" Language="en_US">
+			<Text>Grove of the Dark Maiden</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FORGE_OFTHE_EIGHT" Language="en_US">
+			<Text>Forge of the Eight</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FROZEN_MOON" Language="en_US">
+			<Text>Frozen Moon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ROTTEN_REACHES" Language="en_US">
+			<Text>Rotten Reaches</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CAUSEWAY_OF_SECRETS" Language="en_US">
+			<Text>Causeway of Secrets</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FOUNDRY_OF_RAGE" Language="en_US">
+			<Text>Foundry of Rage</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TRUE_LIAR_MONOLITH" Language="en_US">
+			<Text>True Liar's Monolith</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ABYSSAL_SUMP" Language="en_US">
+			<Text>Abyssal Sump</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BOILING_SPAN" Language="en_US">
+			<Text>Boiling Span</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SEVEN_STONES" Language="en_US">
+			<Text>Seven Stones</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SKULL_OFTHE_FIRST" Language="en_US">
+			<Text>Skull of the First</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_NINTH_LIBRARY" Language="en_US">
+			<Text>Ninth Library</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_OSSIFIED_HALLS" Language="en_US">
+			<Text>Ossified Halls</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MACHINA_DAEMONIUM" Language="en_US">
+			<Text>Machina Daemonium</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GREAT_TREE" Language="en_US">
+			<Text>Great Tree</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BUTCHERS_HAUNT" Language="en_US">
+			<Text>Butcher's Haunt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HEAVENWARD_HALLS" Language="en_US">
+			<Text>Heavenward Halls</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VALE_OF_CREATURES" Language="en_US">
+			<Text>Vale of Creatures</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRACKED_LAND" Language="en_US">
+			<Text>Cracked Land</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BRIDGE_OF_FOOLS" Language="en_US">
+			<Text>Bridge of Fools</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LAND_OF_THE_FORGOTTEN" Language="en_US">
+			<Text>Land of the Forgotten</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ETERNAL_SWAMPS" Language="en_US">
+			<Text>Eternal Swamps</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SHATTERED_CAUSEWAY" Language="en_US">
+			<Text>Shattered Causeway</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUNGUS_LANDS" Language="en_US">
+			<Text>Fungus Lands</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WRATHGATE" Language="en_US">
+			<Text>Wrathgate</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SLAYER_FORGE" Language="en_US">
+			<Text>Slayer Forge</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FIELDS_TOOTH_BONE" Language="en_US">
+			<Text>Fields of Tooth and Bone</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TREE_OF_SOULS" Language="en_US">
+			<Text>Tree of Souls</Text>
+		</Row>
+		<!-- ARABY-->
+		<Row Tag="LOC_LOADING_INFO_LEADER_SUTLAN_JAFFAR" Language="en_US">
+			<Text>Jaffar was a powerful sorcerer who in 1435 IC united Araby and ruled it as Sultan for fifteen years. Originally the lord of a small city state, Jaffar managed to unite the nomadic tribes of the desert using charisma and his ability to summon powerful beings know as Djinn.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ARJIJIL" Language="en_US">
+			<Text>Arjijil</Text>
+		</Row>
+		<!-- UNITS -->
+		<Row Tag="LOC_ABILITY_WHM_UNIT_DEFENSE_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_UNIT_BONUS_ATTACK_MELEE_RANGED_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. melee and ranged units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_DREADSPEARS_NEIGHBOR_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength if there is at least one adjacent Dreadspear unit.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_UNIT_BONUS_AGAINST_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength vs. cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_DEFENSE_BONUS_VS_RANGED_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending vs. ranged attacks.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_DEFENSE_ON_WOODS_JUNGLES_HILLS_MARSH_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending in Woods, Jungle, Hills, or Marsh.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_BONUS_VS_FORTIFIED_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength vs. fortified defender.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_BONUS_VS_DAMAGED_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_BONUS_VS_LAND_UNITS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Ranged] Ranged Strength vs. land units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CLANRATS_NEIGHBOR_COMBAT_DESCRIPTION" Language="en_US">
+			<Text>+8 [ICON_Strength] Combat Strength if there is at least one adjacent Clanrat unit.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_BONUS_VS_ANTI_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. anti-cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_RAIDER_BONUS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength vs. units in districts.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_DEFENSE_BONUS_VS_MELEE_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength when defending vs. melee class units.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_RELIGION_COMBAT_MODIFIER_DESCRIPTION" Language="en_US">
+			<Text>+6 vs. civilizations following another Religion.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_WHM_BONUS_VS_DISTRICTS_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength vs. district defenses.</Text>
+		</Row>
+		<!--
+
+		-->
+	</LocalizedText>
+
+<!--	
+ Crookback Mountain(Clan Rictus), Fire Mountain (Clan Volkn),  Mount Silverspear(Clan Krizzor), Spineport (Clan Skurvy), Bitter-Sump (Clan Scruten),, Karak Varn (Clan Ferrik), 
+-->
+</GameData>

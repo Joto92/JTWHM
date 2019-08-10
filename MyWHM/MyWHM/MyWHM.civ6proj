@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>JT: Warhammer Mod</Name>
+    <Guid>102813e8-f9e8-4bbd-8208-10571f392b1d</Guid>
+    <ProjectGuid>4a18d97f-17c5-402b-a285-45831103a218</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Warhammer Mod.</Teaser>
+    <Description>Play the civilizations of the Warhammer World</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <InGameActionData><![CDATA[
+        <InGameActions>
+            <UpdateDatabase id="Gameplay">
+              <File>MyWHM_Civs.xml</File>
+              <File>MyWHM_Leaders.xml</File>
+              <File>MyWHM_Buildings.xml</File>
+              <File>MyWHM_Units.xml</File>
+              <File>MyWHM_UnitsAbilities.xml</File>
+              <File>MyWHM_Colors.xml</File>
+              <File>MyWHM_Improvements.xml</File>
+              <File>MyWHM_CityStates.xml</File>
+              <File>MyWHM_Religions.xml</File>
+              <File>MyWHM_Wonders.xml</File>
+            </UpdateDatabase>
+            <UpdateDatabase id="UsingExpansion2">
+              <Criteria>Expansion2</Criteria>
+              <File>MyWHM_Expansion2.xml</File>
+            </UpdateDatabase>
+            <UpdateText id="Text">
+              <File>MyWHM_ConfigText.xml</File>
+              <File>MyWHM_Text.xml</File>
+              <File>MyWHM_Civilopedia.xml</File>
+            </UpdateText>
+            <UpdateIcons id="Icons">
+              <File>MyWHM_Icons.xml</File>
+            </UpdateIcons>
+            <UpdateArt id="Art">
+              <File>(Mod Art Dependency File)</File>
+            </UpdateArt>
+        </InGameActions>
+      ]]></InGameActionData>
+    <FrontEndActionData><![CDATA[
+        <FrontEndActions>
+          <UpdateDatabase id="Config">
+            <File>MyWHM_Config.xml</File>
+          </UpdateDatabase>
+          <UpdateText id="ConfigText">
+            <File>MyWHM_ConfigText.xml</File>
+          </UpdateText>
+          <UpdateIcons id="ConfigIcons">
+            <File>MyWHM_Icons.xml</File>
+          </UpdateIcons>
+          <UpdateArt id="ConfigArt">
+            <File>(Mod Art Dependency File)</File>
+          </UpdateArt>
+        </FrontEndActions>
+      ]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[
+      <ActionCriteria>
+        <Criteria id="Expansion2">
+          <GameCoreInUse>Expansion2</GameCoreInUse>
+        </Criteria>
+      </ActionCriteria>
+    ]]></ActionCriteriaData>
+    <SpecialThanks>Games Workshop and The Creative Assembly</SpecialThanks>
+    <AssemblyName>MyWHM</AssemblyName>
+    <RootNamespace>MyWHM</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="MyWHM_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyWHM_UnitsAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyWHM_Wonders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\MyIcons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="MyWHM_CityStates.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyWHM_Civilopedia.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyWHM_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyWHM_Config.xml" />
+    <Content Include="MyWHM_ConfigText.xml" />
+    <Content Include="MyWHM_Civs.xml" />
+    <Content Include="MyWHM_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyWHM_Icons.xml" />
+    <Content Include="MyWHM_Improvements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyWHM_Leaders.xml" />
+    <Content Include="MyWHM_Buildings.xml" />
+    <Content Include="MyWHM_Religions.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MyWHM_Text.xml" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="MyWHM.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

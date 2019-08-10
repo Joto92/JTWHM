@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="MyIcons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="MyWHMFlags22"/>
+			<m_ObjectName text="MyWHMFlags22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags30"/>
+			<m_ObjectName text="MyWHMFlags30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags32"/>
+			<m_ObjectName text="MyWHMFlags32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags36"/>
+			<m_ObjectName text="MyWHMFlags36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags44"/>
+			<m_ObjectName text="MyWHMFlags44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags45"/>
+			<m_ObjectName text="MyWHMFlags45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags48"/>
+			<m_ObjectName text="MyWHMFlags48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags50"/>
+			<m_ObjectName text="MyWHMFlags50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags64"/>
+			<m_ObjectName text="MyWHMFlags64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags80"/>
+			<m_ObjectName text="MyWHMFlags80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlags256"/>
+			<m_ObjectName text="MyWHMFlags256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra22"/>
+			<m_ObjectName text="MyWHMFlagsExtra22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra30"/>
+			<m_ObjectName text="MyWHMFlagsExtra30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra32"/>
+			<m_ObjectName text="MyWHMFlagsExtra32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra36"/>
+			<m_ObjectName text="MyWHMFlagsExtra36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra44"/>
+			<m_ObjectName text="MyWHMFlagsExtra44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra45"/>
+			<m_ObjectName text="MyWHMFlagsExtra45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra48"/>
+			<m_ObjectName text="MyWHMFlagsExtra48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra50"/>
+			<m_ObjectName text="MyWHMFlagsExtra50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra64"/>
+			<m_ObjectName text="MyWHMFlagsExtra64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra80"/>
+			<m_ObjectName text="MyWHMFlagsExtra80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra256"/>
+			<m_ObjectName text="MyWHMFlagsExtra256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMLeaders32"/>
+			<m_ObjectName text="MyWHMLeaders32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMLeaders45"/>
+			<m_ObjectName text="MyWHMLeaders45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMLeaders48"/>
+			<m_ObjectName text="MyWHMLeaders48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMLeaders50"/>
+			<m_ObjectName text="MyWHMLeaders50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMLeaders55"/>
+			<m_ObjectName text="MyWHMLeaders55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMLeaders64"/>
+			<m_ObjectName text="MyWHMLeaders64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMLeaders80"/>
+			<m_ObjectName text="MyWHMLeaders80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMLeaders256"/>
+			<m_ObjectName text="MyWHMLeaders256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units256"/>
+			<m_ObjectName text="MyWHM_Units256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units80"/>
+			<m_ObjectName text="MyWHM_Units80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units50"/>
+			<m_ObjectName text="MyWHM_Units50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units38"/>
+			<m_ObjectName text="MyWHM_Units38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units32"/>
+			<m_ObjectName text="MyWHM_Units32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units22"/>
+			<m_ObjectName text="MyWHM_Units22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units256_FOW"/>
+			<m_ObjectName text="MyWHM_Units256_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units80_FOW"/>
+			<m_ObjectName text="MyWHM_Units80_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units50_FOW"/>
+			<m_ObjectName text="MyWHM_Units50_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units38_FOW"/>
+			<m_ObjectName text="MyWHM_Units38_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units32_FOW"/>
+			<m_ObjectName text="MyWHM_Units32_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHM_Units22_FOW"/>
+			<m_ObjectName text="MyWHM_Units22_FOW"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMPotraits256"/>
+			<m_ObjectName text="MyWHMPotraits256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMPotraits200"/>
+			<m_ObjectName text="MyWHMPotraits200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMPotraits95"/>
+			<m_ObjectName text="MyWHMPotraits95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMPotraits70"/>
+			<m_ObjectName text="MyWHMPotraits70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMPotraits50"/>
+			<m_ObjectName text="MyWHMPotraits50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMPotraits38"/>
+			<m_ObjectName text="MyWHMPotraits38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMSecondPotraits256"/>
+			<m_ObjectName text="MyWHMSecondPotraits256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMSecondPotraits200"/>
+			<m_ObjectName text="MyWHMSecondPotraits200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMSecondPotraits95"/>
+			<m_ObjectName text="MyWHMSecondPotraits95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMSecondPotraits70"/>
+			<m_ObjectName text="MyWHMSecondPotraits70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMSecondPotraits50"/>
+			<m_ObjectName text="MyWHMSecondPotraits50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMSecondPotraits38"/>
+			<m_ObjectName text="MyWHMSecondPotraits38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMBuildings256"/>
+			<m_ObjectName text="MyWHMBuildings256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMBuildings128"/>
+			<m_ObjectName text="MyWHMBuildings128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMBuildings80"/>
+			<m_ObjectName text="MyWHMBuildings80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMBuildings70"/>
+			<m_ObjectName text="MyWHMBuildings70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMBuildings50"/>
+			<m_ObjectName text="MyWHMBuildings50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMBuildings38"/>
+			<m_ObjectName text="MyWHMBuildings38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMBuildings32"/>
+			<m_ObjectName text="MyWHMBuildings32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMBuildings22"/>
+			<m_ObjectName text="MyWHMBuildings22"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

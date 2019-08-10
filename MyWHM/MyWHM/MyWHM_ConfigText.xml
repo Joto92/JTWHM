@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- BRETONNIA -->
+		<Row Tag="LOC_CIVILIZATION_BRETONNIA_NAME" Language="en_US">
+			<Text>Bretonnia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_BRETONNIA_DESCRIPTION" Language="en_US">
+			<Text>Kingdom of Bretonnia</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_BRETONNIA_ADJECTIVE" Language="en_US">
+			<Text>Bretonnian</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LOUEN_LEONCOEUR_NAME" Language="en_US">
+			<Text>Louen Leoncoeur</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BLESSING_OFTHE_LADY_NAME" Language="en_US">
+			<Text>Blessing of the Lady</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BLESSING_OFTHE_LADY_DESCRIPTION" Language="en_US">
+			<Text>Your [ICON_TradeRoute] Trade Routes to other civilizations provide +2 [ICON_Gold] Gold and +2 [ICON_Culture] Culture for Bretonnia. Other civilizations' [ICON_TradeRoute] Trade Routes to Bretonnia provide +2 [ICON_Food] Food for them and +2 [ICON_Gold] Gold for Bretonnia. Opposing civilizations receive double the war weariness for fighting against Bretonnia.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_LIONHEARTED_NAME" Language="en_US">
+			<Text>The Lionhearted</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_LIONHEARTED_DESCRIPTION" Language="en_US">
+			<Text>One extra Wildcard policy slot in any government.</Text>
+		</Row>
+		<!-- EMPIRE_OFMAN -->
+		<Row Tag="LOC_CIVILIZATION_EMPIRE_OFMAN_NAME" Language="en_US">
+			<Text>Empire of Man</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_EMPIRE_OFMAN_DESCRIPTION" Language="en_US">
+			<Text>Empire of Man</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_EMPIRE_OFMAN_ADJECTIVE" Language="en_US">
+			<Text>Imperial</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KARL_FRANZ_NAME" Language="en_US">
+			<Text>Karl Franz</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EMPIRE_OFSIGMAR_NAME" Language="en_US">
+			<Text>Empire of Sigmar</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EMPIRE_OFSIGMAR_DESCRIPTION" Language="en_US">
+			<Text>Each city can build one more district than usual (exceeding the normal limit based on [ICON_Citizen] Population). +5% [ICON_Culture] Culture per city-state you are the Suzerain of.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SIGMARS_HEIRS_NAME" Language="en_US">
+			<Text>Sigmar’s Heirs</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SIGMARS_HEIRS_DESCRIPTION" Language="en_US">
+			<Text>Units receive a +7 [ICON_Strength] Combat Strength on their home continent.</Text>
+		</Row>
+		<!-- DARK_ELVES -->
+		<Row Tag="LOC_CIVILIZATION_DARK_ELVES_NAME" Language="en_US">
+			<Text>Dark Elves</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DARK_ELVES_DESCRIPTION" Language="en_US">
+			<Text>Dark Elves</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DARK_ELVES_ADJECTIVE" Language="en_US">
+			<Text>Dark Elf</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_MALEKITH_NAME" Language="en_US">
+			<Text>Malekith</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DRUCHII_NAME" Language="en_US">
+			<Text>Druchii</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DRUCHII_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide [ICON_Faith] Faith and  [ICON_Gold] Gold equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit. Luxury resources in his territory provide an Amenity to 2 extra cities. Units gain the ability to enter Ocean tiles after researching the Shipbuilding technology.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WITCHKING_NAGGAROTH_NAME" Language="en_US">
+			<Text>Witch King of Naggaroth</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WITCHKING_NAGGAROTH_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when fighting on a continent other that your [ICON_Capital] Capital's.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CRONE_HELLEBRON_NAME" Language="en_US">
+			<Text>Crone Hellebron</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BLOOD_QUEEN_NAME" Language="en_US">
+			<Text>Blood Queen</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BLOOD_QUEEN_DESCRIPTION" Language="en_US">
+			<Text>The worship building for Arabia's chosen religion costs less, and produces bonus Science, Faith, and Culture.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_MORATHI_NAME" Language="en_US">
+			<Text>Morathi</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAG_SORCERESS_NAME" Language="en_US">
+			<Text>Hag Sorceress</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAG_SORCERESS_DESCRIPTION" Language="en_US">
+			<Text>Receive an extra Wildcard policy slot no matter which government is chosen.</Text>
+		</Row>
+		<!-- ULTHUAN -->
+		<Row Tag="LOC_CIVILIZATION_ULTHUAN_NAME" Language="en_US">
+			<Text>Ulthuan</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ULTHUAN_DESCRIPTION" Language="en_US">
+			<Text>Kingdoms of Ulthuan</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ULTHUAN_ADJECTIVE" Language="en_US">
+			<Text>High Elf</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_FINUBAR_NAME" Language="en_US">
+			<Text>Finubar</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ASUR_NAME" Language="en_US">
+			<Text>Asur</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ASUR_DESCRIPTION" Language="en_US">
+			<Text>This worship building is enhanced to add 10% to the [ICON_Science] Science, [ICON_Faith] Faith, and [ICON_Culture] Culture output of Ulthuan cities. Campus gives 1 [ICON_Science] Science per adjacency to Coast. Units gain the ability to enter Ocean tiles after researching the Shipbuilding technology.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PHOENIX_KING_NAME" Language="en_US">
+			<Text>Phoenix King</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PHOENIX_KING_DESCRIPTION" Language="en_US">
+			<Text>After recruiting or patronizing a [ICON_GreatPerson] Great Person, 20% of its [ICON_GreatPerson] Great Person point cost is refunded.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PRINCE_TYRION_NAME" Language="en_US">
+			<Text>Prince Tyrion</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DEFENDER_OF_ULTHUAN_NAME" Language="en_US">
+			<Text>Defender of Ulthuan</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DEFENDER_OF_ULTHUAN_DESCRIPTION" Language="en_US">
+			<Text>After recruiting or patronizing a [ICON_GreatPerson] Great Person, 20% of its [ICON_GreatPerson] Great Person point cost is refunded.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TECLIS_NAME" Language="en_US">
+			<Text>Teclis</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WARDEN_WHITE_TOWER_NAME" Language="en_US">
+			<Text>Warden of the White Tower</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WARDEN_WHITE_TOWER_DESCRIPTION" Language="en_US">
+			<Text>Trade Routes between continents give additional yields. Builds Campus districts in half the time.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ALARIELLE_RADIANT_NAME" Language="en_US">
+			<Text>Alarielle the Radiant</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EVERQUEEN_NAME" Language="en_US">
+			<Text>Everqueen</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EVERQUEEN_DESCRIPTION" Language="en_US">
+			<Text>Receive a Faith boost for each civilization you have met that has founded a religion and with whom you are not at war. Holy Sites gives +1 [ICON_Faith] Faith per adjacency to Coast.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ALITH_ANAR_NAME" Language="en_US">
+			<Text>Alith Anar</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SHADOW_KING_NAME" Language="en_US">
+			<Text>Shadow King</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SHADOW_KING_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when fighting on a continent other that your [ICON_Capital] Capital's.</Text>
+		</Row>
+		<!-- WOOD_ELVES -->
+		<Row Tag="LOC_CIVILIZATION_WOOD_ELVES_NAME" Language="en_US">
+			<Text>Wood Elves</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WOOD_ELVES_DESCRIPTION" Language="en_US">
+			<Text>Athel Loren</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WOOD_ELVES_ADJECTIVE" Language="en_US">
+			<Text>Wood Elf</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ORION_NAME" Language="en_US">
+			<Text>Orion</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ASRAI_NAME" Language="en_US">
+			<Text>Asrai</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ASRAI_DESCRIPTION" Language="en_US">
+			<Text>Forest tiles provide +1 adjacency bonus for Holy Site, and Theater Square districts. +1 Appeal to all tiles in a city with a National Park.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MASTER_OFTHE_WILDHUNT_NAME" Language="en_US">
+			<Text>Master of the Wild Hunt</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_MASTER_OFTHE_WILDHUNT_DESCRIPTION" Language="en_US">
+			<Text>All units gains additional +5 [ICON_Strength] when fighting in Forest and cannot be seen in the woods. Woods and Rainforest without [ICON_Movement] Movement penalty.</Text>
+		</Row>
+		<!-- WHM_DWARVES -->
+		<Row Tag="LOC_CIVILIZATION_WHM_DWARVES_NAME" Language="en_US">
+			<Text>The Dwarfs</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WHM_DWARVES_DESCRIPTION" Language="en_US">
+			<Text>The Dwarfs</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WHM_DWARVES_ADJECTIVE" Language="en_US">
+			<Text>Dwarfs</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_THORGRIM_GRUDGEBEARER_NAME" Language="en_US">
+			<Text>Thorgrim Grudgebearer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DAWI_NAME" Language="en_US">
+			<Text>Dawi</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DAWI_DESCRIPTION" Language="en_US">
+			<Text>Industrials Zones gains 1 [ICON_Production] Production if they are next to a Mountain. All mines gives 1 [ICON_Gold] Gold, 1 [ICON_Production] Production.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HIGH_KING_OFTHE_DWARFS_NAME" Language="en_US">
+			<Text>High King of the Dwarfs</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HIGH_KING_OFTHE_DWARFS_DESCRIPTION" Language="en_US">
+			<Text>When fighting a Join War, Sumerian units share pillage rewards and combat experience with the nearest allied unit within 5 tiles. +3 Influence points per turn toward earning city-state [ICON_Envoy] Envoys.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_BELEGAR_IRONHAMMER_NAME" Language="en_US">
+			<Text>Belegar Ironhammer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_TRUE_KING_KARAK_EIGHT_NAME" Language="en_US">
+			<Text>True King of Karak Eight Peaks</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_TRUE_KING_KARAK_EIGHT_DESCRIPTION" Language="en_US">
+			<Text>Additional Military policy slot. Clearing a barbarian camp also grants a tribal village reward.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_UNGRIM_IRONFIST_NAME" Language="en_US">
+			<Text>Belegar Ironhammer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SLAYER_KING_NAME" Language="en_US">
+			<Text>True King of Karak Eight Peaks</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SLAYER_KING_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength on hills.</Text>
+		</Row>
+		<!-- LIZARDMEN -->
+		<Row Tag="LOC_CIVILIZATION_LIZARDMEN_NAME" Language="en_US">
+			<Text>Lizardmen</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIZARDMEN_DESCRIPTION" Language="en_US">
+			<Text>Lizardmen</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LIZARDMEN_ADJECTIVE" Language="en_US">
+			<Text>Lizardmen</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LORD_MAZDAMUNDI_NAME" Language="en_US">
+			<Text>Lord Mazdamundi</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CHILDREN_OFTHE_GODS_NAME" Language="en_US">
+			<Text>Children of the Gods</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CHILDREN_OFTHE_GODS_DESCRIPTION" Language="en_US">
+			<Text>Rainforest tiles provide +1 adjacency bonus for Campus, Commercial Hub, Holy Site, and Theater Square districts. Rainforest tiles provide +1 [ICON_Housing] Housing for Neighborhoods built adjacent to them.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LORD_OFTHE_SOLARCITY_NAME" Language="en_US">
+			<Text>Lord of the Solar-City</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LORD_OFTHE_SOLARCITY_DESCRIPTION" Language="en_US">
+			<Text>[ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide 60% of civics and technologies instead of 50%.</Text>
+		</Row>
+		<!-- GREENSKIN -->
+		<Row Tag="LOC_CIVILIZATION_GREENSKIN_NAME" Language="en_US">
+			<Text>Greenskins</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_GREENSKIN_DESCRIPTION" Language="en_US">
+			<Text>Greenskins</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_GREENSKIN_ADJECTIVE" Language="en_US">
+			<Text>Greenskin</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_GRIMGOR_NAME" Language="en_US">
+			<Text>Grimgor Ironhide</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SCOURGE_OFALL_CIVS_NAME" Language="en_US">
+			<Text>Scourge of all civilisations</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SCOURGE_OFALL_CIVS_DESCRIPTION" Language="en_US">
+			<Text>Luxury resources in his territory provide an [ICON_Amenities] Amenity to 2 extra cities. Military units receive +1 [ICON_Strength] Combat Strength for each different Luxury resource improved in Greenskin lands.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREEN_SLAUGHTERER_NAME" Language="en_US">
+			<Text>Green Slaughterer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREEN_SLAUGHTERER_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide [ICON_Culture] Culture and [ICON_Gold] Gold equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SKARSNIK_NAME" Language="en_US">
+			<Text>Skarsnik</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CROOKED_MOON_NAME" Language="en_US">
+			<Text>Crooked Moon Tribe</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CROOKED_MOON_DESCRIPTION" Language="en_US">
+			<Text>Industrials Zones gains 1 [ICON_Production] Production if they are next to a Mountain. All mines gives 1 [ICON_Food] Food, 1 [ICON_Production] Production.</Text>
+		</Row>
+		<!-- SKAVEN -->
+		<Row Tag="LOC_CIVILIZATION_SKAVEN_NAME" Language="en_US">
+			<Text>Skaven</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SKAVEN_DESCRIPTION" Language="en_US">
+			<Text>Skaven</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SKAVEN_ADJECTIVE" Language="en_US">
+			<Text>Skaven</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LORD_VERMINKIN_NAME" Language="en_US">
+			<Text>Lord Verminkin</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CHILDREN_OFTHE_HORNETRAT_NAME" Language="en_US">
+			<Text>Children of the Horned Rat</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CHILDREN_OFTHE_HORNETRAT_DESCRIPTION" Language="en_US">
+			<Text>All units receive +5 [ICON_Strength] Combat Strength when attacking wounded units. Builders receive an additional charge. Accumulate 60% less war weariness than usual.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CLAN_MOULDER_NAME" Language="en_US">
+			<Text>Clan Moulder</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CLAN_MOULDER_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength for all melee units. Encampments gains +1 [ICON_Science] Science if they are next to a Mountain.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_QUEEK_HEADTAKER_NAME" Language="en_US">
+			<Text>Queek Headtaker</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CLAN_MORS_NAME" Language="en_US">
+			<Text>Clan Mors</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CLAN_MORS_DESCRIPTION" Language="en_US">
+			<Text>Additional Military policy slot. +7 [ICON_Strength] Combat Strength when attacking city-states.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LORD_MORSKITTAR_NAME" Language="en_US">
+			<Text>Lord Morskittar</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CLAN_SKYRE_NAME" Language="en_US">
+			<Text>Clan Skyre</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CLAN_SKYRE_DESCRIPTION" Language="en_US">
+			<Text>Industrials Zones gains 1 [ICON_Production] Production and 1 [ICON_Science] Science if they are next to a Mountain.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LORD_SKROLK_NAME" Language="en_US">
+			<Text>Lord Skrolk</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CLAN_PESTILENS_NAME" Language="en_US">
+			<Text>Clan Pestilens</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CLAN_PESTILENS_DESCRIPTION" Language="en_US">
+			<Text>-5 [ICON_Strength] Combat Strength for all adjacent enemy units.</Text>
+		</Row>
+		<!-- VAMPIRE_COUNTS -->
+		<Row Tag="LOC_CIVILIZATION_VAMPIRE_COUNTS_NAME" Language="en_US">
+			<Text>Vampire Counts</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_VAMPIRE_COUNTS_DESCRIPTION" Language="en_US">
+			<Text>Vampire Counts</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_VAMPIRE_COUNTS_ADJECTIVE" Language="en_US">
+			<Text>Vampire</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_MANNFRED_VON_CARSTEIN_NAME" Language="en_US">
+			<Text>Mannfred Von Carstein</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNHOLY_BLOOD_NAME" Language="en_US">
+			<Text>Unholy Blood</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNHOLY_BLOOD_DESCRIPTION" Language="en_US">
+			<Text>All units receive +5 [ICON_Strength] Combat Strength when attacking wounded units. When they eliminate a unit, they heal up to 50 hit points.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_ACOLYTE_NAME" Language="en_US">
+			<Text>The Acolyte</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_ACOLYTE_DESCRIPTION" Language="en_US">
+			<Text>One extra Wildcard policy slot in any government.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_VLAD_VON_CARSTEIN_NAME" Language="en_US">
+			<Text>Vlad von Carstein</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_VASHANESH_NAME" Language="en_US">
+			<Text>Vashanesh</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_VASHANESH_DESCRIPTION" Language="en_US">
+			<Text>All their units do not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_NEFERATA_NAME" Language="en_US">
+			<Text>Neferata</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BEAUTIFUL_DEATH_NAME" Language="en_US">
+			<Text>Beautiful Death</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BEAUTIFUL_DEATH_DESCRIPTION" Language="en_US">
+			<Text>Has 1 level of [ICON_VisLimited] Diplomatic Visibility greater than normal with every civilization that he's met. Receives capacity to build an extra Spy with the Castles technology. Enemy Spy level reduced by 2 in your lands. Your Spy level is increased by 2 for offensive operations.</Text>
+		</Row>
+		<!-- NORSCA -->
+		<Row Tag="LOC_CIVILIZATION_NORSCA_NAME" Language="en_US">
+			<Text>Norsca</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NORSCA_DESCRIPTION" Language="en_US">
+			<Text>Norsca</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_NORSCA_ADJECTIVE" Language="en_US">
+			<Text>Norsca</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_WULFRIK_THE_WANDERER_NAME" Language="en_US">
+			<Text>Wulfrik the Wanderer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_NORSCANS_NAME" Language="en_US">
+			<Text>Norscans</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_NORSCANS_DESCRIPTION" Language="en_US">
+			<Text>Units gain the ability to enter Ocean tiles after researching the Shipbuilding technology. Naval melee units heal in neutral territory. Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking. Tundra and Snow terrain gives food as Grasslands to other Civilizations.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ETERNAL_CHALLENGER_NAME" Language="en_US">
+			<Text>Eternal Challenger</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ETERNAL_CHALLENGER_DESCRIPTION" Language="en_US">
+			<Text>Land units receive +5 [ICON_Strength] Combat Strength in land tiles adjacent to Coast; naval units receive +5 [ICON_Strength] Combat Strength in shallow water tiles. Allows coastal raiding for all naval melee units. Combat units have a bonus of +4 [ICON_Strength] Combat Strength against players following other Religions.</Text>
+		</Row>
+		<!-- WARRIORS_OF_CHAOS -->
+		<Row Tag="LOC_CIVILIZATION_WARRIORS_OF_CHAOS_NAME" Language="en_US">
+			<Text>Warriors of Chaos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WARRIORS_OF_CHAOS_DESCRIPTION" Language="en_US">
+			<Text>Warriors of Chaos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WARRIORS_OF_CHAOS_ADJECTIVE" Language="en_US">
+			<Text>Warriors of Chaos</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ARCHAON_NAME" Language="en_US">
+			<Text>Archaon</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FOLLOWERS_OF_CHAOS_NAME" Language="en_US">
+			<Text>Followers of Chaos</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FOLLOWERS_OF_CHAOS_DESCRIPTION" Language="en_US">
+			<Text>Inquisitors can Remove Heresy one extra time. Combat units have a bonus of +4 [ICON_Strength] Combat Strength against players following other Religions.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_EVERCHOSEN_NAME" Language="en_US">
+			<Text>The Everchosen</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_EVERCHOSEN_DESCRIPTION" Language="en_US">
+			<Text>Additional Military policy slot. Accumulate 60% less war weariness than usual. Unit maintenance cost reduced by 4 Gold per turn, per unit.</Text>
+		</Row>
+		<!-- TOMB_KINGS -->
+		<Row Tag="LOC_CIVILIZATION_TOMB_KINGS_NAME" Language="en_US">
+			<Text>Tomb Kings</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TOMB_KINGS_DESCRIPTION" Language="en_US">
+			<Text>Tomb Kings</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TOMB_KINGS_ADJECTIVE" Language="en_US">
+			<Text>Tomb Kings</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SETTRA_NAME" Language="en_US">
+			<Text>Settra</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ANCIENT_NEHEKHARA_NAME" Language="en_US">
+			<Text>Ancient Nehekhara</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ANCIENT_NEHEKHARA_DESCRIPTION" Language="en_US">
+			<Text>Districts and Wonders are built 15% faster if placed adjacent to a river. +5 [ICON_Strength] Combat Strength in Desert and Plains.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_IMPERISHABLE_NAME" Language="en_US">
+			<Text>The Imperishable</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_IMPERISHABLE_DESCRIPTION" Language="en_US">
+			<Text>Additional Military policy slot. All units heal every turn, even after moving or combat.</Text>
+		</Row>
+		<!-- VAMPIRE_COAST -->
+		<Row Tag="LOC_CIVILIZATION_VAMPIRE_COAST_NAME" Language="en_US">
+			<Text>Vampire Coast</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_VAMPIRE_COAST_DESCRIPTION" Language="en_US">
+			<Text>Vampire Coast</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_VAMPIRE_COAST_ADJECTIVE" Language="en_US">
+			<Text>Vampire Coast</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_LUTHOR_HARKON_NAME" Language="en_US">
+			<Text>Luthor Harkon</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PIRATE_COAST_NAME" Language="en_US">
+			<Text>Pirate Coast</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PIRATE_COAST_DESCRIPTION" Language="en_US">
+			<Text>All districts receive an additional standard adjacency bonus for being adjacent to another district. Units gain the ability to enter Ocean tiles after researching the Shipbuilding technology.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ARCHGRAND_COMMODORE_NAME" Language="en_US">
+			<Text>Arch-Grand Commodore</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ARCHGRAND_COMMODORE_DESCRIPTION" Language="en_US">
+			<Text>Land units receive +5 [ICON_Strength] Combat Strength in land tiles adjacent to Coast; naval units receive +5 [ICON_Strength] Combat Strength in shallow water tiles. Allows coastal raiding for all naval melee units.</Text>
+		</Row>
+		<!-- LEGIONS_OF_NAGASH -->
+		<Row Tag="LOC_CIVILIZATION_LEGIONS_OF_NAGASH_NAME" Language="en_US">
+			<Text>Legions of Nagash</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LEGIONS_OF_NAGASH_DESCRIPTION" Language="en_US">
+			<Text>Legions of Nagash</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_LEGIONS_OF_NAGASH_ADJECTIVE" Language="en_US">
+			<Text>Nagash</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_NAGASH_NAME" Language="en_US">
+			<Text>Nagash</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREAT_NECROMANCER_NAME" Language="en_US">
+			<Text>Great Necromancer</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREAT_NECROMANCER_DESCRIPTION" Language="en_US">
+			<Text>All their units do not suffer combat penalties when damaged. All units heal every turn, even after moving or combat.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SUPREME_LORD_OF_UNDEATH_NAME" Language="en_US">
+			<Text>Supreme Lord of Undeath</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SUPREME_LORD_OF_UNDEATH_DESCRIPTION" Language="en_US">
+			<Text>Arabia will automatically receive the last available Great Prophet if it has not already founded a religion. Can purchase any unit with faith.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ARKHAN_BLACK_NAME" Language="en_US">
+			<Text>Arkhan the Black</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LICHE_KING_NAME" Language="en_US">
+			<Text>Liche King</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LICHE_KING_DESCRIPTION" Language="en_US">
+			<Text>Districts and Wonders are built 15% faster if placed adjacent to a river. +5 [ICON_Strength] Combat Strength in Desert and Plains.</Text>
+		</Row>
+		<!-- KISLEV -->
+		<Row Tag="LOC_CIVILIZATION_KISLEV_NAME" Language="en_US">
+			<Text>Kislev</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_KISLEV_DESCRIPTION" Language="en_US">
+			<Text>Kislev</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_KISLEV_ADJECTIVE" Language="en_US">
+			<Text>Kislev</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KATARIN_BOKHA_NAME" Language="en_US">
+			<Text>Katarin Bokha</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_REALM_OFTHE_ICE_NAME" Language="en_US">
+			<Text>Realm of the Ice</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_REALM_OFTHE_ICE_DESCRIPTION" Language="en_US">
+			<Text> +1 [ICON_Faith] Faith and +1 [ICON_Production] Production from Tundra. All unit gain +5 [ICON_Strength] Combat Strength when fighting in Tundra. Camps give 1+ [ICON_FOOD] Food and +1 [ICON_FAITH] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ICE_QUEEN_NAME" Language="en_US">
+			<Text>Ice Queen </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ICE_QUEEN_DESCRIPTION" Language="en_US">
+			<Text>One extra Wildcard policy slot in any government.</Text>
+		</Row>
+		<!-- OGRES_KINGDOMS -->
+		<Row Tag="LOC_CIVILIZATION_OGRES_KINGDOMS_NAME" Language="en_US">
+			<Text>Ogre Kingdoms</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_OGRES_KINGDOMS_DESCRIPTION" Language="en_US">
+			<Text>Ogre Kingdoms</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_OGRES_KINGDOMS_ADJECTIVE" Language="en_US">
+			<Text>Ogre</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_GREASUS_GOLDTOOTH_NAME" Language="en_US">
+			<Text>Greasus Goldtooth</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LARGE_AND_BRUTISH_NAME" Language="en_US">
+			<Text>Large and Brutish</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LARGE_AND_BRUTISH_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength for all melee units. Industrials Zones gains 1 [ICON_Production] Production if they are next to a Mountain.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SHOCKINGLY_OBESE_NAME" Language="en_US">
+			<Text>Shockingly Obese</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SHOCKINGLY_OBESE_DESCRIPTION" Language="en_US">
+			<Text>All cities start with a Trading Post, and Trade Routes passing through them earn additional gold. Your Trade Routes to other civilizations provide +4 Gold for the Ogres. Other civilizations' Trade Routes to Ogre Kingdoms provide +2 Gold for the Ogre Kingdoms.</Text>
+		</Row>
+		<!-- CHAOS_DWARFS -->
+		<Row Tag="LOC_CIVILIZATION_CHAOS_DWARFS_NAME" Language="en_US">
+			<Text>Chaos Dwarfs</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CHAOS_DWARFS_DESCRIPTION" Language="en_US">
+			<Text>Chaos Dwarfs</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CHAOS_DWARFS_ADJECTIVE" Language="en_US">
+			<Text>Chaos Dwarfs</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ASTRAGOTH_IRONHAND_NAME" Language="en_US">
+			<Text>Astragoth Ironhand</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FIRE_DWARFS_NAME" Language="en_US">
+			<Text>Fire-Dwarfs</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_FIRE_DWARFS_DESCRIPTION" Language="en_US">
+			<Text>Industrials Zones gains 1 [ICON_Production] Production if they are next to a Mountain. All mines gives +1 [ICON_Production] Production. Cities gain extra tiles when founded.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HIGH_PRIEST_HASHUT_NAME" Language="en_US">
+			<Text>High Priest of Hashut</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HIGH_PRIEST_HASHUT_DESCRIPTION" Language="en_US">
+			<Text>New cities start with a free building, usually a Monument. All mines gives +1 [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_DRAZHOATH_ASHEN_NAME" Language="en_US">
+			<Text>Drazhoath the Ashen</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LORD_BLACK_FORTRESS_NAME" Language="en_US">
+			<Text>Lord of the Black Fortress</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LORD_BLACK_FORTRESS_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength in Desert and Plains. Additional Military policy slot.</Text>
+		</Row>
+		<!-- HOBGOBLIN_EMPIRE -->
+		<Row Tag="LOC_CIVILIZATION_HOBGOBLIN_EMPIRE_NAME" Language="en_US">
+			<Text>Hobgoblin Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HOBGOBLIN_EMPIRE_DESCRIPTION" Language="en_US">
+			<Text>Hobgoblin Empire</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_HOBGOBLIN_EMPIRE_ADJECTIVE" Language="en_US">
+			<Text>Hobgoblin</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HOBGOBLA_KHAN_NAME" Language="en_US">
+			<Text>Hobgobla-Khan</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_KHANATE_EASTERN_STEPPES_NAME" Language="en_US">
+			<Text>Khanate of the Eastern Steppes</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_KHANATE_EASTERN_STEPPES_DESCRIPTION" Language="en_US">
+			<Text>All units gains additional +8 [ICON_Strength] Combat Strength in Plains and +1 MP when start in open terrain. </Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREATEST_KHAN_NAME" Language="en_US">
+			<Text>The greatest Khan</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREATEST_KHAN_DESCRIPTION" Language="en_US">
+			<Text> Receive a second light cavalry unit each time you train a light cavalry. When Hobgoblin units are victorious in combat, receive Gold equal to 50% of the defeated unit's base strength.</Text>
+		</Row>
+		<!-- CATHAY -->
+		<Row Tag="LOC_CIVILIZATION_CATHAY_NAME" Language="en_US">
+			<Text>Cathay</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CATHAY_DESCRIPTION" Language="en_US">
+			<Text>Grand Cathay</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_CATHAY_ADJECTIVE" Language="en_US">
+			<Text>Cathay</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_XEN_HUONG_NAME" Language="en_US">
+			<Text>Xen Huong</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EMPIRE_CELESTIAL_DRAGON_NAME" Language="en_US">
+			<Text>Empire of the Celestial Dragon</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_EMPIRE_CELESTIAL_DRAGON_DESCRIPTION" Language="en_US">
+			<Text>All cities start with a Trading Post, and Trade Routes passing through them earn additional gold. New cities within Trade Route range of the capital start with a road to it.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DRAGON_EMPEROR_NAME" Language="en_US">
+			<Text>Dragon Emperor</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_DRAGON_EMPEROR_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when occupying a district or Fort. Eurekas and Inspirations provide 60% of civics and technologies instead of 50%.</Text>
+		</Row>
+		<!-- DOGS_OF_WAR -->
+		<Row Tag="LOC_CIVILIZATION_DOGS_OF_WAR_NAME" Language="en_US">
+			<Text>Dogs of War</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DOGS_OF_WAR_DESCRIPTION" Language="en_US">
+			<Text>Dogs of War</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DOGS_OF_WAR_ADJECTIVE" Language="en_US">
+			<Text>Dogs of War</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_BORGIO_NAME" Language="en_US">
+			<Text>Borgio</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_REGIMENTS_OF_RENOWN_NAME" Language="en_US">
+			<Text>Regiments of Renown</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_REGIMENTS_OF_RENOWN_DESCRIPTION" Language="en_US">
+			<Text>Trade Routes between continents give additional yields; can combine ships into fleets. Pay half the usual cost to levy city-state units.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_BESIEGER_NAME" Language="en_US">
+			<Text>The Besieger</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_BESIEGER_DESCRIPTION" Language="en_US">
+			<Text>Additional Military policy slot. +7 [ICON_Strength] Combat Strength when attacking city-states.</Text>
+		</Row>
+		<!-- REALM_OF_CHAOS -->
+		<Row Tag="LOC_CIVILIZATION_REALM_OF_CHAOS_NAME" Language="en_US">
+			<Text>Realm of Chaos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_REALM_OF_CHAOS_DESCRIPTION" Language="en_US">
+			<Text>Realm of Chaos</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_REALM_OF_CHAOS_ADJECTIVE" Language="en_US">
+			<Text>Chaos</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_BELAKOR_NAME" Language="en_US">
+			<Text>Be’lakor</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CHAOS_GODS_NAME" Language="en_US">
+			<Text>Chaos Gods</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CHAOS_GODS_DESCRIPTION" Language="en_US">
+			<Text>When you settle on a continent other than your home continent, receive a free melee unit. Accumulate 60% less war weariness than usual. Unit maintenance cost reduced by 4 Gold per turn, per unit.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_DARK_MASTER_NAME" Language="en_US">
+			<Text>The Dark Master</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_DARK_MASTER_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when fighting on a continent other that your [ICON_Capital] Capital's.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SKARBRAND_NAME" Language="en_US">
+			<Text>Skarbrand</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WRATHFUL_REAPER_NAME" Language="en_US">
+			<Text>Wrathful Reaper</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_WRATHFUL_REAPER_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide [ICON_Culture] Culture and [ICON_Faith] Faith equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KARIOS_FATEWEAVER_NAME" Language="en_US">
+			<Text>Karios Fateweaver</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ORACLE_TZEENTCH_NAME" Language="en_US">
+			<Text>Oracle of Tzeentch</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_ORACLE_TZEENTCH_DESCRIPTION" Language="en_US">
+			<Text>Can purchase any unit with faith.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_KUGATH_NAME" Language="en_US">
+			<Text>Ku’gath</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PLAGUEFATHER_NAME" Language="en_US">
+			<Text>Plaguefather</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_PLAGUEFATHER_DESCRIPTION" Language="en_US">
+			<Text>-5 [ICON_Strength] Combat Strength for all adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_NKARI_NAME" Language="en_US">
+			<Text>N’kari</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_KEEPER_OF_SECRETS_NAME" Language="en_US">
+			<Text>Keeper of Secrets</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_KEEPER_OF_SECRETS_DESCRIPTION" Language="en_US">
+			<Text>One extra Wildcard policy slot in any government.</Text>
+		</Row>
+		<!-- ARABY -->
+		<Row Tag="LOC_CIVILIZATION_ARABY_NAME" Language="en_US">
+			<Text>Araby</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ARABY_DESCRIPTION" Language="en_US">
+			<Text>Araby</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ARABY_ADJECTIVE" Language="en_US">
+			<Text>Araby</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_SUTLAN_JAFFAR_NAME" Language="en_US">
+			<Text>Sultan Jaffar</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREAT_DESERT_NAME" Language="en_US">
+			<Text>Great Desert</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_GREAT_DESERT_DESCRIPTION" Language="en_US">
+			<Text>Commercial Hubs gives +1 [ICON_Gold] Gold and +1 [ICON_Food] Food per adjacency to Desert or Desert Hills.Desert terrain gives food as Grasslands to other Civilizations.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SUMMON_DJINNS_NAME" Language="en_US">
+			<Text>Summon Djinns</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SUMMON_DJINNS_DESCRIPTION" Language="en_US">
+			<Text>Additional Military policy slot. Units receive a +5 [ICON_Strength] Combat Strength on their home continent.</Text>
+		</Row>
+		<!-- Units-->
+		<Row Tag="LOC_UNIT_GRAIL_KNIGHT_NAME" Language="en_US">
+			<Text>Grail Knight</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GRAIL_KNIGHT_DESCRIPTION" Language="en_US">
+			<Text>Bretonian unique Medieval era heavy cavalry unit, replace Knight. +7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YEOMEN_ARCHERS_NAME" Language="en_US">
+			<Text>Yeomen Archers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YEOMEN_ARCHERS_DESCRIPTION" Language="en_US">
+			<Text>Bretonian unique Medieval era ranged cavalry unit. Can move after attacking. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PEGASUS_KNIGHTS_NAME" Language="en_US">
+			<Text>Pegasus Knights</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PEGASUS_KNIGHTS_DESCRIPTION" Language="en_US">
+			<Text>Bretonian unique heavy cavalry unit. +1 Movement and Sight.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HANDGUNNERS_NAME" Language="en_US">
+			<Text>Handgunners</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HANDGUNNERS_DESCRIPTION" Language="en_US">
+			<Text>Unique melee unit. Replace the Musketman but can be earn earlier.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DEMIGRYPH_KNIGHTS_NAME" Language="en_US">
+			<Text>Demigryph Knights</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DEMIGRYPH_KNIGHTS_DESCRIPTION" Language="en_US">
+			<Text>Imperial unique Medieval era heavy cavalry unit, replace Knight. +7 [ICON_Strength] Combat Strength vs. melee and ranged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PISTOLIERS_NAME" Language="en_US">
+			<Text>Pistoliers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PISTOLIERS_DESCRIPTION" Language="en_US">
+			<Text>Imperial unique Medieval era ranged cavalry unit. Can move after attacking. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_IMPERIAL_STEAM_TANK_NAME" Language="en_US">
+			<Text>Imperial Steam Tank</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_IMPERIAL_STEAM_TANK_DESCRIPTION" Language="en_US">
+			<Text>Imperial unique siege unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DREADSPEARS_NAME" Language="en_US">
+			<Text>Dreadspears</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DREADSPEARS_DESCRIPTION" Language="en_US">
+			<Text>Dark Elves unique Medieval era unit that replaces the Pikemen. +10 [ICON_Strength] Combat Strength if there is at least one adjacent Dreadspear unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DARKSHARDS_NAME" Language="en_US">
+			<Text>Darkshards</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DARKSHARDS_DESCRIPTION" Language="en_US">
+			<Text>Dark Elves unique Medieval era ranged unit, replace Crossbowman. +7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DARK_RIDERS_NAME" Language="en_US">
+			<Text>Dark Riders</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DARK_RIDERS_DESCRIPTION" Language="en_US">
+			<Text>Dark Elves unique Medieval era light cavalry unit. Reduced pillage cost.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COLD_ONE_KNIGHTS_NAME" Language="en_US">
+			<Text>Cold One Knights</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COLD_ONE_KNIGHTS_DESCRIPTION" Language="en_US">
+			<Text>Dark Elves unique Medieval era Heavy cavalry unit. +5 [ICON_Strength] Combat Strength vs. cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLACK_DRAGON_NAME" Language="en_US">
+			<Text>Black Dragon</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLACK_DRAGON_DESCRIPTION" Language="en_US">
+			<Text>Dark Elves unique unit. -5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_HYDRA_NAME" Language="en_US">
+			<Text>War Hydra</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_HYDRA_DESCRIPTION" Language="en_US">
+			<Text>Dark Elves unique unit. -5 [ICON_Strength] Combat Strength to adjacent enemy units and heals every move.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLACK_ARK_NAME" Language="en_US">
+			<Text>Black Ark</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLACK_ARK_DESCRIPTION" Language="en_US">
+			<Text>Dark Elves unique melee naval unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SEA_GUARD_NAME" Language="en_US">
+			<Text>Sea Guard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SEA_GUARD_DESCRIPTION" Language="en_US">
+			<Text>High Elves unique Medieval era unit that replaces the Pikemen. +5 Combat on coastal land.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SILVER_HEMLS_NAME" Language="en_US">
+			<Text>Silver Helms</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SILVER_HEMLS_DESCRIPTION" Language="en_US">
+			<Text>High Elves unique Medieval era Heavy cavalry unit. This unit does not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ELLYRIAN_REAVER_NAME" Language="en_US">
+			<Text>Ellyrian Reaver</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ELLYRIAN_REAVER_DESCRIPTION" Language="en_US">
+			<Text>High Elves unique Medieval era ranged cavalry unit. +5[ICON_Strength] Combat Strength when fighting in or next to home territory. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FROSTHEART_PHOENIX_NAME" Language="en_US">
+			<Text>Frostheart Phoenix</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FROSTHEART_PHOENIX_DESCRIPTION" Language="en_US">
+			<Text>High Elves unique Medieval era ranged cavalry unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STAR_DRAGON_NAME" Language="en_US">
+			<Text>Star Dragon</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STAR_DRAGON_DESCRIPTION" Language="en_US">
+			<Text>High Elves unique unit. -5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ETERNAL_GUARD_NAME" Language="en_US">
+			<Text>Eternal Guard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ETERNAL_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Wood Elves unique Medieval era unit that replaces the Pikemen. +7 [ICON_Strength] Combat Strength when defending vs. ranged attacks.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GLADE_GUARD_NAME" Language="en_US">
+			<Text>Glade Guard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GLADE_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Wood Elves unique Medieval era ranged unit, replace Crossbowman. +7 [ICON_Strength] Combat Strength when defending in Woods, Jungle, Hills, or Marsh.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WILD_RIDERS_NAME" Language="en_US">
+			<Text>Wild Riders</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WILD_RIDERS_DESCRIPTION" Language="en_US">
+			<Text>Wood Elves unique Medieval era Heavy cavalry unit. +7 [ICON_Strength] Combat Strength vs. melee and ranged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GLADE_RIDERS_NAME" Language="en_US">
+			<Text>Glade Riders</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GLADE_RIDERS_DESCRIPTION" Language="en_US">
+			<Text>Wood Elves unique Medieval era ranged cavalry unit. Can move after attacking. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TREEMAN_NAME" Language="en_US">
+			<Text>Treeman</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TREEMAN_DESCRIPTION" Language="en_US">
+			<Text>Wood Elves unique melee unit. Replace the Musketman but can be earn earlier.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGBEARDS_NAME" Language="en_US">
+			<Text>Longbeards</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LONGBEARDS_DESCRIPTION" Language="en_US">
+			<Text>Dwarf unique Medieval era melee unit. This unit does not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAMMERERS_NAME" Language="en_US">
+			<Text>Hammerers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAMMERERS_DESCRIPTION" Language="en_US">
+			<Text>Dwarf unique Medieval era unit that replaces the Pikemen. +10 [ICON_Strength] Combat Strength vs. fortified defender.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_THUNDERERS_NAME" Language="en_US">
+			<Text>Thunderers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_THUNDERERS_DESCRIPTION" Language="en_US">
+			<Text>Dwarf unique Medieval era ranged unit. Stronger melee defense.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GYROBOMBER_NAME" Language="en_US">
+			<Text>Gyrobomber</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GYROBOMBER_DESCRIPTION" Language="en_US">
+			<Text>Dwarf unique Medieval era ranged cavalry unit. More movement and sight. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SKINKS_COHORT_NAME" Language="en_US">
+			<Text>Skinks Cohort</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SKINKS_COHORT_DESCRIPTION" Language="en_US">
+			<Text>Lizardmen unique melee unit, replace the Warrior. +5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAURUS_NAME" Language="en_US">
+			<Text>Saurus</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAURUS_DESCRIPTION" Language="en_US">
+			<Text>Lizardmen unique melee unit, replace the Swordsman. +5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KROXIGOR_NAME" Language="en_US">
+			<Text>Kroxigor</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KROXIGOR_DESCRIPTION" Language="en_US">
+			<Text>Lizardmen unique melee unit. +7 [ICON_Strength]Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAURUS_SPEARS_NAME" Language="en_US">
+			<Text>Saurus Spears</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAURUS_SPEARS_DESCRIPTION" Language="en_US">
+			<Text>Lizardmen unique Medieval era unit that replaces the Pikemen. +7 [ICON_Strength] Combat Strength when defending in Woods, Jungle, Hills, or Marsh.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COLD_ONE_RIDERS_NAME" Language="en_US">
+			<Text>Cold One Riders</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_COLD_ONE_RIDERS_DESCRIPTION" Language="en_US">
+			<Text>Lizardmen unique Medieval era light cavalry unit. +5 [ICON_Strength] Combat Strength vs. cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BASTILADON_NAME" Language="en_US">
+			<Text>Bastiladon</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BASTILADON_DESCRIPTION" Language="en_US">
+			<Text>Lizardmen unique Medieval era heavy cavalry unit. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAVAGE_ORC_NAME" Language="en_US">
+			<Text>Savage Orc</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAVAGE_ORC_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique melee unit, replace the Warrior. +7 [ICON_Strength]Combat Strength when attacking, and -7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BIG_UNS_NAME" Language="en_US">
+			<Text>Big 'Uns</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BIG_UNS_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique melee unit, replace the Swordsman. +7 [ICON_Strength] Combat Strength vs. melee and ranged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLACK_ORC_NAME" Language="en_US">
+			<Text>Black Orc</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLACK_ORC_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique melee unit. This unit does not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TROLLS_NAME" Language="en_US">
+			<Text>Trolls</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TROLLS_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique Medieval era unit that replaces the Pikemen. Heals every move</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ORC_BOAR_NAME" Language="en_US">
+			<Text>Orc Boars</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ORC_BOAR_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique Medieval era Heavy cavalry unit. +10 [ICON_Strength] Combat Strength when fighting on Hills.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WHM_GIANTS_NAME" Language="en_US">
+			<Text>Monstrous Giant</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WHM_GIANTS_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique Medieval era unit. +7 [ICON_Strength] Combat Strength vs. melee and ranged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOBLIN_WOLF_NAME" Language="en_US">
+			<Text>Goblin Wolf</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GOBLIN_WOLF_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique Medieval era light cavalry unit. +5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SQUIG_HOPPER_NAME" Language="en_US">
+			<Text>Squig Hopper</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SQUIG_HOPPER_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique Medieval era recon unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CHAOS_MARAUDERS_NAME" Language="en_US">
+			<Text>Chaos Marauders</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CHAOS_MARAUDERS_DESCRIPTION" Language="en_US">
+			<Text>Warriors of Chaos unique melee unit, replace the Warrior. +7 [ICON_Strength]Combat Strength when attacking, and -7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CHOSEN_NAME" Language="en_US">
+			<Text>Chosen</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CHOSEN_DESCRIPTION" Language="en_US">
+			<Text>Warriors of Chaos unique melee unit, replace the Swordsman.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DRAGON_OGRES_NAME" Language="en_US">
+			<Text>Dragon Ogres</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DRAGON_OGRES_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique Medieval era unit. +5 [ICON_Strength] Combat Strength vs. land units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CHAOS_WARHOUNDS_NAME" Language="en_US">
+			<Text>Chaos Warhounds</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CHAOS_WARHOUNDS_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique Medieval era light cavalry unit. +5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HELLCANNON_NAME" Language="en_US">
+			<Text>Hellcannon</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HELLCANNON_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique siege unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SKAVENSLAVES_NAME" Language="en_US">
+			<Text>Skavenslaves</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SKAVENSLAVES_DESCRIPTION" Language="en_US">
+			<Text>Skaven unique melee unit, replace the Warrior. Less attack but it has two builder charges for Mines and Quarries.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STORMVERMIN_NAME" Language="en_US">
+			<Text>Stormvermin</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_STORMVERMIN_DESCRIPTION" Language="en_US">
+			<Text>Skaven unique Medieval era unit that replaces the Pikemen. +7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CLANRATS_NAME" Language="en_US">
+			<Text>Clanrats</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CLANRATS_DESCRIPTION" Language="en_US">
+			<Text>Skaven unique Medieval era unit that replaces the Swordsman. +8 [ICON_Strength] Combat Strength if there is at least one adjacent Clanrat unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RAT_OGRES_NAME" Language="en_US">
+			<Text>Rat Ogres</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RAT_OGRES_DESCRIPTION" Language="en_US">
+			<Text>Clan Moulder unique Medieval era heavy cavalry unit, replace the Knight. +7 [ICON_Strength] Combat Strength vs. anti-cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HELLPIT_ABOMINATION_NAME" Language="en_US">
+			<Text>Hell-Pit Abomination</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HELLPIT_ABOMINATION_DESCRIPTION" Language="en_US">
+			<Text>Clan Moulder unique Medieval era heavy cavalry unit.  -5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PLAGUECLAW_CATAPULT_NAME" Language="en_US">
+			<Text>Plagueclaw Catapult</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PLAGUECLAW_CATAPULT_DESCRIPTION" Language="en_US">
+			<Text>Clan Pestilens unique siege unit. +7 [ICON_Strength] Combat Strength vs. units in districts.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RATLING_GUN_NAME" Language="en_US">
+			<Text>Ratling Gun</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_RATLING_GUN_DESCRIPTION" Language="en_US">
+			<Text>Clan Skryre unique ranged unit, replace the Crossbowman. +1 additional attack per turn if unit has not moved.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CRYPT_GHOULS_NAME" Language="en_US">
+			<Text>Crypt Ghouls</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CRYPT_GHOULS_DESCRIPTION" Language="en_US">
+			<Text>Vampire unique melee unit, replace the Warrior. Cheaper than the Warrior.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GRAVE_GUARD_NAME" Language="en_US">
+			<Text>Grave Guard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GRAVE_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Vampire unique Medieval era melee unit. +5[ICON_Strength] Combat Strength when fighting in or next to home territory. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLOOD_KNIGHTS_NAME" Language="en_US">
+			<Text>Blood Knights</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLOOD_KNIGHTS_DESCRIPTION" Language="en_US">
+			<Text>Vampire unique heavy cavalry unit, replace the Knights. +7 [ICON_Strength]Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DIRE_WOLVES_NAME" Language="en_US">
+			<Text>Dire Wolves</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DIRE_WOLVES_DESCRIPTION" Language="en_US">
+			<Text>Vampire unique light cavalry unit, replace the Horseman. One more movement.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TERRORGHEIST_NAME" Language="en_US">
+			<Text>Terrorgheist</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TERRORGHEIST_DESCRIPTION" Language="en_US">
+			<Text>Vampire unique light cavalry unit. -5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VARGHEISTS_NAME" Language="en_US">
+			<Text>Vargheists</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VARGHEISTS_DESCRIPTION" Language="en_US">
+			<Text>Vampire unique melee unit. -5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_MAMMOTH_NAME" Language="en_US">
+			<Text>War Mammoth</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WAR_MAMMOTH_DESCRIPTION" Language="en_US">
+			<Text>Norscan unique heavy cavalry unit. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TOMB_GUARD_NAME" Language="en_US">
+			<Text>Tomb Guard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TOMB_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Tomb Kings unique Medieval era unit that replaces the Swordsman. +7 [ICON_Strength]Combat Strength when attacking.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NECROPOLIS_KNIGHTS_NAME" Language="en_US">
+			<Text>Necropolis Knights</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NECROPOLIS_KNIGHTS_DESCRIPTION" Language="en_US">
+			<Text>Tomb Kings unique Medieval era light cavalry unit. 2x flanking bonus.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_USHABTI_NAME" Language="en_US">
+			<Text>Ushabti</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_USHABTI_KNIGHTS_DESCRIPTION" Language="en_US">
+			<Text>Tomb Kings unique Medieval era melee unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NECROSPHINX_NAME" Language="en_US">
+			<Text>Necrosphinx</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NECROSPHINX_DESCRIPTION" Language="en_US">
+			<Text>Tomb Kings unique heavy cavalry unit, replace the Knights. -5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TOMB_SCORPION_NAME" Language="en_US">
+			<Text>Tomb Scorpion</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TOMB_SCORPION_DESCRIPTION" Language="en_US">
+			<Text>Tomb Kings unique light cavalry unit, replace the Horsemen. Only adjacent enemy units can reveal this unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SEPULCHRAL_STALKERS_NAME" Language="en_US">
+			<Text>Sepulchral Stalkers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SEPULCHRAL_STALKERS_DESCRIPTION" Language="en_US">
+			<Text>Tomb Kings unique anti-cavalry unit, replace the Pikemen. Only adjacent enemy units can reveal this unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_PIRATE_NAME" Language="en_US">
+			<Text>Zombie Pirate</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_PIRATE_DESCRIPTION" Language="en_US">
+			<Text>Vampire Coast unique Medieval era melee unit. This unit does not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DEPTH_GUARD_NAME" Language="en_US">
+			<Text>Depth Guard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DEPTH_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Vampire Coast unique Medieval era anti-cavalry unit. +5 [ICON_Strength] Combat Strength vs. land units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ROTTING_PROMETHEANS_NAME" Language="en_US">
+			<Text>Rotting Prometheans</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ROTTING_PROMETHEANS_DESCRIPTION" Language="en_US">
+			<Text>Vampire Coast unique heavy cavalry unit, replace the Knights. No Combat Strength and Movement penalty when attacking from sea or river.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUNNERY_MOB_NAME" Language="en_US">
+			<Text>Gunnery Mob</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUNNERY_MOB_DESCRIPTION" Language="en_US">
+			<Text>Vampire Coast unique ranged unit, replace the Crossbowman. +1 additional attack per turn if unit has not moved.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KOSSAR_NAME" Language="en_US">
+			<Text>Kossar</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_KOSSAR_DESCRIPTION" Language="en_US">
+			<Text>Kislev unique melee unit, replace the Swordman. +5[ICON_Strength] Combat Strength when fighting in or next to home territory.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WINGED_LANCERS_NAME" Language="en_US">
+			<Text>Winged Lancers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_WINGED_LANCERS_DESCRIPTION" Language="en_US">
+			<Text>Kislev unique heavy cavalry unit, replace the Knights. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNGOL_HORSE_ARCHERS_NAME" Language="en_US">
+			<Text>Ungol Horse Archers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_UNGOL_HORSE_ARCHERS_DESCRIPTION" Language="en_US">
+			<Text>Kislev unique ranged cavalry unit. Heals every move.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_IRONGUTS_NAME" Language="en_US">
+			<Text>Ironguts</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_IRONGUTS_DESCRIPTION" Language="en_US">
+			<Text>Ogre unique Medieval era melee unit. +10 [ICON_Strength] Combat Strength when defending vs. melee class units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YHETEES_NAME" Language="en_US">
+			<Text>Yhetees</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_YHETEES_DESCRIPTION" Language="en_US">
+			<Text>Ogre unique Medieval era light cavalry unit. +5 [ICON_Strength] Combat Strength when fighting in Tundra.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MOURNFANG_CAVALRY_NAME" Language="en_US">
+			<Text>Mournfang Cavalry</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MOURNFANG_CAVALRY_DESCRIPTION" Language="en_US">
+			<Text>Ogre unique heavy cavalry unit, replace the Knights. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SABRETUSK_NAME" Language="en_US">
+			<Text>Sabretusk</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SABRETUSK_DESCRIPTION" Language="en_US">
+			<Text>Ogre unique light cavalry unit. Only adjacent enemy units can reveal this unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_THUNDERTUSK_NAME" Language="en_US">
+			<Text>Thundertusk</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_THUNDERTUSK_DESCRIPTION" Language="en_US">
+			<Text>Ogre unique light cavalry unit. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage. +5 [ICON_Strength] Combat Strength when fighting in Tundra.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_INFERNAL_GUARD_NAME" Language="en_US">
+			<Text>Infernal Guard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_INFERNAL_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Chaos Dwarf unique Medieval era melee unit. +6 vs. civilizations following another Religion.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLUNDERBUSS_NAME" Language="en_US">
+			<Text>Blunderbuss</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLUNDERBUSS_DESCRIPTION" Language="en_US">
+			<Text>Chaos Dwarf unique Medieval era ranged unit. More attack and defense than the Crossbowman.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BULL_CENTAUR_RENDERS_NAME" Language="en_US">
+			<Text>Bull Centaur Renders</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BULL_CENTAUR_RENDERS_DESCRIPTION" Language="en_US">
+			<Text>Chaos Dwarf unique heavy cavalry unit, replace the Knights. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HOBGOBLIN_WOLF_RAIDERS_NAME" Language="en_US">
+			<Text>Hobgoblin Wolf Raiders</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HOBGOBLIN_WOLF_RAIDERS_DESCRIPTION" Language="en_US">
+			<Text>Hobgoblin unique light cavalry unit. +5 [ICON_Strength] Combat Strength against damaged units. Reduced pillage cost.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HOBGOBLIN_MOUNT_ARCHER_NAME" Language="en_US">
+			<Text>Hobgoblin Mount Archer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HOBGOBLIN_MOUNT_ARCHER_DESCRIPTION" Language="en_US">
+			<Text>Hobgoblin unique ranged cavalry unit. Can move after attacking.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DRAGON_EMPEROR_GUARD_NAME" Language="en_US">
+			<Text>Dragon Emperor Guard</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DRAGON_EMPEROR_GUARD_DESCRIPTION" Language="en_US">
+			<Text>Chatay unique Medieval era anti-cavalry unit. +5[ICON_Strength] Combat Strength when fighting in or next to home territory. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TERRACOTA_WARRIORS_NAME" Language="en_US">
+			<Text>Terracota Warriors</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TERRACOTA_WARRIORS_DESCRIPTION" Language="en_US">
+			<Text>Chatay unique Medieval era melee unit. This unit does not suffer combat penalties when damaged.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLOODLETTER_NAME" Language="en_US">
+			<Text>Bloodletter</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLOODLETTER_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique Medieval era melee unit. +7 [ICON_Strength]Combat Strength when attacking. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLOODCRUSHERS_NAME" Language="en_US">
+			<Text>Bloodcrushers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLOODCRUSHERS_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique heavy cavalry unit, replace the Knights. Pushes defending enemy units back from their hex in any battle where they score more damage. Defenders that cannot retreat suffer additional damage.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FLESH_HOUND_NAME" Language="en_US">
+			<Text>Flesh Hound</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FLESH_HOUND_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique light cavalry unit. +5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PINK_HORROR_NAME" Language="en_US">
+			<Text>Pink Horror</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PINK_HORROR_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique melee unit, replace the Swordsman. +10 [ICON_Strength] Combat Strength if there is at least one adjacent Blue Horrors or Pink Horrors unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLUE_HORROR_NAME" Language="en_US">
+			<Text>Blue Horror</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BLUE_HORROR_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique melee unit, replace the Warrior. +10 [ICON_Strength] Combat Strength if there is at least one adjacent Blue Horrors or Pink Horrors unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FLAMERS_NAME" Language="en_US">
+			<Text>Flamers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_FLAMERS_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique ranged unit, replace the Crossbowman. +10 [ICON_Strength] Combat Strength vs. district defenses.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BURNING_CHARIOT_NAME" Language="en_US">
+			<Text>Burning Chariot</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BURNING_CHARIOT_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique heavy cavalry unit, replace the Knights. +7 [ICON_Strength] Combat Strength vs. melee and ranged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCREAMER_NAME" Language="en_US">
+			<Text>Screamer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SCREAMER_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique light cavalry unit. -5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NURGLINGS_NAME" Language="en_US">
+			<Text>Nurglings</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_NURGLINGS_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique melee unit, replace the Warrior. Only adjacent enemy units can reveal this unit.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PLAGUEBEARER_NAME" Language="en_US">
+			<Text>Plaguebearer</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PLAGUEBEARER_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique melee unit, replace the Swordsman. +5 [ICON_Strength] Combat Strength against damaged units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PLAGUE_DRONES_NAME" Language="en_US">
+			<Text>Plague Drones</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PLAGUE_DRONES_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique light cavalry unit. Can move after attacking and doesn't require Horses.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BEAST_OF_NURGLE_NAME" Language="en_US">
+			<Text>Beast of Nurgle</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BEAST_OF_NURGLE_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique heavy cavalry unit. Slower but stronger and doesn't require Iron.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAEMONETTE_NAME" Language="en_US">
+			<Text>Daemonette</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DAEMONETTE_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique Medieval anti-cavalry unit, replace the Pikeman. +7 [ICON_Strength] Combat Strength vs. anti-cavalry units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SEEKERS_NAME" Language="en_US">
+			<Text>Seekers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SEEKERS_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique light cavalry unit. Faster than the Horsemen.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HELLFLAYERS_NAME" Language="en_US">
+			<Text>Hellflayers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HELLFLAYERS_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique heavy cavalry unit. +5 [ICON_Strength] Combat Strength vs. land units.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DERVISHERS_NAME" Language="en_US">
+			<Text>Dervishers</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_DERVISHERS_DESCRIPTION" Language="en_US">
+			<Text>Araby unique melee unit, replace the Swordsman. +7 [ICON_Strength]Combat Strength when attacking, and -7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CAMELS_RIDERS_NAME" Language="en_US">
+			<Text>Camels Riders</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CAMELS_RIDERS_DESCRIPTION" Language="en_US">
+			<Text>Araby unique light cavalry unit. +5 [ICON_Strength] Combat Strength in Desert and Plains</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARABYAN_ELEPHANTS_NAME" Language="en_US">
+			<Text>Arabyan Elephants</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ARABYAN_ELEPHANTS_DESCRIPTION" Language="en_US">
+			<Text>Araby unique heavy cavalry unit. -5 [ICON_Strength] Combat Strength to adjacent enemy units.</Text>
+		</Row>
+		<!-- BUILDINGS -->
+		<Row Tag="LOC_BUILDING_SHRINE_OF_SIGMAR_NAME" Language="en_US">
+			<Text>Shrine of Sigmar</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SHRINE_OF_SIGMAR_DESCRIPTION" Language="en_US">
+			<Text>Gives 2 [ICON_Faith] Faith, 2 [ICON_Culture] Culture, 1 Points for Great Prophets and Generals.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TOWER_OF_MAGES_NAME" Language="en_US">
+			<Text>Tower of Mages</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_TOWER_OF_MAGES_DESCRIPTION" Language="en_US">
+			<Text>High Elves unique building that replace the Library. +3 [ICON_Science] Science, +2 Great Scientist Point.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SLAYER_SHRINE_NAME" Language="en_US">
+			<Text>Slayer Shrine</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SLAYER_SHRINE_DESCRIPTION" Language="en_US">
+			<Text>Gives 2 [ICON_Faith] Faith, 1 [ICON_Culture] Culture, 1 Points for Great Prophets and 2 for Generals.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SHAMANS_HOVEL_NAME" Language="en_US">
+			<Text>Shaman's Hovel</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SHAMANS_HOVEL_DESCRIPTION" Language="en_US">
+			<Text>Gives 2 [ICON_Faith] Faith, 1 [ICON_Culture] Culture, 1 Points for Great Prophets and 1 for Scientists.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GOBLIN_TINKERER_BENCH_NAME" Language="en_US">
+			<Text>Goblin Tinkerer Bench</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GOBLIN_TINKERER_BENCH_DESCRIPTION" Language="en_US">
+			<Text>Unique Greenskin Building that replace the Workshop. Gives +3 [ICON_Production] Production and +2 Points for Great Engineer.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_UNHOLY_LEGION_NAME" Language="en_US">
+			<Text>Unholy Legion</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_UNHOLY_LEGION_DESCRIPTION" Language="en_US">
+			<Text>Gives 2 [ICON_Faith] Faith, 1 [ICON_Culture] Culture, 1 Points for Great Prophets and 3 for Generals.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CHAOS_RIFT_NAME" Language="en_US">
+			<Text>Chaos Rift</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CHAOS_RIFT_DESCRIPTION" Language="en_US">
+			<Text>Chaos unique building that replace the Barracks. +40% combat experience for all melee and ranged land units trained in this city. Gives 2 [ICON_Production] Production, 2 Points for Great Generals and 1 Housing.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PLAGUE_ABBEY_NAME" Language="en_US">
+			<Text>Plague Abbey</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PLAGUE_ABBEY_DESCRIPTION" Language="en_US">
+			<Text>Unique Skaven building that replace the temple. Gives 1 Housing , 4 [ICON_Faith] Faith, 1 [ICON_Culture] Culture, 1 [ICON_Science] Science and +1 Points for Great Prophets and Generals.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NECROMANCER_TOWER_NAME" Language="en_US">
+			<Text>Tower of Mages</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_NECROMANCER_TOWER_DESCRIPTION" Language="en_US">
+			<Text>Vampire Counts unique building that replace the Library. +2 [ICON_Science] Science, +2 [ICON_Production] Production, +1 [ICON_FAITH] Faith and +1 Great Scientist Point.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PIRATES_REST_NAME" Language="en_US">
+			<Text>Pirates' Rest</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PIRATES_REST_DESCRIPTION" Language="en_US">
+			<Text>Vampire Coast unique building. +2 [ICON_Gold] Gold, +1 [ICON_Food] Food, +1 [ICON_Culture] Culture and +1 Great Admiral Point.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KOSSAR_BARRACKS_NAME" Language="en_US">
+			<Text>Kossar Barracks</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_KOSSAR_BARRACKS_DESCRIPTION" Language="en_US">
+			<Text>Kislev unique building that replace the Barracks. +40% combat experience for all melee and ranged land units trained in this city. Gives +1 [ICON_Production] Production, +2 [ICON_Culture] Culture,  1 Points for Great Generals and 1 Housing.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CAULDRON_NAME" Language="en_US">
+			<Text>Cauldron</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CAULDRON_DESCRIPTION" Language="en_US">
+			<Text>Gives 3 [ICON_Faith] Faith, 2 [ICON_Food] Food, 1 Points for Great Prophets.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HELL_FORGE_NAME" Language="en_US">
+			<Text>Hell-forge</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_HELL_FORGE_DESCRIPTION" Language="en_US">
+			<Text>Unique Chaos Dwarf Building that replace the Workshop. Gives +3 [ICON_Production] Production, +2 [ICON_Faith] Faith and +1 Points for Great Engineer.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARCHECCLESIATIUM_MYRMIDIA_NAME" Language="en_US">
+			<Text>Archecclesiatium of Myrmidia</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_ARCHECCLESIATIUM_MYRMIDIA_DESCRIPTION" Language="en_US">
+			<Text>Gives 2 [ICON_Faith] Faith, 2 [ICON_Culture] Culture, 1 Points for Great Prophets.</Text>
+		</Row>R
+		<Row Tag="LOC_IMPROVEMENT_GRAIL_CHAPEL_NAME" Language="en_US">
+			<Text>Grail Chapel</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_GRAIL_CHAPEL_DESCRIPTION" Language="en_US">
+			<Text>Bretonnia unique improvement that can be build on Plains and Grasslands. +1[ICON_Faith] Faith and +1[ICON_Faith] Faith for being next to a river. If next to a lake +1[ICON_Faith] Faith and +1[ICON_Culture] Culture.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_WAYSTONES_NAME" Language="en_US">
+			<Text>Waystones</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_WAYSTONES_DESCRIPTION" Language="en_US">
+			<Text>High Elves and Wood Elves unique improvement that can be build on Plains and Grasslands. Gives +1[ICON_Culture] Culture. +1[ICON_Faith] Faith for being next to a forest. +1[ICON_Science] Science for being next to a Coast.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_ZIGGURAT_OLD_ONES_NAME" Language="en_US">
+			<Text>Ziggurat of the Old Ones</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_ZIGGURAT_OLD_ONES_DESCRIPTION" Language="en_US">
+			<Text>Lizardmen unique improvement. +1[ICON_Faith] Faith. +1[ICON_Faith] Faith and +1[ICON_Culture] Culture for being next to a Jungle. +1[ICON_Science] Science for being adjacent to a river. Occupying unit receives +4[ICON_Strength] Defense Strength and automatically gains 2 turns of fortification.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_IDOLZ_NAME" Language="en_US">
+			<Text>Idolz</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_IDOLZ_DESCRIPTION" Language="en_US">
+			<Text>Greenskins unique improvement. Gives +1[ICON_Faith] Faith. +2[ICON_Faith] Faith for being next to a Holy Site. +2[ICON_Culture] Culture for being next to a Encampment. +2[ICON_Production] Production for being next to a Industrial Zone.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_SMUGGLERS_COVE_NAME" Language="en_US">
+			<Text>Smugglers' Cove</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_SMUGGLERS_COVE_DESCRIPTION" Language="en_US">
+			<Text>Vampire Coast unique improvement that can only be built on hills next to Coast. Gives +2[ICON_Gold] Gold and +1[ICON_Culture] Culture. +2[ICON_Culture] Culture for being next to a Harbor.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_CAVE_PAINTING_NAME" Language="en_US">
+			<Text>Cave Painting</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_CAVE_PAINTING_DESCRIPTION" Language="en_US">
+			<Text>Ogres unique improvement. Gives +1[ICON_Faith] Faith and +1[ICON_Culture] Culture. +2[ICON_Faith] Faith for being next to a Holy Site.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_REIKSFORT_NAME" Language="en_US">
+			<Text>Reiksfort</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_REIKSFORT_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for military facilities. +2 Great Point for Generals. Trade routes passing through give Culture too. Bonus of Production for being next to a Forest.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WOOD_ELF_GROVE_NAME" Language="en_US">
+			<Text>Wood Elf Grove</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_HIST_GROVE_DESCRIPTION" Language="en_US">
+			<Text>Wood Elf unique District that replace the Holy Site district. +2 Great Prophet. Double Faith bonus for being adjacent to Forests.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

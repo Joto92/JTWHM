@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UILeaders"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LEADER_LOUEN_LEONCOEUR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_LOUEN_LEONCOEUR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LOUEN_LEONCOEUR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_LOUEN_LEONCOEUR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KARL_FRANZ_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KARL_FRANZ_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KARL_FRANZ_BACKGROUND"/>
+			<m_ObjectName text="LEADER_KARL_FRANZ_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MALEKITH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MALEKITH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MALEKITH_BACKGROUND"/>
+			<m_ObjectName text="LEADER_MALEKITH_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_FINUBAR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_FINUBAR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_FINUBAR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_FINUBAR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ORION_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ORION_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ORION_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ORION_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_THORGRIM_GRUDGEBEARER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_THORGRIM_GRUDGEBEARER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_THORGRIM_GRUDGEBEARER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_THORGRIM_GRUDGEBEARER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LORD_MAZDAMUNDI_NEUTRAL"/>
+			<m_ObjectName text="LEADER_LORD_MAZDAMUNDI_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LORD_MAZDAMUNDI_BACKGROUND"/>
+			<m_ObjectName text="LEADER_LORD_MAZDAMUNDI_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_GRIMGOR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_GRIMGOR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_GRIMGOR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_GRIMGOR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LORD_VERMINKIN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_LORD_VERMINKIN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LORD_VERMINKIN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_LORD_VERMINKIN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="WHM_LOADING_BACKGROUND"/>
+			<m_ObjectName text="WHM_LOADING_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_WULFRIK_THE_WANDERER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_WULFRIK_THE_WANDERER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_WULFRIK_THE_WANDERER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_WULFRIK_THE_WANDERER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANNFRED_VON_CARSTEIN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MANNFRED_VON_CARSTEIN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MANNFRED_VON_CARSTEIN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_MANNFRED_VON_CARSTEIN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ARCHAON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ARCHAON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ARCHAON_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ARCHAON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SETTRA_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SETTRA_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SETTRA_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SETTRA_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LUTHOR_HARKON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_LUTHOR_HARKON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LUTHOR_HARKON_BACKGROUND"/>
+			<m_ObjectName text="LEADER_LUTHOR_HARKON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NAGASH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_NAGASH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NAGASH_BACKGROUND"/>
+			<m_ObjectName text="LEADER_NAGASH_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KATARIN_BOKHA_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KATARIN_BOKHA_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KATARIN_BOKHA_BACKGROUND"/>
+			<m_ObjectName text="LEADER_KATARIN_BOKHA_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_GREASUS_GOLDTOOTH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_GREASUS_GOLDTOOTH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_GREASUS_GOLDTOOTH_BACKGROUND"/>
+			<m_ObjectName text="LEADER_GREASUS_GOLDTOOTH_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ASTRAGOTH_IRONHAND_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ASTRAGOTH_IRONHAND_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ASTRAGOTH_IRONHAND_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ASTRAGOTH_IRONHAND_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_HOBGOBLA_KHAN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_HOBGOBLA_KHAN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_HOBGOBLA_KHAN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_HOBGOBLA_KHAN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_XEN_HUONG_NEUTRAL"/>
+			<m_ObjectName text="LEADER_XEN_HUONG_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_XEN_HUONG_BACKGROUND"/>
+			<m_ObjectName text="LEADER_XEN_HUONG_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BORGIO_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BORGIO_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BORGIO_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BORGIO_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BELAKOR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BELAKOR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SUTLAN_JAFFAR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SUTLAN_JAFFAR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SUTLAN_JAFFAR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SUTLAN_JAFFAR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BELAKOR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BELAKOR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CRONE_HELLEBRON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_CRONE_HELLEBRON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_CRONE_HELLEBRON_BACKGROUND"/>
+			<m_ObjectName text="LEADER_CRONE_HELLEBRON_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MORATHI_NEUTRAL"/>
+			<m_ObjectName text="LEADER_MORATHI_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_MORATHI_BACKGROUND"/>
+			<m_ObjectName text="LEADER_MORATHI_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_PRINCE_TYRION_NEUTRAL"/>
+			<m_ObjectName text="LEADER_PRINCE_TYRION_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_PRINCE_TYRION_BACKGROUND"/>
+			<m_ObjectName text="LEADER_PRINCE_TYRION_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TECLIS_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TECLIS_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TECLIS_BACKGROUND"/>
+			<m_ObjectName text="LEADER_TECLIS_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ALARIELLE_RADIANT_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ALARIELLE_RADIANT_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ALARIELLE_RADIANT_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ALARIELLE_RADIANT_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ALITH_ANAR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ALITH_ANAR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ALITH_ANAR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ALITH_ANAR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BELEGAR_IRONHAMMER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_BELEGAR_IRONHAMMER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_BELEGAR_IRONHAMMER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_BELEGAR_IRONHAMMER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_UNGRIM_IRONFIST_NEUTRAL"/>
+			<m_ObjectName text="LEADER_UNGRIM_IRONFIST_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_UNGRIM_IRONFIST_BACKGROUND"/>
+			<m_ObjectName text="LEADER_UNGRIM_IRONFIST_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SKARSNIK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SKARSNIK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SKARSNIK_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SKARSNIK_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_QUEEK_HEADTAKER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_QUEEK_HEADTAKER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_QUEEK_HEADTAKER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_QUEEK_HEADTAKER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LORD_MORSKITTAR_NEUTRAL"/>
+			<m_ObjectName text="LEADER_LORD_MORSKITTAR_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LORD_MORSKITTAR_BACKGROUND"/>
+			<m_ObjectName text="LEADER_LORD_MORSKITTAR_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LORD_SKROLK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_LORD_SKROLK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_LORD_SKROLK_BACKGROUND"/>
+			<m_ObjectName text="LEADER_LORD_SKROLK_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_VLAD_VON_CARSTEIN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_VLAD_VON_CARSTEIN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_VLAD_VON_CARSTEIN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_VLAD_VON_CARSTEIN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NEFERATA_NEUTRAL"/>
+			<m_ObjectName text="LEADER_NEFERATA_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NEFERATA_BACKGROUND"/>
+			<m_ObjectName text="LEADER_NEFERATA_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ARKHAN_BLACK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ARKHAN_BLACK_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ARKHAN_BLACK_BACKGROUND"/>
+			<m_ObjectName text="LEADER_ARKHAN_BLACK_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_DRAZHOATH_ASHEN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_DRAZHOATH_ASHEN_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_DRAZHOATH_ASHEN_BACKGROUND"/>
+			<m_ObjectName text="LEADER_DRAZHOATH_ASHEN_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SKARBRAND_NEUTRAL"/>
+			<m_ObjectName text="LEADER_SKARBRAND_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_SKARBRAND_BACKGROUND"/>
+			<m_ObjectName text="LEADER_SKARBRAND_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KARIOS_FATEWEAVER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KARIOS_FATEWEAVER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KARIOS_FATEWEAVER_BACKGROUND"/>
+			<m_ObjectName text="LEADER_KARIOS_FATEWEAVER_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KUGATH_NEUTRAL"/>
+			<m_ObjectName text="LEADER_KUGATH_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_KUGATH_BACKGROUND"/>
+			<m_ObjectName text="LEADER_KUGATH_BACKGROUND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NKARI_NEUTRAL"/>
+			<m_ObjectName text="LEADER_NKARI_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_NKARI_BACKGROUND"/>
+			<m_ObjectName text="LEADER_NKARI_BACKGROUND"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

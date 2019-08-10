@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>415</build>
+		<revision>990</revision>
+	</m_Version>
+	<m_ClassName text="LeaderFallback"/>
+	<m_PackageName text="LeaderFallbacks"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LOUEN_LEONCOEUR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LOUEN_LEONCOEUR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_KARL_FRANZ"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KARL_FRANZ"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_MALEKITH"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_MALEKITH"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_FINUBAR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_FINUBAR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ORION"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ORION"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_THORGRIM_GRUDGEBEARER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_THORGRIM_GRUDGEBEARER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LORD_MAZDAMUNDI"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LORD_MAZDAMUNDI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_GRIMGOR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_GRIMGOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LORD_VERMINKIN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LORD_VERMINKIN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_WULFRIK_THE_WANDERER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_WULFRIK_THE_WANDERER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_MANNFRED_VON_CARSTEIN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_MANNFRED_VON_CARSTEIN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ARCHAON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ARCHAON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_SETTRA"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_SETTRA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LUTHOR_HARKON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LUTHOR_HARKON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_NAGASH"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_NAGASH"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_KATARIN_BOKHA"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KATARIN_BOKHA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_GREASUS_GOLDTOOTH"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_GREASUS_GOLDTOOTH"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ASTRAGOTH_IRONHAND"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ASTRAGOTH_IRONHAND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_HOBGOBLA_KHAN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_HOBGOBLA_KHAN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_XEN_HUONG"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_XEN_HUONG"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_BORGIO"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_BORGIO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_BELAKOR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_BELAKOR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_SUTLAN_JAFFAR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_SUTLAN_JAFFAR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_CRONE_HELLEBRON"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_CRONE_HELLEBRON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_MORATHI"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_MORATHI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_PRINCE_TYRION"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_PRINCE_TYRION"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_TECLIS"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_TECLIS"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ALARIELLE_RADIANT"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ALARIELLE_RADIANT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ALITH_ANAR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ALITH_ANAR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_BELEGAR_IRONHAMMER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_BELEGAR_IRONHAMMER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_UNGRIM_IRONFIST"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_UNGRIM_IRONFIST"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_SKARSNIK"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_SKARSNIK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_QUEEK_HEADTAKER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_QUEEK_HEADTAKER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LORD_MORSKITTAR"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LORD_MORSKITTAR"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_LORD_SKROLK"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_LORD_SKROLK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_VLAD_VON_CARSTEIN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_VLAD_VON_CARSTEIN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_NEFERATA"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_NEFERATA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ARKHAN_BLACK"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_ARKHAN_BLACK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_DRAZHOATH_ASHEN"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_DRAZHOATH_ASHEN"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_SKARBRAND"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_SKARBRAND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_KARIOS_FATEWEAVER"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KARIOS_FATEWEAVER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_KUGATH"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_KUGATH"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_NKARI"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_NKARI"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

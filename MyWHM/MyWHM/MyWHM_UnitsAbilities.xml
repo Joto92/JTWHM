@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="ABILITY_WHM_MELEE_UNITS_BONUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GRAIL_KNIGHT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YEOMEN_ARCHERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DEMIGRYPH_KNIGHTS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PISTOLIERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DREADSPEARS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DARKSHARDS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DARK_RIDERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_COLD_ONE_KNIGHTS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WHM_MONSTER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WAR_HYDRA" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SEA_GUARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SILVER_HEMLS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ELLYRIAN_REAVER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ETERNAL_GUARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GLADE_GUARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WILD_RIDERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GLADE_RIDERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LONGBEARDS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HAMMERERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SKINKS_COHORT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SAURUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KROXIGOR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SAURUS_SPEARS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WHM_PUSH_ATTACK" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SAVAGE_ORC" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BLACK_ORC" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TROLLS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ORC_BOAR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WHM_GIANTS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GOBLIN_WOLF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CHAOS_MARAUDERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DRAGON_OGRES" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CHAOS_WARHOUNDS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_STORMVERMIN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CLANRATS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RAT_OGRES" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PLAGUECLAW_CATAPULT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RATLING_GUN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GRAVE_GUARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BLOOD_KNIGHTS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WAR_MAMMOTH" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TOMB_GUARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_NECROPOLIS_KNIGHTS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ZOMBIE_PIRATE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DEPTH_GUARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GUNNERY_MOB" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_KOSSAR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WINGED_LANCERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNGOL_HORSE_ARCHERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_IRONGUTS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_YHETEES" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_INFERNAL_GUARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HOBGOBLIN_WOLF_RAIDERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HOBGOBLIN_MOUNT_ARCHER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DRAGON_EMPEROR_GUARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TERRACOTA_WARRIORS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BLOODLETTER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FLESH_HOUND" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PINK_BLUE_HORRORS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FLAMERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BURNING_CHARIOT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PLAGUEBEARER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PLAGUE_DRONES" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DAEMONETTE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HELLFLAYERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DERVISHERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CAMELS_RIDERS" Kind="KIND_ABILITY"/>
+
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_WHM_MELEE_UNITS_BONUS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_GRAIL_KNIGHT" Tag="CLASS_GRAIL_KNIGHT"/>
+		<Row Type="ABILITY_YEOMEN_ARCHERS" Tag="CLASS_YEOMEN_ARCHERS"/>
+		<Row Type="ABILITY_DEMIGRYPH_KNIGHTS" Tag="CLASS_DEMIGRYPH_KNIGHTS"/>
+		<Row Type="ABILITY_PISTOLIERS" Tag="CLASS_PISTOLIERS"/>
+		<Row Type="ABILITY_DREADSPEARS" Tag="CLASS_DREADSPEARS"/>
+		<Row Type="ABILITY_DARKSHARDS" Tag="CLASS_DARKSHARDS"/>
+		<Row Type="ABILITY_DARK_RIDERS" Tag="CLASS_DARK_RIDERS"/>
+		<Row Type="ABILITY_COLD_ONE_KNIGHTS" Tag="CLASS_COLD_ONE_KNIGHTS"/>
+		<Row Type="ABILITY_WHM_MONSTER" Tag="CLASS_WHM_MONSTER"/>
+		<Row Type="ABILITY_WAR_HYDRA" Tag="CLASS_WAR_HYDRA"/>
+		<Row Type="ABILITY_SEA_GUARD" Tag="CLASS_SEA_GUARD"/>
+		<Row Type="ABILITY_SILVER_HEMLS" Tag="CLASS_SILVER_HEMLS"/>
+		<Row Type="ABILITY_ELLYRIAN_REAVER" Tag="CLASS_ELLYRIAN_REAVER"/>
+		<Row Type="ABILITY_ETERNAL_GUARD" Tag="CLASS_ETERNAL_GUARD"/>
+		<Row Type="ABILITY_GLADE_GUARD" Tag="CLASS_GLADE_GUARD"/>
+		<Row Type="ABILITY_WILD_RIDERS" Tag="CLASS_WILD_RIDERS"/>
+		<Row Type="ABILITY_GLADE_RIDERS" Tag="CLASS_GLADE_RIDERS"/>
+		<Row Type="ABILITY_LONGBEARDS" Tag="CLASS_LONGBEARDS"/>
+		<Row Type="ABILITY_HAMMERERS" Tag="CLASS_HAMMERERS"/>
+		<Row Type="ABILITY_SKINKS_COHORT" Tag="CLASS_SKINKS_COHORT"/>
+		<Row Type="ABILITY_SAURUS" Tag="CLASS_SAURUS"/>
+		<Row Type="ABILITY_KROXIGOR" Tag="CLASS_KROXIGOR"/>
+		<Row Type="ABILITY_SAURUS_SPEARS" Tag="CLASS_SAURUS_SPEARS"/>
+		<Row Type="ABILITY_WHM_PUSH_ATTACK" Tag="CLASS_WHM_PUSH_ATTACK"/>
+		<Row Type="ABILITY_SAVAGE_ORC" Tag="CLASS_SAVAGE_ORC"/>
+		<Row Type="ABILITY_BLACK_ORC" Tag="CLASS_BLACK_ORC"/>
+		<Row Type="ABILITY_TROLLS" Tag="CLASS_TROLLS"/>
+		<Row Type="ABILITY_ORC_BOAR" Tag="CLASS_ORC_BOAR"/>
+		<Row Type="ABILITY_WHM_GIANTS" Tag="CLASS_WHM_GIANTS"/>
+		<Row Type="ABILITY_GOBLIN_WOLF" Tag="CLASS_GOBLIN_WOLF"/>
+		<Row Type="ABILITY_CHAOS_MARAUDERS" Tag="CLASS_CHAOS_MARAUDERS"/>
+		<Row Type="ABILITY_DRAGON_OGRES" Tag="CLASS_DRAGON_OGRES"/>
+		<Row Type="ABILITY_CHAOS_WARHOUNDS" Tag="CLASS_CHAOS_WARHOUNDS"/>
+		<Row Type="ABILITY_STORMVERMIN" Tag="CLASS_STORMVERMIN"/>
+		<Row Type="ABILITY_CLANRATS" Tag="CLASS_CLANRATS"/>
+		<Row Type="ABILITY_RAT_OGRES" Tag="CLASS_RAT_OGRES"/>
+		<Row Type="ABILITY_PLAGUECLAW_CATAPULT" Tag="CLASS_PLAGUECLAW_CATAPULT"/>
+		<Row Type="ABILITY_RATLING_GUN" Tag="CLASS_RATLING_GUN"/>
+		<Row Type="ABILITY_GRAVE_GUARD" Tag="CLASS_GRAVE_GUARD"/>
+		<Row Type="ABILITY_BLOOD_KNIGHTS" Tag="CLASS_BLOOD_KNIGHTS"/>
+		<Row Type="ABILITY_WAR_MAMMOTH" Tag="CLASS_WAR_MAMMOTH"/>
+		<Row Type="ABILITY_TOMB_GUARD" Tag="CLASS_TOMB_GUARD"/>
+		<Row Type="ABILITY_NECROPOLIS_KNIGHTS" Tag="CLASS_NECROPOLIS_KNIGHTS"/>
+		<Row Type="ABILITY_ZOMBIE_PIRATE" Tag="CLASS_ZOMBIE_PIRATE"/>
+		<Row Type="ABILITY_DEPTH_GUARD" Tag="CLASS_DEPTH_GUARD"/>
+		<Row Type="ABILITY_GUNNERY_MOB" Tag="CLASS_GUNNERY_MOB"/>
+		<Row Type="ABILITY_KOSSAR" Tag="CLASS_KOSSAR"/>
+		<Row Type="ABILITY_WINGED_LANCERS" Tag="CLASS_WINGED_LANCERS"/>
+		<Row Type="ABILITY_UNGOL_HORSE_ARCHERS" Tag="CLASS_UNGOL_HORSE_ARCHERS"/>
+		<Row Type="ABILITY_IRONGUTS" Tag="CLASS_IRONGUTS"/>
+		<Row Type="ABILITY_YHETEES" Tag="CLASS_YHETEES"/>
+		<Row Type="ABILITY_INFERNAL_GUARD" Tag="CLASS_INFERNAL_GUARD"/>
+		<Row Type="ABILITY_HOBGOBLIN_WOLF_RAIDERS" Tag="CLASS_HOBGOBLIN_WOLF_RAIDERS"/>
+		<Row Type="ABILITY_HOBGOBLIN_MOUNT_ARCHER" Tag="CLASS_HOBGOBLIN_MOUNT_ARCHER"/>
+		<Row Type="ABILITY_DRAGON_EMPEROR_GUARD" Tag="CLASS_DRAGON_EMPEROR_GUARD"/>
+		<Row Type="ABILITY_TERRACOTA_WARRIORS" Tag="CLASS_TERRACOTA_WARRIORS"/>
+		<Row Type="ABILITY_BLOODLETTER" Tag="CLASS_BLOODLETTER"/>
+		<Row Type="ABILITY_FLESH_HOUND" Tag="CLASS_FLESH_HOUND"/>
+		<Row Type="ABILITY_PINK_BLUE_HORRORS" Tag="CLASS_PINK_BLUE_HORRORS"/>
+		<Row Type="ABILITY_FLAMERS" Tag="CLASS_FLAMERS"/>
+		<Row Type="ABILITY_BURNING_CHARIOT" Tag="CLASS_BURNING_CHARIOT"/>
+		<Row Type="ABILITY_PLAGUEBEARER" Tag="CLASS_PLAGUEBEARER"/>
+		<Row Type="ABILITY_PLAGUE_DRONES" Tag="CLASS_PLAGUE_DRONES"/>
+		<Row Type="ABILITY_DAEMONETTE" Tag="CLASS_DAEMONETTE"/>
+		<Row Type="ABILITY_HELLFLAYERS" Tag="CLASS_HELLFLAYERS"/>
+		<Row Type="ABILITY_DERVISHERS" Tag="CLASS_DERVISHERS"/>
+		<Row Type="ABILITY_CAMELS_RIDERS" Tag="CLASS_CAMELS_RIDERS"/>
+
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_WHM_MELEE_UNITS_BONUS" Name="LOC_TRAIT_WHM_MELEE_UNITS_BONUS_NAME" Description="LOC_ABILITY_WHM_MELEE_UNITS_BONUS_DESCRIPTION"  Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GRAIL_KNIGHT" Name="LOC_ABILITY_GRAIL_KNIGHT_NAME" Description="LOC_ABILITY_GRAIL_KNIGHT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YEOMEN_ARCHERS" Name="LOC_ABILITY_YEOMEN_ARCHERS_NAME" Description="LOC_ABILITY_YEOMEN_ARCHERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DEMIGRYPH_KNIGHTS" Name="LOC_ABILITY_DEMIGRYPH_KNIGHTS_NAME" Description="LOC_ABILITY_DEMIGRYPH_KNIGHTS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PISTOLIERS" Name="LOC_ABILITY_PISTOLIERS_NAME" Description="LOC_ABILITY_PISTOLIERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DREADSPEARS" Name="LOC_ABILITY_DREADSPEARS_NAME" Description="LOC_ABILITY_DREADSPEARS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DARKSHARDS" Name="LOC_ABILITY_DARKSHARDS_NAME" Description="LOC_ABILITY_DARKSHARDS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DARK_RIDERS" Name="LOC_ABILITY_DARK_RIDERS_NAME" Description="LOC_ABILITY_DARK_RIDERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_COLD_ONE_KNIGHTS" Name="LOC_ABILITY_COLD_ONE_KNIGHTS_NAME" Description="LOC_ABILITY_COLD_ONE_KNIGHTS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WHM_MONSTER" Name="LOC_ABILITY_WHM_MONSTER_NAME" Description="LOC_ABILITY_WHM_MONSTER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WAR_HYDRA" Name="LOC_ABILITY_WAR_HYDRA_NAME" Description="LOC_ABILITY_WAR_HYDRA_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SEA_GUARD" Name="LOC_ABILITY_SEA_GUARD_NAME" Description="LOC_ABILITY_SEA_GUARD_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SILVER_HEMLS" Name="LOC_ABILITY_SILVER_HEMLS_NAME" Description="LOC_ABILITY_SILVER_HEMLS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ELLYRIAN_REAVER" Name="LOC_ABILITY_ELLYRIAN_REAVER_NAME" Description="LOC_ABILITY_ELLYRIAN_REAVER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ETERNAL_GUARD" Name="LOC_ABILITY_ETERNAL_GUARD_NAME" Description="LOC_ABILITY_ETERNAL_GUARD_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GLADE_GUARD" Name="LOC_ABILITY_GLADE_GUARD_NAME" Description="LOC_ABILITY_GLADE_GUARD_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WILD_RIDERS" Name="LOC_ABILITY_WILD_RIDERS_NAME" Description="LOC_ABILITY_WILD_RIDERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GLADE_RIDERS" Name="LOC_ABILITY_GLADE_RIDERS_NAME" Description="LOC_ABILITY_GLADE_RIDERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_LONGBEARDS" Name="LOC_ABILITY_LONGBEARDS_NAME" Description="LOC_ABILITY_LONGBEARDS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HAMMERERS" Name="LOC_ABILITY_HAMMERERS_NAME" Description="LOC_ABILITY_HAMMERERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SKINKS_COHORT" Name="LOC_ABILITY_SKINKS_COHORT_NAME" Description="LOC_ABILITY_SKINKS_COHORT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SAURUS" Name="LOC_ABILITY_SAURUS_NAME" Description="LOC_ABILITY_SAURUS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_KROXIGOR" Name="LOC_ABILITY_KROXIGOR_NAME" Description="LOC_ABILITY_KROXIGOR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SAURUS_SPEARS" Name="LOC_ABILITY_SAURUS_SPEARS_NAME" Description="LOC_ABILITY_SAURUS_SPEARS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WHM_PUSH_ATTACK" Name="LOC_ABILITY_WHM_PUSH_ATTACK_NAME" Description="LOC_ABILITY_WHM_PUSH_ATTACK_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SAVAGE_ORC" Name="LOC_ABILITY_SAVAGE_ORC_NAME" Description="LOC_ABILITY_SAVAGE_ORC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BLACK_ORC" Name="LOC_ABILITY_BLACK_ORC_NAME" Description="LOC_ABILITY_BLACK_ORC_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TROLLS" Name="LOC_ABILITY_TROLLS_NAME" Description="LOC_ABILITY_TROLLS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ORC_BOAR" Name="LOC_ABILITY_ORC_BOAR_NAME" Description="LOC_ABILITY_ORC_BOAR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WHM_GIANTS" Name="LOC_ABILITY_WHM_GIANTS_NAME" Description="LOC_ABILITY_WHM_GIANTS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GOBLIN_WOLF" Name="LOC_ABILITY_GOBLIN_WOLF_NAME" Description="LOC_ABILITY_GOBLIN_WOLF_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CHAOS_MARAUDERS" Name="LOC_ABILITY_CHAOS_MARAUDERS_NAME" Description="LOC_ABILITY_CHAOS_MARAUDERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DRAGON_OGRES" Name="LOC_ABILITY_DRAGON_OGRES_NAME" Description="LOC_ABILITY_DRAGON_OGRES_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CHAOS_WARHOUNDS" Name="LOC_ABILITY_CHAOS_WARHOUNDS_NAME" Description="LOC_ABILITY_CHAOS_WARHOUNDS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_STORMVERMIN" Name="LOC_ABILITY_STORMVERMIN_NAME" Description="LOC_ABILITY_STORMVERMIN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CLANRATS" Name="LOC_ABILITY_CLANRATS_NAME" Description="LOC_ABILITY_CLANRATS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RAT_OGRES" Name="LOC_ABILITY_RAT_OGRES_NAME" Description="LOC_ABILITY_RAT_OGRES_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PLAGUECLAW_CATAPULT" Name="LOC_ABILITY_PLAGUECLAW_CATAPULT_NAME" Description="LOC_ABILITY_PLAGUECLAW_CATAPULT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RATLING_GUN" Name="LOC_ABILITY_RATLING_GUN_NAME" Description="LOC_ABILITY_RATLING_GUN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GRAVE_GUARD" Name="LOC_ABILITY_GRAVE_GUARD_NAME" Description="LOC_ABILITY_GRAVE_GUARD_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BLOOD_KNIGHTS" Name="LOC_ABILITY_BLOOD_KNIGHTS_NAME" Description="LOC_ABILITY_BLOOD_KNIGHTS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WAR_MAMMOTH" Name="LOC_ABILITY_WAR_MAMMOTH_NAME" Description="LOC_ABILITY_WAR_MAMMOTH_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TOMB_GUARD" Name="LOC_ABILITY_TOMB_GUARD_NAME" Description="LOC_ABILITY_TOMB_GUARD_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_NECROPOLIS_KNIGHTS" Name="LOC_ABILITY_NECROPOLIS_KNIGHTS_NAME" Description="LOC_ABILITY_NECROPOLIS_KNIGHTS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ZOMBIE_PIRATE" Name="LOC_ABILITY_ZOMBIE_PIRATE_NAME" Description="LOC_ABILITY_ZOMBIE_PIRATE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DEPTH_GUARD" Name="LOC_ABILITY_DEPTH_GUARD_NAME" Description="LOC_ABILITY_DEPTH_GUARD_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GUNNERY_MOB" Name="LOC_ABILITY_GUNNERY_MOB_NAME" Description="LOC_ABILITY_GUNNERY_MOB_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_KOSSAR" Name="LOC_ABILITY_KOSSAR_NAME" Description="LOC_ABILITY_KOSSAR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WINGED_LANCERS" Name="LOC_ABILITY_WINGED_LANCERS_NAME" Description="LOC_ABILITY_WINGED_LANCERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNGOL_HORSE_ARCHERS" Name="LOC_ABILITY_UNGOL_HORSE_ARCHERS_NAME" Description="LOC_ABILITY_UNGOL_HORSE_ARCHERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_IRONGUTS" Name="LOC_ABILITY_IRONGUTS_NAME" Description="LOC_ABILITY_IRONGUTS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_YHETEES" Name="LOC_ABILITY_YHETEES_NAME" Description="LOC_ABILITY_YHETEES_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_INFERNAL_GUARD" Name="LOC_ABILITY_INFERNAL_GUARD_NAME" Description="LOC_ABILITY_INFERNAL_GUARD_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HOBGOBLIN_WOLF_RAIDERS" Name="LOC_ABILITY_HOBGOBLIN_WOLF_RAIDERS_NAME" Description="LOC_ABILITY_HOBGOBLIN_WOLF_RAIDERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HOBGOBLIN_MOUNT_ARCHER" Name="LOC_ABILITY_HOBGOBLIN_MOUNT_ARCHER_NAME" Description="LOC_ABILITY_HOBGOBLIN_MOUNT_ARCHER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DRAGON_EMPEROR_GUARD" Name="LOC_ABILITY_DRAGON_EMPEROR_GUARD_NAME" Description="LOC_ABILITY_DRAGON_EMPEROR_GUARD_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TERRACOTA_WARRIORS" Name="LOC_ABILITY_TERRACOTA_WARRIORS_NAME" Description="LOC_ABILITY_TERRACOTA_WARRIORS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BLOODLETTER" Name="LOC_ABILITY_BLOODLETTER_NAME" Description="LOC_ABILITY_BLOODLETTER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FLESH_HOUND" Name="LOC_ABILITY_FLESH_HOUND_NAME" Description="LOC_ABILITY_FLESH_HOUND_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PINK_BLUE_HORRORS" Name="LOC_ABILITY_PINK_BLUE_HORRORS_NAME" Description="LOC_ABILITY_PINK_BLUE_HORRORS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FLAMERS" Name="LOC_ABILITY_FLAMERS_NAME" Description="LOC_ABILITY_FLAMERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_BURNING_CHARIOT" Name="LOC_ABILITY_BURNING_CHARIOT_NAME" Description="LOC_ABILITY_BURNING_CHARIOT_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PLAGUEBEARER" Name="LOC_ABILITY_PLAGUEBEARER_NAME" Description="LOC_ABILITY_PLAGUEBEARER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_PLAGUE_DRONES" Name="LOC_ABILITY_PLAGUE_DRONES_NAME" Description="LOC_ABILITY_PLAGUE_DRONES_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DAEMONETTE" Name="LOC_ABILITY_DAEMONETTE_NAME" Description="LOC_ABILITY_DAEMONETTE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HELLFLAYERS" Name="LOC_ABILITY_HELLFLAYERS_NAME" Description="LOC_ABILITY_HELLFLAYERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DERVISHERS" Name="LOC_ABILITY_DERVISHERS_NAME" Description="LOC_ABILITY_DERVISHERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CAMELS_RIDERS" Name="LOC_ABILITY_CAMELS_RIDERS_NAME" Description="LOC_ABILITY_CAMELS_RIDERS_DESCRIPTION"/>
+
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_WHM_MELEE_UNITS_BONUS</UnitAbilityType>
+			<ModifierId>WHM_MELEE_UNITS_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GRAIL_KNIGHT</UnitAbilityType>
+			<ModifierId>WHM_UNIT_DEFENSE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_YEOMEN_ARCHERS</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DEMIGRYPH_KNIGHTS</UnitAbilityType>
+			<ModifierId>WHM_UNIT_BONUS_ATTACK_MELEE_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PISTOLIERS</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DREADSPEARS</UnitAbilityType>
+			<ModifierId>DREADSPEARS_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DARKSHARDS</UnitAbilityType>
+			<ModifierId>WHM_UNIT_DEFENSE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DARK_RIDERS</UnitAbilityType>
+			<ModifierId>UNIT_REDUCED_PILLAGE_COST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_COLD_ONE_KNIGHTS</UnitAbilityType>
+			<ModifierId>WHM_UNIT_BONUS_AGAINST_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WHM_MONSTER</UnitAbilityType>
+			<ModifierId>VARU_NEGATIVE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WAR_HYDRA</UnitAbilityType>
+			<ModifierId>MAMLUK_HEAL_EVERY_MOVE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SEA_GUARD</UnitAbilityType>
+			<ModifierId>COMBAT_BONUS_LAND_ON_COAST_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SILVER_HEMLS</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ELLYRIAN_REAVER</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ETERNAL_GUARD</UnitAbilityType>
+			<ModifierId>WHM_DEFENSE_BONUS_VS_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GLADE_GUARD</UnitAbilityType>
+			<ModifierId>WHM_DEFENSE_ON_WOODS_JUNGLES_HILLS_MARSH</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WILD_RIDERS</UnitAbilityType>
+			<ModifierId>WHM_UNIT_BONUS_ATTACK_MELEE_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GLADE_RIDERS</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_LONGBEARDS</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HAMMERERS</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_FORTIFIED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SKINKS_COHORT</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SAURUS</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KROXIGOR</UnitAbilityType>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SAURUS_SPEARS</UnitAbilityType>
+			<ModifierId>WHM_DEFENSE_ON_WOODS_JUNGLES_HILLS_MARSH</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WHM_PUSH_ATTACK</UnitAbilityType>
+			<ModifierId>HUSSAR_FORCE_RETREAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SAVAGE_ORC</UnitAbilityType>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SAVAGE_ORC</UnitAbilityType>
+			<ModifierId>UNIT_WEAK_WHEN_DEFENDING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BLACK_ORC</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TROLLS</UnitAbilityType>
+			<ModifierId>MAMLUK_HEAL_EVERY_MOVE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ORC_BOAR</UnitAbilityType>
+			<ModifierId>ROUGH_RIDER_BONUS_ON_HILLS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WHM_GIANTS</UnitAbilityType>
+			<ModifierId>WHM_UNIT_BONUS_ATTACK_MELEE_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GOBLIN_WOLF</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CHAOS_MARAUDERS</UnitAbilityType>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CHAOS_MARAUDERS</UnitAbilityType>
+			<ModifierId>UNIT_WEAK_WHEN_DEFENDING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DRAGON_OGRES</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_LAND_UNITS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CHAOS_WARHOUNDS</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RAT_OGRES</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_ANTI_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_STORMVERMIN</UnitAbilityType>
+			<ModifierId>WHM_UNIT_DEFENSE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CLANRATS</UnitAbilityType>
+			<ModifierId>CLANRATS_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PLAGUECLAW_CATAPULT</UnitAbilityType>
+			<ModifierId>WHM_RAIDER_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RATLING_GUN</UnitAbilityType>
+			<ModifierId>WHM_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GRAVE_GUARD</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BLOOD_KNIGHTS</UnitAbilityType>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WAR_MAMMOTH</UnitAbilityType>
+			<ModifierId>HUSSAR_FORCE_RETREAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TOMB_GUARD</UnitAbilityType>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_NECROPOLIS_KNIGHTS</UnitAbilityType>
+			<ModifierId>WHM_BONUS_FLANKING_BONUS_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ZOMBIE_PIRATE</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DEPTH_GUARD</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_LAND_UNITS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DEPTH_GUARD</UnitAbilityType>
+			<ModifierId>WHM_BONUS_IGNORE_RIVERS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DEPTH_GUARD</UnitAbilityType>
+			<ModifierId>WHM_BONUS_IGNORE_SHORES</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GUNNERY_MOB</UnitAbilityType>
+			<ModifierId>WHM_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_KOSSAR</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WINGED_LANCERS</UnitAbilityType>
+			<ModifierId>HUSSAR_FORCE_RETREAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UNGOL_HORSE_ARCHERS</UnitAbilityType>
+			<ModifierId>MAMLUK_HEAL_EVERY_MOVE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_IRONGUTS</UnitAbilityType>
+			<ModifierId>WHM_DEFENSE_BONUS_VS_MELEE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_YHETEES</UnitAbilityType>
+			<ModifierId>WHM_TUNDRA_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_INFERNAL_GUARD</UnitAbilityType>
+			<ModifierId>WHM_RELIGION_COMBAT_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HOBGOBLIN_WOLF_RAIDERS</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HOBGOBLIN_WOLF_RAIDERS</UnitAbilityType>
+			<ModifierId>UNIT_REDUCED_PILLAGE_COST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HOBGOBLIN_MOUNT_ARCHER</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DRAGON_EMPEROR_GUARD</UnitAbilityType>
+			<ModifierId>COSSACK_LOCAL_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TERRACOTA_WARRIORS</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BLOODLETTER</UnitAbilityType>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FLESH_HOUND</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PINK_BLUE_HORRORS</UnitAbilityType>
+			<ModifierId>PINK_BLUE_HORRORS_NEIGHBOR_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FLAMERS</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_DISTRICTS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BURNING_CHARIOT</UnitAbilityType>
+			<ModifierId>WHM_UNIT_BONUS_ATTACK_MELEE_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PLAGUEBEARER</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_DAMAGED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PLAGUE_DRONES</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DAEMONETTE</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_ANTI_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HELLFLAYERS</UnitAbilityType>
+			<ModifierId>WHM_BONUS_VS_LAND_UNITS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DERVISHERS</UnitAbilityType>
+			<ModifierId>UNIT_STRONG_WHEN_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DERVISHERS</UnitAbilityType>
+			<ModifierId>UNIT_WEAK_WHEN_DEFENDING</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CAMELS_RIDERS</UnitAbilityType>
+			<ModifierId>WHM_COMBAT_DESERT_BONUS_MODIFIER</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>WHM_MELEE_UNITS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WHM_UNIT_DEFENSE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CREW_WEAPONS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_UNIT_BONUS_ATTACK_MELEE_RANGED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BATTLECRY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>DREADSPEARS_NEIGHBOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>DREADSPEARS_PLOT_IS_DREADSPEARS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_UNIT_BONUS_AGAINST_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ECHELON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_DEFENSE_BONUS_VS_RANGED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>TOP_COVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_DEFENSE_ON_WOODS_JUNGLES_HILLS_MARSH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CHOKE_POINTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_FORTIFIED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CHARGE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_DAMAGED</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>VULTURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_LAND_UNITS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>VOLLEY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CLANRATS_NEIGHBOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CLANRATS_PLOT_IS_CLANRATS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_ANTI_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ZWEIHANDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_RAIDER_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>URBAN_RAIDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_ADDITIONAL_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_NUM_ATTACKS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_FLANKING_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_IGNORE_RIVERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RIVERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_IGNORE_SHORES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_SHORES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WHM_DEFENSE_BONUS_VS_MELEE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SCHILTRON_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_RELIGION_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_OTHER_RELIGION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PINK_BLUE_HORRORS_NEIGHBOR_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>PINK_BLUE_HORRORS_PLOT_IS_HORRORS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SHELLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>WHM_MELEE_UNITS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_UNIT_DEFENSE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_UNIT_BONUS_ATTACK_MELEE_RANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>DREADSPEARS_NEIGHBOR_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_UNIT_BONUS_AGAINST_CAVALRY</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_DEFENSE_BONUS_VS_RANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_DEFENSE_ON_WOODS_JUNGLES_HILLS_MARSH</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_FORTIFIED</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_DAMAGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_LAND_UNITS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>CLANRATS_NEIGHBOR_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_ANTI_CAVALRY</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_RAIDER_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_ADDITIONAL_ATTACK</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_FLANKING_BONUS_MODIFIER</ModifierId>
+			<Name>Percent</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_IGNORE_RIVERS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_IGNORE_SHORES</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_DEFENSE_BONUS_VS_MELEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_RELIGION_COMBAT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>PINK_BLUE_HORRORS_NEIGHBOR_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>WHM_BONUS_VS_DISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<ModifierStrings>
+		<Row ModifierId="WHM_MELEE_UNITS_BONUS" Context="Preview" Text="LOC_ABILITY_WHM_MELEE_UNITS_BONUS_DESCRIPTION"/>
+		<Row ModifierId="WHM_UNIT_DEFENSE_BONUS" Context="Preview" Text="LOC_ABILITY_WHM_UNIT_DEFENSE_BONUS_DESCRIPTION"/>
+		<Row ModifierId="WHM_UNIT_BONUS_ATTACK_MELEE_RANGED" Context="Preview" Text="LOC_ABILITY_WHM_UNIT_BONUS_ATTACK_MELEE_RANGED_DESCRIPTION"/>
+		<Row ModifierId="DREADSPEARS_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_DREADSPEARS_NEIGHBOR_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="WHM_UNIT_BONUS_AGAINST_CAVALRY" Context="Preview" Text="LOC_ABILITY_WHM_UNIT_BONUS_AGAINST_CAVALRY_DESCRIPTION"/>
+		<Row ModifierId="WHM_DEFENSE_BONUS_VS_RANGED" Context="Preview" Text="LOC_ABILITY_WHM_DEFENSE_BONUS_VS_RANGED_DESCRIPTION"/>
+		<Row ModifierId="WHM_DEFENSE_ON_WOODS_JUNGLES_HILLS_MARSH" Context="Preview" Text="LOC_ABILITY_WHM_DEFENSE_ON_WOODS_JUNGLES_HILLS_MARSH_DESCRIPTION"/>
+		<Row ModifierId="WHM_BONUS_VS_FORTIFIED" Context="Preview" Text="LOC_ABILITY_WHM_BONUS_VS_FORTIFIED_DESCRIPTION"/>
+		<Row ModifierId="WHM_BONUS_VS_DAMAGED" Context="Preview" Text="LOC_ABILITY_WHM_BONUS_VS_DAMAGED_DESCRIPTION"/>
+		<Row ModifierId="WHM_BONUS_VS_LAND_UNITS" Context="Preview" Text="LOC_ABILITY_WHM_BONUS_VS_LAND_UNITS_DESCRIPTION"/>
+		<Row ModifierId="CLANRATS_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_CLANRATS_NEIGHBOR_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="WHM_BONUS_VS_ANTI_CAVALRY" Context="Preview" Text="LOC_ABILITY_WHM_BONUS_VS_ANTI_CAVALRY_DESCRIPTION"/>
+		<Row ModifierId="WHM_RAIDER_BONUS" Context="Preview" Text="LOC_ABILITY_WHM_RAIDER_BONUS_DESCRIPTION"/>
+		<Row ModifierId="WHM_DEFENSE_BONUS_VS_MELEE" Context="Preview" Text="LOC_ABILITY_WHM_DEFENSE_BONUS_VS_MELEE_DESCRIPTION"/>
+		<Row ModifierId="WHM_RELIGION_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_WHM_RELIGION_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="PINK_BLUE_HORRORS_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_PINK_BLUE_HORRORS_NEIGHBOR_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="WHM_BONUS_VS_DISTRICTS" Context="Preview" Text="LOC_ABILITY_WHM_BONUS_VS_DISTRICTS_DESCRIPTION"/>
+
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>DREADSPEARS_PLOT_IS_DREADSPEARS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CLANRATS_PLOT_IS_CLANRATS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PINK_BLUE_HORRORS_PLOT_IS_HORRORS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>DREADSPEARS_PLOT_IS_DREADSPEARS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_DREADSPEARS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CLANRATS_PLOT_IS_CLANRATS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CLANRATS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PINK_BLUE_HORRORS_PLOT_IS_HORRORS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_PINK_HORRORS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PINK_BLUE_HORRORS_PLOT_IS_HORRORS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_BLUE_HORRORS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_DREADSPEARS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CLANRATS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_PINK_HORRORS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_BLUE_HORRORS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_DREADSPEARS</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_DREADSPEARS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_CLANRATS</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_CLANRATS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_PINK_HORRORS</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_PINK_HORROR</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_BLUE_HORRORS</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BLUE_HORROR</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
