@@ -1502,6 +1502,7 @@
 		<Row Tag="LOC_IMPROVEMENT_CAVE_PAINTING_DESCRIPTION" Language="en_US">
 			<Text>Ogres unique improvement. Gives +1[ICON_Faith] Faith and +1[ICON_Culture] Culture. +2[ICON_Faith] Faith for being next to a Holy Site.</Text>
 		</Row>
+		<!-- DISTRICTS-->
 		<Row Tag="LOC_DISTRICT_REIKSFORT_NAME" Language="en_US">
 			<Text>Reiksfort</Text>
 		</Row>
@@ -1513,6 +1514,30 @@
 		</Row>
 		<Row Tag="LOC_DISTRICT_HIST_GROVE_DESCRIPTION" Language="en_US">
 			<Text>Wood Elf unique District that replace the Holy Site district. +2 Great Prophet. Double Faith bonus for being adjacent to Forests.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_NEST_LAIR_NAME" Language="en_US">
+			<Text>Nest-Lair</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_NEST_LAIR_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for military facilities. +2 Great Point for Generals. +1 Housing and more production for trade routes passing through.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MAUSOLEUM_NAME" Language="en_US">
+			<Text>Mausoleum</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_MAUSOLEUM_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for military facilities. +1 Great Point for Generals. If next to a Holy Site gains +2 [ICON_PRODUCTION] Production, +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WARBAND_CAMP_NAME" Language="en_US">
+			<Text>Mausoleum</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_WARBAND_CAMP_DESCRIPTION" Language="en_US">
+			<Text>A district in your city for military facilities. +2 Great Point for Generals. If next to a Tundra, Snow or Desert Mountain gains +1 [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_NECROPOLIS_NAME" Language="en_US">
+			<Text>Necropolis</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_NECROPOLIS_DESCRIPTION" Language="en_US">
+			<Text>Unique District that replace the Holy Site district. +2 Great Prophet and +1 for Great Generals. +1 [ICON_Culture] Culture and +1[ICON_FAITH] Faith for being adjacent to a Wonder.</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

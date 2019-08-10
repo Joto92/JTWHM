@@ -486,6 +486,10 @@
 		<Row Name="ICON_IMPROVEMENT_CAVE_PAINTING"           Atlas="ICON_ATLAS_WHM_BUILDINGS" Index="19"/>
 		<Row Name="ICON_DISTRICT_REIKSFORT"           Atlas="ICON_ATLAS_WHM_BUILDINGS" Index="20"/>
 		<Row Name="ICON_DISTRICT_WOOD_ELF_GROVE"           Atlas="ICON_ATLAS_WHM_BUILDINGS" Index="21"/>
+		<Row Name="ICON_DISTRICT_NEST_LAIR"           Atlas="ICON_ATLAS_WHM_BUILDINGS" Index="22"/>
+		<Row Name="ICON_DISTRICT_MAUSOLEUM"           Atlas="ICON_ATLAS_WHM_BUILDINGS" Index="23"/>
+		<Row Name="ICON_DISTRICT_WARBAND_CAMP"           Atlas="ICON_ATLAS_WHM_BUILDINGS" Index="24"/>
+		<Row Name="ICON_DISTRICT_NECROPOLIS"           Atlas="ICON_ATLAS_WHM_BUILDINGS" Index="25"/>
 
 	</IconDefinitions>
 </GameData>

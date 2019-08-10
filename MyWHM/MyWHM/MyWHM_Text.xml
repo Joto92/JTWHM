@@ -52,6 +52,30 @@
 		<Row Tag="LOC_WHM_DISTRICT_FOREST_PRODUCTION">
 			<Text>+{1_num} [ICON_Production] Production from the adjacent Woods {1_Num : plural 1?tile; other?tiles;}.</Text>
 		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_CULTURE_HOLY">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Holy Site {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_FAITH_HOLY">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Holy Site {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_PRODUCTION_HOLY">
+			<Text>+2 [ICON_Production] Production from the adjacent Holy Site.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_MOUNTAINSTUNDRA_PRODUCTION">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Tundra Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_MOUNTAINSSNOW_PRODUCTION">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Snow Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_MOUNTAINSDESERT_PRODUCTION">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Desert Mountain {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_WONDER_CULTURE">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent {1_Num : plural 1?wonder; other?wonders;}.</Text>
+		</Row>
+		<Row Tag="LOC_WHM_DISTRICT_WONDER_FAITH">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent {1_Num : plural 1?wonder; other?wonders;}.</Text>
+		</Row>
 		<!-- BRETONNIA-->
 		<Row Tag="LOC_LOADING_INFO_LEADER_LOUEN_LEONCOEUR" Language="en_US">
 			<Text>Louen Leoncoeur is the Duke of Couronne, one of the almighty Grail Knights and the penultimate warrior King of Bretonnia. He is renowned as a noble and just ruler. Fairness in all matters is his watchword, never allowing the law as written to compromise its noble intent, never refusing anyone a hearing in his presence to air grievances of which must be judged. He has issued a decree that none are to suffer for what they say during such an audience. Whenever the King gets involved, justice is done.</Text>
