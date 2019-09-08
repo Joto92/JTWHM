@@ -8,6 +8,7 @@
     <Element>
       <consumerName text="Units"/>
       <relativeArtDefPaths>
+		  <Element text="Units.artdef"/>
       </relativeArtDefPaths>
       <libraryDependencies>
         <Element text="Unit"/>
@@ -119,6 +120,7 @@
     <Element>
       <consumerName text="Terrain"/>
       <relativeArtDefPaths>
+		  <Element text="TerrainStyle.artdef"/>
       </relativeArtDefPaths>
       <libraryDependencies>
         <Element text="TerrainAsset"/>
@@ -242,13 +244,15 @@
     <Element>
       <consumerName text="Features"/>
       <relativeArtDefPaths>
-      </relativeArtDefPaths>
+		  <Element text="Features.artdef"/>
+	  </relativeArtDefPaths>
       <libraryDependencies/>
       <loadsLibraries>false</loadsLibraries>
     </Element>
     <Element>
       <consumerName text="Civilizations"/>
       <relativeArtDefPaths>
+		  <Element text="Civilizations.artdef"/>
       </relativeArtDefPaths>
       <libraryDependencies/>
       <loadsLibraries>false</loadsLibraries>
@@ -256,6 +260,7 @@
     <Element>
       <consumerName text="Cultures"/>
       <relativeArtDefPaths>
+		  <Element text="Cultures.artdef"/>
       </relativeArtDefPaths>
       <libraryDependencies/>
       <loadsLibraries>false</loadsLibraries>
@@ -270,10 +275,19 @@
     <Element>
       <consumerName text="Improvements"/>
       <relativeArtDefPaths>
+		  <Element text="Improvements.artdef"/>
       </relativeArtDefPaths>
       <libraryDependencies/>
       <loadsLibraries>false</loadsLibraries>
     </Element>
+	 <Element>
+		  <consumerName text="Districts"/>
+		  <relativeArtDefPaths>
+			  <Element text="Districts.artdef"/>
+		  </relativeArtDefPaths>
+		  <libraryDependencies/>
+		  <loadsLibraries>false</loadsLibraries>
+	</Element>
     <Element>
       <consumerName text="WorldView_Translate"/>
       <relativeArtDefPaths>

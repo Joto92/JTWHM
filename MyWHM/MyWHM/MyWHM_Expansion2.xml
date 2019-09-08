@@ -1,4 +1,575 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+	<UnitReplaces>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_DARK_RIDERS"/>
+		</Update>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_COLD_ONE_RIDERS"/>
+		</Update>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_GOBLIN_WOLF"/>
+		</Update>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_DIRE_WOLVES"/>
+		</Update>
+		<Row CivUniqueUnitType="UNIT_NECROPOLIS_KNIGHTS" ReplacesUnitType="UNIT_COURSER"/>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_YHETEES"/>
+		</Update>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_HOBGOBLIN_WOLF_RAIDERS"/>
+		</Update>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_FLESH_HOUND"/>
+		</Update>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_SEEKERS"/>
+		</Update>
+		<Update>
+			<Set ReplacesUnitType="UNIT_COURSER"/>
+			<Where CivUniqueUnitType="UNIT_CAMELS_RIDERS"/>
+		</Update>
+	</UnitReplaces>
+	<Units>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>5</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_DARK_RIDERS</UnitType>
+			</Where>
+		</Update>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>5</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_COLD_ONE_RIDERS</UnitType>
+			</Where>
+		</Update>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>5</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_GOBLIN_WOLF</UnitType>
+			</Where>
+		</Update>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>6</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_DIRE_WOLVES</UnitType>
+			</Where>
+		</Update>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>5</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_YHETEES</UnitType>
+			</Where>
+		</Update>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>5</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_HOBGOBLIN_WOLF_RAIDERS</UnitType>
+			</Where>
+		</Update>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>5</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_FLESH_HOUND</UnitType>
+			</Where>
+		</Update>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>6</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_SEEKERS</UnitType>
+			</Where>
+		</Update>
+		<Update>
+			<Set>
+				<Cost>200</Cost>
+				<Maintenance>3</Maintenance>
+				<Combat>44</Combat>
+				<BaseMoves>5</BaseMoves>
+				<PrereqTech>TECH_CASTLES</PrereqTech>
+			</Set>
+			<Where>
+				<UnitType>UNIT_CAMELS_RIDERS</UnitType>
+			</Where>
+		</Update>
+	</Units>
+	<UnitUpgrades>
+		<Update>
+			<Where Unit="UNIT_DARK_RIDERS"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_COLD_ONE_RIDERS"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_GOBLIN_WOLF"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_DIRE_WOLVES"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_YHETEES"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_HOBGOBLIN_WOLF_RAIDERS"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_FLESH_HOUND"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_SEEKERS"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_CAMELS_RIDERS"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+	</UnitUpgrades>
+	<Units_XP2>
+		<Row UnitType="UNIT_GRAIL_KNIGHT" ResourceCost="20"/>
+		<Row UnitType="UNIT_PEGASUS_KNIGHTS" ResourceCost="20"/>
+		<Row UnitType="UNIT_DEMIGRYPH_KNIGHTS" ResourceCost="20"/>
+		<Row UnitType="UNIT_DARK_RIDERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_COLD_ONE_KNIGHTS" ResourceCost="20"/>
+		<Row UnitType="UNIT_SILVER_HEMLS" ResourceCost="20"/>
+		<Row UnitType="UNIT_WILD_RIDERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_LONGBEARDS" ResourceCost="20"/>
+		<Row UnitType="UNIT_GYROBOMBER" ResourceCost="20"/>
+		<Row UnitType="UNIT_SAURUS" ResourceCost="20"/>
+		<Row UnitType="UNIT_KROXIGOR" ResourceCost="20"/>
+		<Row UnitType="UNIT_COLD_ONE_RIDERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_BASTILADON" ResourceCost="20"/>
+		<Row UnitType="UNIT_STEGADON" ResourceCost="20"/>
+		<Row UnitType="UNIT_BIG_UNS" ResourceCost="20"/>
+		<Row UnitType="UNIT_BLACK_ORC" ResourceCost="20"/>
+		<Row UnitType="UNIT_TROLLS" ResourceCost="20"/>
+		<Row UnitType="UNIT_ORC_BOAR" ResourceCost="20"/>
+		<Row UnitType="UNIT_GOBLIN_WOLF" ResourceCost="20"/>
+		<Row UnitType="UNIT_CHOSEN" ResourceCost="20"/>
+		<Row UnitType="UNIT_DRAGON_OGRES" ResourceCost="20"/>
+		<Row UnitType="UNIT_CLANRATS" ResourceCost="20"/>
+		<Row UnitType="UNIT_RAT_OGRES" ResourceCost="20"/>
+		<Row UnitType="UNIT_GRAVE_GUARD" ResourceCost="20"/>
+		<Row UnitType="UNIT_BLOOD_KNIGHTS" ResourceCost="20"/>
+		<Row UnitType="UNIT_DIRE_WOLVES" ResourceCost="20"/>
+		<Row UnitType="UNIT_TERRORGHEIST" ResourceCost="20"/>
+		<Row UnitType="UNIT_TOMB_GUARD" ResourceCost="20"/>
+		<Row UnitType="UNIT_NECROPOLIS_KNIGHTS" ResourceCost="20"/>
+		<Row UnitType="UNIT_USHABTI" ResourceCost="20"/>
+		<Row UnitType="UNIT_NECROSPHINX" ResourceCost="20"/>
+		<Row UnitType="UNIT_TOMB_SCORPION" ResourceCost="20"/>
+		<Row UnitType="UNIT_ZOMBIE_PIRATE" ResourceCost="20"/>
+		<Row UnitType="UNIT_WINGED_LANCERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_IRONGUTS" ResourceCost="20"/>
+		<Row UnitType="UNIT_YHETEES" ResourceCost="20"/>
+		<Row UnitType="UNIT_MOURNFANG_CAVALRY" ResourceCost="20"/>
+		<Row UnitType="UNIT_SABRETUSK" ResourceCost="20"/>
+		<Row UnitType="UNIT_THUNDERTUSK" ResourceCost="20"/>
+		<Row UnitType="UNIT_INFERNAL_GUARD" ResourceCost="20"/>
+		<Row UnitType="UNIT_BULL_CENTAUR_RENDERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_HOBGOBLIN_WOLF_RAIDERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_HOBGOBLIN_MOUNT_ARCHER" ResourceCost="20"/>
+		<Row UnitType="UNIT_BLOODLETTER" ResourceCost="20"/>
+		<Row UnitType="UNIT_BLOODCRUSHERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_FLESH_HOUND" ResourceCost="20"/>
+		<Row UnitType="UNIT_PINK_HORROR" ResourceCost="20"/>
+		<Row UnitType="UNIT_BURNING_CHARIOT" ResourceCost="20"/>
+		<Row UnitType="UNIT_SCREAMER" ResourceCost="20"/>
+		<Row UnitType="UNIT_PLAGUEBEARER" ResourceCost="20"/>
+		<Row UnitType="UNIT_SEEKERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_HELLFLAYERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_DERVISHERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_CAMELS_RIDERS" ResourceCost="20"/>
+		<Row UnitType="UNIT_ARABYAN_ELEPHANTS" ResourceCost="20"/>
+	</Units_XP2>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_KOSSAR_BARRACKS</BuildingType>
+			<ModifierId>STABLE_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHAOS_RIFT</BuildingType>
+			<ModifierId>STABLE_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_KOSSAR_BARRACKS"/>
+			<Set>
+				<Description>LOC_BUILDING_KOSSAR_BARRACKS_EXPANSION2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_CHAOS_RIFT"/>
+			<Set>
+				<Description>LOC_BUILDING_CHAOS_RIFT_EXPANSION2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Buildings>
+	<Traits>
+		<Update>
+			<Set Description="LOC_TRAIT_DRUCHII_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_DRUCHII"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_DAWI_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_DAWI"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_SCOURGE_OFALL_CIVS_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_SCOURGE_OFALL_CIVS"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CLAN_MOULDER_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_CLAN_MOULDER"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CLAN_MORS_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_CLAN_MORS"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_NORSCANS_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_NORSCANS"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_FOLLOWERS_OF_CHAOS_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_FOLLOWERS_OF_CHAOS"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_ANCIENT_NEHEKHARA_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_ANCIENT_NEHEKHARA"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_GREAT_NECROMANCER_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_GREAT_NECROMANCER"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_REALM_OFTHE_ICE_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_REALM_OFTHE_ICE"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_LARGE_AND_BRUTISH_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_LARGE_AND_BRUTISH"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_FIRE_DWARFS_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_FIRE_DWARFS"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CHAOS_GODS_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_CHAOS_GODS"/>
+		</Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_DRUCHII" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DRUCHII" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DAWI" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DAWI" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SCOURGE_OFALL_CIVS" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SCOURGE_OFALL_CIVS" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SCOURGE_OFALL_CIVS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SCOURGE_OFALL_CIVS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB"/>
+		<Row TraitType="TRAIT_LEADER_CLAN_MOULDER" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_LEADER_CLAN_MOULDER" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_LEADER_CLAN_MORS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_LEADER_CLAN_MORS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB"/>
+		<Row TraitType="TRAIT_CIVILIZATION_NORSCANS" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_NORSCANS" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOLLOWERS_OF_CHAOS" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOLLOWERS_OF_CHAOS" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOLLOWERS_OF_CHAOS" ModifierId="TRAIT_BLIZZARD_DOUBLE_DAMAGE_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOLLOWERS_OF_CHAOS" ModifierId="TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOLLOWERS_OF_CHAOS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FOLLOWERS_OF_CHAOS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ANCIENT_NEHEKHARA" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ANCIENT_NEHEKHARA" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GREAT_NECROMANCER" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GREAT_NECROMANCER" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB"/>
+		<Row TraitType="TRAIT_CIVILIZATION_REALM_OFTHE_ICE" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_REALM_OFTHE_ICE" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_LARGE_AND_BRUTISH" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_LARGE_AND_BRUTISH" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_LARGE_AND_BRUTISH" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_LARGE_AND_BRUTISH" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FIRE_DWARFS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FIRE_DWARFS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CHAOS_GODS" ModifierId="TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CHAOS_GODS" ModifierId="TRAIT_BLIZZARD_PREVENTION_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CHAOS_GODS" ModifierId="TRAIT_BLIZZARD_DOUBLE_DAMAGE_SIGNIFICANT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CHAOS_GODS" ModifierId="TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CHAOS_GODS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_CHAOS_GODS" ModifierId="TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_DUST_STORM_GRADIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYWHM_PREVENTION_DUST_STORM_GRADIENT</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_DUST_STORM_HABOOB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MYWHM_PREVENTION_DUST_STORM_HABOOB</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
 
+	<Districts_XP2>
+		<Row DistrictType="DISTRICT_REIKSFORT" AttackRange="2"/>
+		<Row DistrictType="DISTRICT_NEST_LAIR" AttackRange="2"/>
+		<Row DistrictType="DISTRICT_MAUSOLEUM" AttackRange="2"/>
+		<Row DistrictType="DISTRICT_WARBAND_CAMP" AttackRange="2"/>
+	</Districts_XP2>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" YieldChangeId="Government_Faith"/>
+		<Row DistrictType="DISTRICT_NECROPOLIS" YieldChangeId="Government_Faith"/>
+	</District_Adjacencies>
+	<Features_XP2>
+		<Row FeatureType="FEATURE_VAULS_ANVIL" Volcano="true"/>
+		<Row FeatureType="FEATURE_FIRE_MOUTH" Volcano="true"/>
+	</Features_XP2>
+	<Types>
+		<Row Type="RANDOM_EVENT_VAULS_ANVIL_GENTLE" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_FIRE_MOUTH_GENTLE" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" Kind="KIND_RANDOM_EVENT"/>
+	</Types>
+	<RandomEvents>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_GENTLE" Name="LOC_RANDOM_EVENT_KILIMANJARO_GENTLE_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_GENTLE_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="0" NaturalWonder="FEATURE_VAULS_ANVIL" IconLarge="ClimateEvent_VolcanoInactive" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" Name="LOC_RANDOM_EVENT_KILIMANJARO_CATASTROPHIC_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_CATASTROPHIC_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="1" NaturalWonder="FEATURE_VAULS_ANVIL" IconLarge="ClimateEvent_VolcanoActive" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" Name="LOC_RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_MEGACOLOSSAL_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="2" NaturalWonder="FEATURE_VAULS_ANVIL" IconLarge="ClimateEvent_VolcanoErupting" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_GENTLE" Name="LOC_RANDOM_EVENT_KILIMANJARO_GENTLE_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_GENTLE_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="0" NaturalWonder="FEATURE_VAULS_ANVIL" IconLarge="ClimateEvent_VolcanoInactive" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" Name="LOC_RANDOM_EVENT_KILIMANJARO_CATASTROPHIC_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_CATASTROPHIC_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="1" NaturalWonder="FEATURE_FIRE_MOUTH" IconLarge="ClimateEvent_VolcanoActive" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" Name="LOC_RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_MEGACOLOSSAL_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="2" NaturalWonder="FEATURE_FIRE_MOUTH" IconLarge="ClimateEvent_VolcanoErupting" IconSmall="ClimateEventStat_Volcanoes"/>
+	</RandomEvents>
+	<RandomEvent_Frequencies>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_GENTLE" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="0.5"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_GENTLE" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_GENTLE" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2.5"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_GENTLE" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="6"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_GENTLE" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="6"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_GENTLE" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="0.5"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_GENTLE" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_GENTLE" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2.5"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_GENTLE" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="6"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_GENTLE" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="6"/>
+	</RandomEvent_Frequencies>
+	<RandomEvent_Damages>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_GENTLE" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_GENTLE" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="IMPROVEMENT_DESTROYED" Percentage="80" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="IMPROVEMENT_PILLAGED" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="DISTRICT_PILLAGED" Percentage="80" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="BUILDING_PILLAGED" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="POPULATION_LOSS" Percentage="20" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="CITY_GARRISON" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_CATASTROPHIC" DamageType="CITY_WALLS" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="IMPROVEMENT_DESTROYED" Percentage="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="IMPROVEMENT_PILLAGED" Percentage="100" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="DISTRICT_PILLAGED" Percentage="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="BUILDING_PILLAGED" Percentage="100" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="POPULATION_LOSS" Percentage="35" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="UNIT_KILLED_CIVILIAN" Percentage="35" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="CITY_GARRISON" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VAULS_ANVIL_MEGACOLOSSAL" DamageType="CITY_WALLS" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_GENTLE" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_GENTLE" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="IMPROVEMENT_DESTROYED" Percentage="80" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="IMPROVEMENT_PILLAGED" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="DISTRICT_PILLAGED" Percentage="80" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="BUILDING_PILLAGED" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="POPULATION_LOSS" Percentage="20" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="CITY_GARRISON" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_CATASTROPHIC" DamageType="CITY_WALLS" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="IMPROVEMENT_DESTROYED" Percentage="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="IMPROVEMENT_PILLAGED" Percentage="100" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="DISTRICT_PILLAGED" Percentage="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="BUILDING_PILLAGED" Percentage="100" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="POPULATION_LOSS" Percentage="35" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="UNIT_KILLED_CIVILIAN" Percentage="35" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="CITY_GARRISON" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_FIRE_MOUTH_MEGACOLOSSAL" DamageType="CITY_WALLS" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+	</RandomEvent_Damages>
+
+	<!--
+	Mountains:
+	Ulthuan: Annulii Mountains, Dragon Spine Mountains
+	Dogs of Wars & Skaven: Apuccini Mountains, Irrana Mountains
+	Bretonia: The Grey Mountains,  Northern Grey Mountains Apuccini Mountains, Irrana Mountains, Massif Orcal
+	Empire: The Grey Mountains,  Northern Grey Mountains, Black Mountains, Broken Spine, Middle Mountains
+	Vampire: Black Mountains, Broken Spine
+	Dark Elves: Blackspine Mountains, The Iron Mountains, Obsidian Peaks, Titan Peaks, Iron Peaks
+	Greenskins: Dragonback Mountains
+	Ogres: Mountains of Mourn
+	Woodelves: Southern Grey Mountains,
+	Dwarves, Orcs, Goblins: Worlds Edge Mountains, Rib Peaks, Northern World Edge Mountains
+	Dwarves, Orcs, Goblins: Soutlands World's Edge Mountains
+	Kislev: Northern World Edge Mountains, Goromadny Mountains, Trollheim Mountains 
+	Cahay; Mountains of Mourn, Kamalayan Mountains
+	Araby: Atalan Mountains
+	Norsca: Trollheim Mountains, Mountains of Hel, Mountains of Naglfari, Gianthome Mountains, Ice Tooth Mountains, Helspire Mountains, Vanaheim Mountains
+	Lizardem: Spine of Sotek
+	Chaos Dwarfs: Ash Ridge Moutnains
+	-->
+	
+	<!-- Dessert
+	
+	Araby: Sahra Desert
+	Tomb KIngs:The Great Desert, Desolation of Nagash, Khemrian Quicksand
+	Dark Elves: Red DesertÇ
+	Lizardem & Vampire Coast: Huahuan Desert, Copper Desert
+	-->
+	<!--
+	Rivers:
+	Empire: River Reik,River Talabec, River Stir,  Grandfather Reik,River Teufel, River Aver, River Bögen, 
+	Tomb Kings: Great Mortis River, Ash River, Blight Water
+	Vampire: Corpse Run
+	Dogs of War: River Eboro, Howling River, River Stacnek, Skull River, Howling River, River Sol
+	Ulthuan: River Arduil
+	Wood ELVES: River Brienne, River Grismerie
+	Bretonnia: River Brienne, River Morceaux, River Grismerie, River Ois, River Sannez
+	Lizardmen: River Qurveza
+	Kislev; River Lynsk, River Tobol, River Urskoy
+	Chaos: River of Blood
+	cHAOS Dwarfs: River Ruin
+	-->
+	
+	<!--
+	Lake:
+	
+	-->
+	<!--
+	Sea
+	-->
+	<!--
+	Ocean
+	-->
 </GameData>

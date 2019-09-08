@@ -69,7 +69,13 @@
 		<Row Type="ABILITY_HELLFLAYERS" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_DERVISHERS" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_CAMELS_RIDERS" Kind="KIND_ABILITY"/>
+		<!--City States -->
+		<Row Type="ABILITY_RED_FANG_MELEE_HILLS_BONUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SCABBY_EYE_GRANT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TILEA_GRANT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_VARG_GRANT" Kind="KIND_ABILITY"/>
 
+		<!-- End City States-->
 	</Types>
 	<TypeTags>
 		<Row Type="ABILITY_WHM_MELEE_UNITS_BONUS" Tag="CLASS_MELEE"/>
@@ -141,6 +147,13 @@
 		<Row Type="ABILITY_DERVISHERS" Tag="CLASS_DERVISHERS"/>
 		<Row Type="ABILITY_CAMELS_RIDERS" Tag="CLASS_CAMELS_RIDERS"/>
 
+		<!--City States -->
+		<Row Type="ABILITY_RED_FANG_MELEE_HILLS_BONUS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_SCABBY_EYE_GRANT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_TILEA_GRANT" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_VARG_GRANT" Tag="CLASS_NAVAL_MELEE"/>
+
+		<!-- End City States-->
 	</TypeTags>
 
 	<UnitAbilities>
@@ -213,6 +226,13 @@
 		<Row UnitAbilityType="ABILITY_DERVISHERS" Name="LOC_ABILITY_DERVISHERS_NAME" Description="LOC_ABILITY_DERVISHERS_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_CAMELS_RIDERS" Name="LOC_ABILITY_CAMELS_RIDERS_NAME" Description="LOC_ABILITY_CAMELS_RIDERS_DESCRIPTION"/>
 
+		<!--City States -->
+		<Row UnitAbilityType="ABILITY_RED_FANG_MELEE_HILLS_BONUS" Name="LOC_ABILITY_RED_FANG_HILLS_BONUS_NAME" Description="LOC_ABILITY_RED_FANG_MELEE_HILLS_BONUS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_SCABBY_EYE_GRANT" Name="LOC_ABILITY_SCABBY_EYE_GRANT_NAME" Description="LOC_ABILITY_SCABBY_EYE_GRANT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_TILEA_GRANT" Name="LOC_ABILITY_TILEA_GRANT_NAME" Description="LOC_ABILITY_TILEA_GRANT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_VARG_GRANT" Name="LOC_ABILITY_VARG_GRANT_NAME" Description="LOC_ABILITY_VARG_GRANT_DESCRIPTION" Inactive="true"/>
+
+		<!-- End City States-->
 	</UnitAbilities>
 
 	<UnitAbilityModifiers>
@@ -512,6 +532,24 @@
 			<UnitAbilityType>ABILITY_CAMELS_RIDERS</UnitAbilityType>
 			<ModifierId>WHM_COMBAT_DESERT_BONUS_MODIFIER</ModifierId>
 		</Row>
+		<!--City States -->
+		<Row>
+			<UnitAbilityType>ABILITY_RED_FANG_MELEE_HILLS_BONUS</UnitAbilityType>
+			<ModifierId>RED_FANG_MELEE_HILLS_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SCABBY_EYE_GRANT</UnitAbilityType>
+			<ModifierId>SCABBY_EYE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TILEA_GRANT</UnitAbilityType>
+			<ModifierId>TILEA_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_VARG_GRANT</UnitAbilityType>
+			<ModifierId>VARG_COMBAT</ModifierId>
+		</Row>
+		<!-- End City States-->
 	</UnitAbilityModifiers>
 
 	<Modifiers>
@@ -615,6 +653,25 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>SHELLS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<!--City States -->
+		<Row>
+			<ModifierId>RED_FANG_MELEE_HILLS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BALKAN_CAVALRY_PLOT_IS_HILS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SCABBY_EYE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TILEA_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>VARG_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<!-- End City States-->
 	</Modifiers>
 
 	<ModifierArguments>
@@ -723,6 +780,28 @@
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
+		<!--City States -->
+		<Row>
+			<ModifierId>RED_FANG_MELEE_HILLS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCABBY_EYE_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TILEA_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>VARG_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- End City States-->
 	</ModifierArguments>
 	
 	<ModifierStrings>
@@ -743,7 +822,12 @@
 		<Row ModifierId="WHM_RELIGION_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_WHM_RELIGION_COMBAT_MODIFIER_DESCRIPTION"/>
 		<Row ModifierId="PINK_BLUE_HORRORS_NEIGHBOR_COMBAT" Context="Preview" Text="LOC_ABILITY_PINK_BLUE_HORRORS_NEIGHBOR_COMBAT_DESCRIPTION"/>
 		<Row ModifierId="WHM_BONUS_VS_DISTRICTS" Context="Preview" Text="LOC_ABILITY_WHM_BONUS_VS_DISTRICTS_DESCRIPTION"/>
-
+		<!--City States -->
+		<Row ModifierId="RED_FANG_MELEE_HILLS_BONUS" Context="Preview" Text="LOC_MINOR_CIV_RED_FANG_TRAIT_DESCRIPTION"/>
+		<Row ModifierId="SCABBY_EYE_COMBAT" Context="Preview" Text="LOC_MINOR_CIV_SCABBY_EYE_TRAIT_DESCRIPTION"/>
+		<Row ModifierId="TILEA_COMBAT" Context="Preview" Text="LOC_MINOR_CIV_TILEA_TRAIT_DESCRIPTION"/>
+		<Row ModifierId="VARG_COMBAT" Context="Preview" Text="LOC_MINOR_CIV_VARG_TRAIT_DESCRIPTION"/>
+		<!-- End City States-->
 	</ModifierStrings>
 
 	<RequirementSets>

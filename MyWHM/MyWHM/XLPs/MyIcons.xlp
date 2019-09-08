@@ -54,50 +54,6 @@
 			<m_ObjectName text="MyWHMFlags256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="MyWHMFlagsExtra22"/>
-			<m_ObjectName text="MyWHMFlagsExtra22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra30"/>
-			<m_ObjectName text="MyWHMFlagsExtra30"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra32"/>
-			<m_ObjectName text="MyWHMFlagsExtra32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra36"/>
-			<m_ObjectName text="MyWHMFlagsExtra36"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra44"/>
-			<m_ObjectName text="MyWHMFlagsExtra44"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra45"/>
-			<m_ObjectName text="MyWHMFlagsExtra45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra48"/>
-			<m_ObjectName text="MyWHMFlagsExtra48"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra50"/>
-			<m_ObjectName text="MyWHMFlagsExtra50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra64"/>
-			<m_ObjectName text="MyWHMFlagsExtra64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra80"/>
-			<m_ObjectName text="MyWHMFlagsExtra80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MyWHMFlagsExtra256"/>
-			<m_ObjectName text="MyWHMFlagsExtra256"/>
-		</Element>
-		<Element>
 			<m_EntryID text="MyWHMLeaders32"/>
 			<m_ObjectName text="MyWHMLeaders32"/>
 		</Element>
@@ -256,6 +212,50 @@
 		<Element>
 			<m_EntryID text="MyWHMBuildings22"/>
 			<m_ObjectName text="MyWHMBuildings22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra256"/>
+			<m_ObjectName text="MyWHMFlagsExtra256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra80"/>
+			<m_ObjectName text="MyWHMFlagsExtra80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra64"/>
+			<m_ObjectName text="MyWHMFlagsExtra64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra50"/>
+			<m_ObjectName text="MyWHMFlagsExtra50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra48"/>
+			<m_ObjectName text="MyWHMFlagsExtra48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra45"/>
+			<m_ObjectName text="MyWHMFlagsExtra45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra44"/>
+			<m_ObjectName text="MyWHMFlagsExtra44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra36"/>
+			<m_ObjectName text="MyWHMFlagsExtra36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra32"/>
+			<m_ObjectName text="MyWHMFlagsExtra32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra30"/>
+			<m_ObjectName text="MyWHMFlagsExtra30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MyWHMFlagsExtra22"/>
+			<m_ObjectName text="MyWHMFlagsExtra22"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

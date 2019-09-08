@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+Holy Site Exp2
+		<Row ID="Government_Faith" Description="LOC_DISTRICT_GOVERNMENT_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+
+-->
 <GameData>
-	<!--
-	DISTRICT_REIKSFORT DISTRICT_NEST_LAIR DISTRICT_MAUSOLEUM has changed in GS
-	-->
 	<Types>
 		<Row Type="BUILDING_SHRINE_OF_SIGMAR" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_TOWER_OF_MAGES" Kind="KIND_BUILDING"/>
@@ -60,7 +62,7 @@
 		<Row BuildingType="BUILDING_GOBLIN_TINKERER_BENCH" Name="LOC_BUILDING_GOBLIN_TINKERER_BENCH_NAME" Description="LOC_BUILDING_GOBLIN_TINKERER_BENCH_DESCRIPTION" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="175" AdvisorType="ADVISOR_GENERIC" Maintenance="2" TraitType="TRAIT_CIVILIZATION_BUILDING_GOBLIN_TINKERER_BENCH" CitizenSlots="1"/>
 		<Row BuildingType="BUILDING_UNHOLY_LEGION" Name="LOC_BUILDING_UNHOLY_LEGION_NAME" Description="LOC_BUILDING_UNHOLY_LEGION_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_UNHOLY_LEGION"/>
 		<Row BuildingType="BUILDING_CHAOS_RIFT" Name="LOC_BUILDING_CHAOS_RIFT_NAME" Description="LOC_BUILDING_CHAOS_RIFT_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_CHAOS_RIFT"/>
-		<Row BuildingType="BUILDING_PLAGUE_ABBEY" Name="LOC_BUILDING_PLAGUE_ABBEY_NAME" Description="LOC_BUILDING_PLAGUE_ABBEY_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_PLAGUE_ABBEY"/>
+		<Row BuildingType="BUILDING_PLAGUE_ABBEY" Name="LOC_BUILDING_PLAGUE_ABBEY_NAME" Description="LOC_BUILDING_PLAGUE_ABBEY_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" Housing="2" TraitType="TRAIT_CIVILIZATION_BUILDING_PLAGUE_ABBEY"/>
 		<Row BuildingType="BUILDING_NECROMANCER_TOWER" Name="LOC_BUILDING_NECROMANCER_TOWER_NAME" Description="LOC_BUILDING_NECROMANCER_TOWER_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="105" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_NECROMANCER_TOWER"/>
 		<Row BuildingType="BUILDING_PIRATES_REST" Name="LOC_BUILDING_PIRATES_REST_NAME" Description="LOC_BUILDING_PIRATES_REST_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="125" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_PIRATES_REST"/>
 		<Row BuildingType="BUILDING_KOSSAR_BARRACKS" Name="LOC_BUILDING_KOSSAR_BARRACKS_NAME" Description="LOC_BUILDING_KOSSAR_BARRACKS_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_KOSSAR_BARRACKS"/>
@@ -73,7 +75,7 @@
 	<Districts>
 		<Row DistrictType="DISTRICT_REIKSFORT" Name="LOC_DISTRICT_REIKSFORT_NAME" Description="LOC_DISTRICT_REIKSFORT_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="60" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_REIKSFORT"/>
 		<Row DistrictType="DISTRICT_WOOD_ELF_GROVE" Name="LOC_DISTRICT_WOOD_ELF_GROVE_NAME" Description="LOC_DISTRICT_WOOD_ELF_GROVE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_FAITH" PlunderAmount="25" AdvisorType="ADVISOR_RELIGIOUS" Cost="30" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="false" AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_WOOD_ELF_GROVE"/>
-		<Row DistrictType="DISTRICT_NEST_LAIR" Name="LOC_DISTRICT_NEST_LAIR_NAME" Description="LOC_DISTRICT_NEST_LAIR_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="70" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_NEST_LAIR" Housing="1"/>
+		<Row DistrictType="DISTRICT_NEST_LAIR" Name="LOC_DISTRICT_NEST_LAIR_NAME" Description="LOC_DISTRICT_NEST_LAIR_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="70" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_NEST_LAIR" Housing="2"/>
 		<Row DistrictType="DISTRICT_MAUSOLEUM" Name="LOC_DISTRICT_MAUSOLEUM_NAME" Description="LOC_DISTRICT_MAUSOLEUM_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="70" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_MAUSOLEUM"/>
 		<Row DistrictType="DISTRICT_WARBAND_CAMP" Name="LOC_DISTRICT_WARBAND_CAMP_NAME" Description="LOC_DISTRICT_WARBAND_CAMP_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="70" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_WARBAND_CAMP"/>
 		<Row DistrictType="DISTRICT_NECROPOLIS" Name="LOC_DISTRICT_NECROPOLIS_NAME" Description="LOC_DISTRICT_NECROPOLIS_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PlunderType="PLUNDER_FAITH" PlunderAmount="25" AdvisorType="ADVISOR_RELIGIOUS" Cost="30" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="false" AllowsHolyCity="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" Appeal="1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_NECROPOLIS"/>
@@ -262,5 +264,18 @@
 		<Row ID="WHM_Wonder_Culture" Description="LOC_WHM_DISTRICT_WONDER_CULTURE" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentWonder="true"/>
 
 	</Adjacency_YieldChanges>
+
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_PLAGUE_ABBEY"/>
+		<Row Unit="UNIT_INQUISITOR" PrereqBuilding="BUILDING_PLAGUE_ABBEY"/>
+		<Row Unit="UNIT_WARRIOR_MONK" PrereqBuilding="BUILDING_PLAGUE_ABBEY"/>
+		<Row Unit="UNIT_GURU" PrereqBuilding="BUILDING_PLAGUE_ABBEY"/>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_SHRINE_OF_SIGMAR"/>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_SLAYER_SHRINE"/>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_SHAMANS_HOVEL"/>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_UNHOLY_LEGION"/>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_CAULDRON"/>
+		<Row Unit="UNIT_MISSIONARY" PrereqBuilding="BUILDING_ARCHECCLESIATIUM_MYRMIDIA"/>
+	</Unit_BuildingPrereqs>
 
 </GameData>

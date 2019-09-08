@@ -632,6 +632,23 @@
 		</Row>
 		<Row>
 			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationType>
+			<LeaderType>LEADER_ARKHAN_BLACK</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_LEGIONS_OF_NAGASH_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ARKHAN_BLACK_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ARKHAN_BLACK</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_GREAT_NECROMANCER_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_GREAT_NECROMANCER_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LICHE_KING_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LICHE_KING_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ARKHAN_BLACK</LeaderAbilityIcon>
+			<Portrait>LEADER_ARKHAN_BLACK_NEUTRAL</Portrait>
+			<PortraitBackground>WHM_LOADING_BACKGROUND</PortraitBackground>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
 			<CivilizationType>CIVILIZATION_CHAOS_DWARFS</CivilizationType>
 			<LeaderType>LEADER_DRAZHOATH_ASHEN</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_CHAOS_DWARFS_NAME</CivilizationName>
@@ -1349,6 +1366,23 @@
 		</Row>
 		<Row>
 			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationType>
+			<LeaderType>LEADER_ARKHAN_BLACK</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_LEGIONS_OF_NAGASH_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ARKHAN_BLACK_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ARKHAN_BLACK</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_GREAT_NECROMANCER_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_GREAT_NECROMANCER_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LICHE_KING_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LICHE_KING_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ARKHAN_BLACK</LeaderAbilityIcon>
+			<Portrait>LEADER_ARKHAN_BLACK_NEUTRAL</Portrait>
+			<PortraitBackground>WHM_LOADING_BACKGROUND</PortraitBackground>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
 			<CivilizationType>CIVILIZATION_CHAOS_DWARFS</CivilizationType>
 			<LeaderType>LEADER_DRAZHOATH_ASHEN</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_CHAOS_DWARFS_NAME</CivilizationName>
@@ -2062,6 +2096,23 @@
 			<LeaderAbilityDescription>LOC_TRAIT_BEAUTIFUL_DEATH_DESCRIPTION</LeaderAbilityDescription>
 			<LeaderAbilityIcon>ICON_LEADER_NEFERATA</LeaderAbilityIcon>
 			<Portrait>LEADER_NEFERATA_NEUTRAL</Portrait>
+			<PortraitBackground>WHM_LOADING_BACKGROUND</PortraitBackground>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationType>
+			<LeaderType>LEADER_ARKHAN_BLACK</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_LEGIONS_OF_NAGASH_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationIcon>
+			<LeaderName>LOC_LEADER_ARKHAN_BLACK_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_ARKHAN_BLACK</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_GREAT_NECROMANCER_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_GREAT_NECROMANCER_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_LEGIONS_OF_NAGASH</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LICHE_KING_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LICHE_KING_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_ARKHAN_BLACK</LeaderAbilityIcon>
+			<Portrait>LEADER_ARKHAN_BLACK_NEUTRAL</Portrait>
 			<PortraitBackground>WHM_LOADING_BACKGROUND</PortraitBackground>
 		</Row>
 		<Row>

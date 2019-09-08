@@ -58,6 +58,8 @@
           <UpdateArt id="ConfigArt">
             <File>(Mod Art Dependency File)</File>
           </UpdateArt>
+          <AddMap id="AddMapWHM"><Properties><Group>StandardMaps</Group><Name>Warhammer World Map</Name><Description>Warhammer Complete World Map</Description></Properties><File>Maps/WARHAMMER_MAP.Civ6Map</File></AddMap>
+          <AddMap id="AddMapWHM"><Properties><Group>StandardMaps</Group><Name>Warhammer Central Map</Name><Description>Warhammer Map with only the Old World and the New</Description></Properties><File>Maps/WARHAMMER_CENTRAL.Civ6Map</File></AddMap>
         </FrontEndActions>
       ]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[
@@ -75,6 +77,12 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Maps\WARHAMMER_MAP.Civ6Map">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Maps\WARHAMMER_CENTRAL.Civ6Map">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="MyWHM_Units.xml">
       <SubType>Content</SubType>
     </Content>
@@ -90,6 +98,7 @@
     <Folder Include="Artdefs\" />
     <Folder Include="Textures\" />
     <Folder Include="XLPs\" />
+    <Folder Include="Maps" />
     <Content Include="MyWHM_CityStates.xml">
       <SubType>Content</SubType>
     </Content>

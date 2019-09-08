@@ -1,4 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
+<!--
+(Ocean: Great Vortex)
+-->
+	<Types>
+		<Row Type="FEATURE_VAULS_ANVIL" Kind="KIND_FEATURE" />
+		<Row Type="FEATURE_FIRE_MOUTH" Kind="KIND_FEATURE" />
+		<Row Type="FEATURE_CROOKBACK_MOUNTAIN" Kind="KIND_FEATURE" />
+		<Row Type="FEATURE_KARAK_EIGHT_PEAKS" Kind="KIND_FEATURE" />
+		<Row Type="FEATURE_MOUNT_SILVERSPEAR" Kind="KIND_FEATURE" />
+		<Row Type="FEATURE_MARSHES_OF_MADNESS" Kind="KIND_FEATURE" />
+		<Row Type="FEATURE_EMERALD_POOLS" Kind="KIND_FEATURE" />
+		<Row Type="FEATURE_THE_GREAT_MAW" Kind="KIND_FEATURE"/>
 
+	</Types>
+
+	<Features>
+		<Row FeatureType="FEATURE_VAULS_ANVIL" Name="LOC_FEATURE_VAULS_ANVIL_NAME" Description="LOC_FEATURE_VAULS_ANVIL_DESCRIPTION" Quote="LOC_FEATURE_VAULS_ANVIL_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_FIRE_MOUTH" Name="LOC_FEATURE_FIRE_MOUTH_NAME" Description="LOC_FEATURE_FIRE_MOUTH_DESCRIPTION" Quote="LOC_FEATURE_FIRE_MOUTH_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_CROOKBACK_MOUNTAIN" Name="LOC_FEATURE_CROOKBACK_MOUNTAIN_NAME" Description="LOC_FEATURE_CROOKBACK_MOUNTAIN_DESCRIPTION" Quote="LOC_FEATURE_CROOKBACK_MOUNTAIN_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="3" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_KARAK_EIGHT_PEAKS" Name="LOC_FEATURE_KARAK_EIGHT_PEAKS_NAME" Description="LOC_FEATURE_KARAK_EIGHT_PEAKS_DESCRIPTION" Quote="LOC_FEATURE_KARAK_EIGHT_PEAKS_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="3" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_MOUNT_SILVERSPEAR" Name="LOC_FEATURE_MOUNT_SILVERSPEAR_NAME" Description="LOC_FEATURE_MOUNT_SILVERSPEAR_DESCRIPTION" Quote="LOC_FEATURE_MOUNT_SILVERSPEAR_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="3" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" Impassable="true" SightThroughModifier="2" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_MARSHES_OF_MADNESS" Name="LOC_FEATURE_MARSHES_OF_MADNESS_NAME" Description="LOC_FEATURE_MARSHES_OF_MADNESS_DESCRIPTION" Quote="LOC_FEATURE_MARSHES_OF_MADNESS_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="4" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" DefenseModifier="-2" MovementChange="1" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_EMERALD_POOLS" Name="LOC_FEATURE_EMERALD_POOLS_NAME" Description="LOC_FEATURE_EMERALD_POOLS_DESCRIPTION" Quote="LOC_FEATURE_EMERALD_POOLS_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" Tiles="4" NoRiver="true" NoCoast="true" Settlement="false" FollowRulesInWB="false" DefenseModifier="-2" MovementChange="1" MinDistanceNW="8"/>
+		<Row FeatureType="FEATURE_THE_GREAT_MAW" Name="LOC_FEATURE_THE_GREAT_MAW_NAME" Description="LOC_FEATURE_THE_GREAT_MAW_DESCRIPTION" Quote="LOC_FEATURE_THE_GREAT_MAW_QUOTE" QuoteAudio="" NaturalWonder="true" Appeal="2" NoRiver="true" NoCoast="true" AddsFreshWater="true" Lake="true" Settlement="false" MinDistanceNW="8"/>
+
+	</Features>
+
+	<Feature_ValidTerrains>
+		<Row FeatureType="FEATURE_VAULS_ANVIL" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_VAULS_ANVIL" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_VAULS_ANVIL" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_VAULS_ANVIL" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_FIRE_MOUTH" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_FIRE_MOUTH" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_FIRE_MOUTH" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_FIRE_MOUTH" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_CROOKBACK_MOUNTAIN" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_CROOKBACK_MOUNTAIN" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_CROOKBACK_MOUNTAIN" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_CROOKBACK_MOUNTAIN" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_KARAK_EIGHT_PEAKS" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_KARAK_EIGHT_PEAKS" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_KARAK_EIGHT_PEAKS" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_KARAK_EIGHT_PEAKS" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOUNT_SILVERSPEAR" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOUNT_SILVERSPEAR" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOUNT_SILVERSPEAR" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MOUNT_SILVERSPEAR" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row FeatureType="FEATURE_MARSHES_OF_MADNESS" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_MARSHES_OF_MADNESS" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_MARSHES_OF_MADNESS" TerrainType="TERRAIN_DESERT"/>
+		<Row FeatureType="FEATURE_EMERALD_POOLS" TerrainType="TERRAIN_GRASS"/>
+		<Row FeatureType="FEATURE_EMERALD_POOLS" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_THE_GREAT_MAW" TerrainType="TERRAIN_PLAINS"/>
+		<Row FeatureType="FEATURE_THE_GREAT_MAW" TerrainType="TERRAIN_TUNDRA"/>
+	</Feature_ValidTerrains>
+
+	<Feature_AdjacentYields>
+		<Row FeatureType="FEATURE_VAULS_ANVIL" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row FeatureType="FEATURE_FIRE_MOUTH" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row FeatureType="FEATURE_FIRE_MOUTH" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row FeatureType="FEATURE_CROOKBACK_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row FeatureType="FEATURE_KARAK_EIGHT_PEAKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row FeatureType="FEATURE_KARAK_EIGHT_PEAKS" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row FeatureType="FEATURE_MOUNT_SILVERSPEAR" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row FeatureType="FEATURE_MOUNT_SILVERSPEAR" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row FeatureType="FEATURE_THE_GREAT_MAW" YieldType="YIELD_CULTURE" YieldChange="2"/>
+
+	</Feature_AdjacentYields>
+
+	<Feature_YieldChanges>
+		<Row FeatureType="FEATURE_VAULS_ANVIL" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row FeatureType="FEATURE_CROOKBACK_MOUNTAIN" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row FeatureType="FEATURE_CROOKBACK_MOUNTAIN" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row FeatureType="FEATURE_MARSHES_OF_MADNESS" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row FeatureType="FEATURE_EMERALD_POOLS" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row FeatureType="FEATURE_EMERALD_POOLS" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row FeatureType="FEATURE_THE_GREAT_MAW" YieldType="YIELD_FAITH" YieldChange="2"/>
+
+	</Feature_YieldChanges>
 </GameData>
