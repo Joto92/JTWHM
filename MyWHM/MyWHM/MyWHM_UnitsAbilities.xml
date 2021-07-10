@@ -282,7 +282,7 @@
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_SEA_GUARD</UnitAbilityType>
-			<ModifierId>COMBAT_BONUS_LAND_ON_COAST_MODIFIER</ModifierId>
+			<ModifierId>WHM_COMBAT_BONUS_LAND_ON_COAST_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_SILVER_HEMLS</UnitAbilityType>
@@ -672,6 +672,12 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
 		<!-- End City States-->
+		<Row>
+			<ModifierId>WHM_COMBAT_BONUS_LAND_ON_COAST_MODIFIER</ModifierId> 
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<OwnerRequirementSetId>REQUIREMENTS_UNIT_LAND_DOMAIN</OwnerRequirementSetId>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_ON_COAST</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
 
 	<ModifierArguments>
@@ -802,6 +808,11 @@
 			<Value>5</Value>
 		</Row>
 		<!-- End City States-->
+		<Row>
+			<ModifierId>WHM_COMBAT_BONUS_LAND_ON_COAST_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 	</ModifierArguments>
 	
 	<ModifierStrings>
@@ -828,6 +839,8 @@
 		<Row ModifierId="TILEA_COMBAT" Context="Preview" Text="LOC_MINOR_CIV_TILEA_TRAIT_DESCRIPTION"/>
 		<Row ModifierId="VARG_COMBAT" Context="Preview" Text="LOC_MINOR_CIV_VARG_TRAIT_DESCRIPTION"/>
 		<!-- End City States-->
+		<Row ModifierId="WHM_COMBAT_BONUS_LAND_ON_COAST_MODIFIER" Context="Preview" Text="LOC_WHM_COMBAT_LAND_ON_COAST_DESCRIPTION"/>
+
 	</ModifierStrings>
 
 	<RequirementSets>
